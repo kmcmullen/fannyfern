@@ -10,7 +10,8 @@
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="np">Noelle</persName>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -32,7 +33,7 @@
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor ref="#rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="1858-04-03">03 April 1858</date>                    
+                            <date xml:id="issue_date" when="1858-04-03">3 April 1858</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
                         <biblScope type="column">3</biblScope> 
@@ -59,6 +60,7 @@
         
         
         <revisionDesc>
+            <change when="2024-09-23" who="#km">proofed</change>
             <change when="2024-06-20" who="#np">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
@@ -104,14 +106,15 @@
                 
                     <head type="main">ON VOICES AND BEARDS.</head>
                 
-                
-                
+               
                 <p>I once believed in voices as indicative of character; it makes me laugh now to think of it. I was cured of it by a fellow who looked born to express physically "the dignity of human nature." I believe that is the fashionable phrase. Dignity: there's where the laugh comes in; dignity&#8212;in a leviathan of muscle and flesh, crawling lazily out of bed at twelve, M., to live the rest of the day by borrowing of anybody who could be bamboozled into believing that honesty, honor and manliness were represented in his deep, rich, sympathetic voice&#8212;his stock in trade, which it would be next to impossible to associate with cowardice or dishonor! Yes, cowardice! I say any man is a coward who throws the yoke of labor which the Almighty intended <hi rend="italic">him</hi> to carry, upon the shoulders of his weaker brother, or sister, or mother, and saunters lazily through the world, demanding, unblushingly, <hi rend="italic">their</hi> wages, whether in the shape of clothes, food, or money.</p>
-                <p>The dollars that fellow has borrowed on that voice, the drinks he has swallowed on the strength of it, not to mention the strength of the drinks! the oysters he has eaten by virtue of it, and the rides and invitations he has got!&#8212;all by those frank, hearty, jolly, musical tones, which it would puzzle a Shylock to resist. No, I believe no more in voices. Stay! yes, there's one specimen which never deceives, or, rather, which does nothing else. Did you never meet with the purr-y, mincing, die-of-a-rose-leaf female voice? Speak for a coffin for your reputation when you come in contact with that. Look out for a plague spot on you hand when the owner of that voice touches it. Treachery and deceit lurk in its oily, mellifluous whine. The owner of that voice would faint to mention the word leg; but look under her pillow and see the titles of the books she stealthily reads! The owner of that voice might sit for a female Joseph, but if Truth should seize the pencil, Potiphar's wife would glow on the canvas. The owner of that voice never disputes your opinion&#8212;oh, no; she acquiesces sweetly, and even deferentially: wait till your back is turned, and hear how much her vituperative tongue will leave of you!</p>
+                
+                <p>The dollars that fellow has borrowed on that voice, the drinks he has swallowed on the strength of it, not to mention the strength of the drinks! the oysters he has eaten by virtue of it, and the rides and invitations he has got!&#8212;all by those frank, hearty, jolly, musical tones, which it would puzzle a Shylock to resist. No, I believe no more in voices. Stay! yes, there's one specimen which never deceives, or, rather, which does nothing else. Did you never meet with the purr-y, mincing, die-of-a-rose-leaf female voice? Speak for a coffin for your reputation when you come in contact with that. Look out for a plague spot on your hand when the owner of that voice touches it. Treachery and deceit lurk in its oily, mellifluous whine. The owner of that voice would faint to mention the word leg; but look under her pillow and see the titles of the books she stealthily reads! The owner of that voice might sit for a female Joseph, but if Truth should seize the pencil, Potiphar's wife would glow on the canvas. The owner of that voice never disputes your opinion&#8212;oh, no; she acquiesces sweetly, and even deferentially: wait till your back is turned, and hear how much her vituperative tongue will leave of you!</p>
+                
                 <p>Though I have done believing in voices, with the above exception, my faith remains unshaken in faces. As to heads, I take phrenology mild, but I defy anybody constantly to school the eye and mouth so that they shall tell no tales out of school. The beard movement, which on other accounts I hail, has somewhat overgrown my observations. Every man&#8212;(not that there are not some handsome fellows, heaven be blessed for their faces, delightful whether shaved or unshaved)&#8212;every man, I say, who has a weak, characterless mouth, or imperfect teeth, hastens to hide them behind a beard; and straightway the imposter goeth on his way rejoiceing; perhaps sitteth down to write an article on the vanity of women, and their cupidical, toilette-ical, humbugging devices. Hollow cheeks take refuge under slantwise whiskers; narrow faces broaden themselves with the same; and he is indeed a bold man, or reckless, who does not endeavor to obliterate the traces of this fast age by hirsute mask.</p>
+                
                 <p>Catch these fellows once, and shave them&#8212;good gracious what devil-opments we should have! Verily, my brethren, vanity abideth not wholly with crinoline.</p>
                     
-                                   
                     <byline>FANNY FERN.</byline>                
                
             </div>
