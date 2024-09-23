@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570704">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">In the Dumps</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2019</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">In the Dumps</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-07-04">4 July 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>             
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2019-01-22" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570704.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570704.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570704.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570704.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570704.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570704.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570704.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570704.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">IN THE DUMPS.</head>                  
+                
+                
+                <p>What does ail me? I'm as blue as indigo. Last night I was as gay as a bob-o'-link&#8212;perhaps that is the reason. Good gracious, hear that wind howl! Now low&#8212;now high&#8212;till it fairly shrieks; it excites me like the pained cry of a human. There's my pretty California flower&#8212;blue as a baby's eyes; all shut up&#8212;no wonder&#8212;I wish my eyes were shut up, too. What <hi rend="italic">does</hi> ail me? I think it is that dose of a Boston paper I have just been reading (for want of something better to do), whose book critic calls "Jane Eyre" an "<hi rend="italic">immoral</hi> book." Donkey! It is vain to hope that <hi rend="italic">his</hi> life has been as pure and self-sacrificing as that of Charlotte Bronte. There's the breakfast-bell&#8212;and there's Tom with that autumn-leaf colored vest on, that I so hate. Why don't men wear pretty vests? why can't they leave off those detestable stiff collars, stocks and things, that make them all look like choked chickens, and which hide so many handsomely-turned throats, that a body never sees, unless a body is married, or unless a body happens to see a body's brothers while they are shaving. Talk of women's throats&#8212;you ought to see a whiskered throat I saw once&#8212;&#8212; Gracious, how blue I am! Do you suppose it is the weather? I wish the sun would shine out and try me. See the inch-worms on that tree. That's because it is a pet of mine. Everything I like goes just that way. If I have a nice easy dress that I can sneeze in, it is sure to wear out and leave me to the crucifying alternative of squeezing myself into one that is not broke in to my figure. I hate new gowns&#8212;I hate new shoes&#8212;I hate new bonnets&#8212;I hate anything new except new&#8212;spapers, and I was born reading them.</p>
+                
+                <p>There's a lame boy&#8212;now why couldn't that boy have been straight! There's a rooster driving round a harem of hens; what do the foolish things run for? If they didn't run, he couldn't chase them&#8212;of course not. Now it is beginning to rain; every drop perforates my heart. I could cry tears enough to float a ship. Why <hi rend="italic">need</hi> it rain?&#8212;patter&#8212;patter&#8212;skies as dull as lead&#8212;trees nestling up to each other in shivering sympathy; and that old cow&#8212;I hate cows&#8212;they always make a dive at me&#8212;I suppose it is because they are females; that old cow stands stock still, looking at that pump-handle just where, and as she did, when I went to bed last night. Do you suppose that cow's tail ever gets tired lashing flies from her side; do you suppose her jaws ever ache with that eternal munching? If there is any place I like, it is a barn; I mean to go a journey this summer, not to "see Niagara"&#8212;but to see a barn. Oh, the visions I've had on hay-mows! oh, the tears I've shed there&#8212;oh, the golden sunlight that has streamed down on me through the chinks in the raftered roof&#8212;oh, the cheerful swallow-twitterings on the old cross-beams&#8212;oh, the cunning brown mice scampering over the floor&#8212;oh, the noble bay-horse with his flowing mane, and arching neck, and satin sides, and great <hi rend="italic">human</hi> eyes. Strong as Achilles&#8212;gentle as a woman. Pshaw! women were never half so gentle to me. <hi rend="italic">He</hi> never repulsed me when I laid my head against his neck for sympathy. <hi rend="italic">Brute</hi> forsooth! I wish that there were more such brutes. Poor Hunter&#8212;he's dead, of course, because I loved him;&#8212;the <hi rend="italic">trunk-maker</hi> only knows what has become of his hide, and my books. What of that? a hundred years hence and who'll care? I don't think I love anything&#8212;or care for anything to-day. I don't think I shall ever have any feeling again for anybody or anything. Why don't somebody turn that old rusty weather-cock, or play me a triumphant march, or bring me a dew-gemmed daisy?</p>
+                
+                <p>There's a funeral&#8212;a <hi rend="italic">child's</hi> funeral! Oh&#8212;what a wretch I am! Come here&#8212;you whom I love,&#8212;you who love me; closer&#8212;closer&#8212;let me twine my arms about you, and God forgive me for shutting my eyes to his sunshine.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

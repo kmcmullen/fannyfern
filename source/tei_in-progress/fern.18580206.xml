@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580206">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">What I Hate</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">What I Hate</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-02-06">6 February 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-05" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580206.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580206.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580206.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580206.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580206.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580206.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580206.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580206.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">WHAT I HATE.</head>
+                
+                
+                
+                    <p>Chiefest of all sublunary abominations, is the slatternly woman. I blame no man who rushes from a home whose mistress, habitually and from choice, pours out his coffee in curl-papers or tumbled hair, dingy, collarless morning gown, and slip-shod feet. If there is any time when a pretty woman looks prettier than at any hour in the twenty-four, it is in a neat breakfast-toilette with her shining bands of hair, and nice white petticoat peeping from a breakfast-robe, (calico, if you like, provided it fit well, and the color be well chosen); and if there is a time when a plain woman comes the nearest to be handsome, it is in the same lovable, domestic dress.</p>
+                <p>I will maintain that the coffee and eggs taste better, and that the husband goes more smilingly and hopefully to his day's task, after helping such a wife to bread and butter. I could never comprehend the female slattern&#8212;thank heaven there are few of them&#8212;or understand how a woman, though she had no eye to please but her own, should not be scrupulously neat in all the different strata of her apparel; and certainly in these days, when no omnibus can drive up to a ferry-house, without encountering an expectant body-guard of the male ankle-connoisseurs, waiting to see hurried ladies alight, who shall say that a trim gaiter-boot or nicely fitting stocking wastes its trimness or is unappreciated?</p>
+                <p>I repeat it, I blame no man from rushing in disgust from a house whose mistress is a slattern; who never pays her husband the compliment to look decent in her person or in her house, unless company is expected; who reserved her yawns and old dresses for her husband, and strikes an attitude for his male friends; whose pretty carpets are defaced with spots; whose chairs are half dusted; whose domestic dinners are uneatable; whose table-cloth, castor, and salt-cellars are seldom regenerated; and whose muslins look as if they had been dipped in saffron.</p>
+                <p>Not to speak of the <hi rend='italic'>wastefulness</hi> of this crying fault: bonnets, shawls and cloaks will not long retain their beauty if left on chairs or tables over night, instead of being carefully put away; bracelets and brooches are not improved by being trodden upon, or ribbons and laces by being hastily wisped into a corner. To such an extreme do I carry my horror of an untidy woman, that I would almost refuse to believe the virtue of such an one. Not that I admire the woman who is always at her husband's heels with a brush and a dust-pan; who puts him under the harrow if he does not put his boots under the scraper before entering the parlor; who is in fits if his coat is not hung upon the left side of the door instead of the right; who, when he has but ten minutes to spare after breakfast to enjoy the morning paper, drives him out of his comfortable corner by the fire, to brush up a spoonful of ashes on the hearth; who is always "righting," as she calls it, his own particular den, which I am convinced all husbands must be allowed to enjoy, neck deep in confusion unmolested, if their wives wish the roof to stay on.</p>
+                <p>I once had the misfortune to live in the house with such a female, whose husband roosted half his in-door time on top of a table, to keep clear of the mop. How her cap-strings flew through the doors; what galvanised broomsticks she wielded; how remorselessly she ferreted out closets, and disembowelled cupboards; how horribly she scraped glass and paint; and how anxious she looked to begin again when it was all done. How I slunk behind doors, and dodged behind screens, and jumped out of windows, to get out of the vixen's way; and how I sat swinging in the elm tree in the orchard at a safe distance till the whirlwind was past.</p>
+                <p>Good gracious! how that india-rubber woman would go to baking after she had done cleaning, and to ironing after she had done baking, and to sewing after she had done both; how vindictively she twitched her needle through, as if she wished it were some live thing that she might make it feel weariness and pain. How like whipt spaniels her children looked; and what a reverence they had for washing and ironing days; how remorselessly she scrubbed their noses up and down of a Sunday morning, and shoved them into their "meetin-clothes," turning the pockets carefully inside out, to see that no stray bit of string, or carnal marble, or fish-hook remained, to alleviate the torture of the long-drawn seventeenthlies of the parson's impracticable discourse.</p>
+                <p>Still this female gave her husband light bread to eat; his coffee and tea were always strong and hot; he might have shaved himself by the polish of the parlor table; his buttons were on his shirts, and his stockings always mended; but the man&#8212;and he was human&#8212;might as well have laid his night-cap beside a sewing-machine. And oh, the weary details of roasting, baking and broiling to which he was compelled to listen and approve between the pauses. The messes, which in any other female hands but hers, would inevitably have stewed over or burnt up or evaporated. The treasure he had in her, culinarily and pecuniarily, though he didn't know it!</p>
+                <p>What I want to know is this:</p>
+                <p>Must a model housekeeper always have thin lips, thick ankles, a bolster-figure, and a fist like an overgrown beet? Need she take hold of her children as if total depravity were bristling out of every hair of their heads? Need the unhappy cat always take its tail under its arm and creep into the ash-hole whenever she looks at it? <hi rend="italic">Is</hi> a sweet temper fore-ordained to be incompatible with sweet cupboards? Would it be unchristian to strangle such females with their own garters?</p>
+                <p>I pause for a reply.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

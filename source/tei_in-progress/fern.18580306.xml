@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580306">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Leaf for Gentlemen</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Leaf for Gentlemen</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-03-06">06 March 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2015-08-28" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580306.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580306.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580306.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580306.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580306.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580306.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580306.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580306.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A LEAF FOR GENTLEMEN.</head>
+                
+                
+                
+                    <p>Heaven forbid that I should make any woman's heart ache; I leave that to the men, some of whom seem born for nothing else; and so, to my fair correspondent who makes this grave charge against me, I wish to say&#8212;First, as is generally the case when I get admonitory letters for any published word of mine&#8212;which, by the way, bear but a small proportion to those I receive of grateful thanks&#8212;I find that the objector has, by design or accident, misread the offending article.</p>
+                <p>In a late contribution of mine to the LEDGER on slatternly women, occurs this sentence&#8212;"I blame no man for rushing from a house whose mistress habitually, and from choice, pours out his coffee in dingy, collarless morning-gown, and slip-shod feet." My correspondent, quite overlooking the phrase "habitually <hi rend="italic">and from choice</hi>," draws a heart-rending picture of a sick mother, with four or five ailing children, sleepless nights, and a cross husband, who hurries his tired wife out of bed in the morning with an oath, after watching all night, to get his breakfast; and because her toilette is not, and <hi rend="italic">cannot</hi> be, under such circumstances, unexceptionable, thrusts that article of mine under her nose by way of reprimand.</p>
+                <p>May Lucifer twist his miserable neck for it! Didn't I say women who "<hi rend="italic">from choice</hi>" were slatternly at the breakfast table? Didn't I insert that very phrase with the full knowledge of the existence of such exacting, selfish brutes as himself? Don't I know that there are cases where distracted mothers, who have no let-up of worrying days, who sleep with one eye open, and often not at all, find it literally impossible, with a baby who won't be put down, to smooth their locks, or dress themselves neatly before breakfast? What can a woman do more than she can do? Let her husband try to shave with one hand, and the baby across the other arm, or even to perform the operation when it is lying on the bed, purple in the face with shrieking to be taken up; with another child hanging to his coat-tails, poor thing, with some childish insect-grief, big to him as a giant's troubles, and quite as much to be respected, too; let him try to shave under such circumstances, after having been kept awake all the previous night, and worried for countless days and nights before, and then, when he cuts his chin, and otherwise makes a botch of it, let us see how good-naturedly he woud bear to have his wife remark upon the unscientific manner in which it is done, and the sorry figure he makes with a great patch of court-plaster over his gashed chin.</p>
+                <p>The inhumanity in husbands to which my correspondent alludes, is, I trust, rare. Still, it remains that careless and unthinking husbands are much more numerous than they should be. It costs little to say to a good wife, who has been toiling in-doors all day, till her eye is dim, and her cheek pale for want of out-door recreation, and a change of scene&#8212;"Poor wife, you are tired of this, put on your bonnet, and take a walk with me in the clear, fresh air." A little sympathy&#8212;oh! how far it goes to quicken the sluggish pulses, and make the leaden heart beat cheerily! But to come home&#8212;to hang up your hat in the hall&#8212;to go into the sitting-room or parlor&#8212;to put up your feet and read the paper, while the monotonous trend of your wife's weary feet resound overhead, to and fro, to and fro, with your sick or fretful baby, ever since you have left in the morning; never to run up and give her the kiss that would repay her for all her toil; taking it for granted that she will always love you, no matter how you treat her&#8212;because women generally do&#8212;and what's more, because she can't help herself. Oh, that last <hi rend="italic">should</hi> be to every husband the strongest reason of all for unremitting love and tenderness. "Business" can be your plea for absence whenever you are out of humor, and who is to gainsay it? But how is your wife, unreproached by a censorious world, to find relief and relaxation at the close of the day, <hi rend="italic">when she most needs it</hi>, if not in your soothing presence?</p>
+                <p>I would gladly believe that it is from thoughtlessness, more than intentional unkindness, that husbands so often fail in these little attentions which, I am convinced, make or mar the happiness of married life. Give your wife time to step more slowly down from the pedestal upon which your <hi rend="italic">lover</hi> hands delighted to place her. Such sudden jerks are bad for the married female constitution, and often end in an incurable heart-complaint. Take half the pains to please your wife that you take to play amiable to other ladies, and you'll do. Tell her, as you do them, that you "love" her; kiss her occasionally, as you do them, when you get a chance. Hug her, now and then, when you put on her shawl, as you do them; and say to her, "Pardon me," when you tread on your own baby, with that same excruciating smile that you do when you tread on their gowns.</p>
+                <p>And don't be too dignified or too manly (?) to tend your own flesh-and-blood baby, when your wife has little or no assistance in that department, where her spirit is so often willing, while her flesh is weak. I cannot fathom the reluctance some men have to be seen doing this. For my own part, I never see a man with his babe in his arms (that contrast of strength and helplessness), without a sudden moistening of my eyes and a quickened beating of my heart. I love him for it. I respect him for it. It is holy, and beautiful, and blessed. It is as soothing as a prayer, to the fevered spirit in the star-light hush of night.</p>
+                <p>Whence comes that shame which crimsons some men's brows when joked about preferring, to any other society, that of their wives and children? Joked, too, by those who, having themselves led a life of license, are morally incapable of appreciating the sacredness and sweetness and purity of the married relation. I cannot understand it. It weakens my respect for that man, estimable as he may be in other respects&#8212;strong for the right in everything else. Why should any man think it derogatory to his manhood to be influencedd by a good and loving wife? Why should young men of the present day talk big, and rather prefer to be thought worse than they really are? which is quite unnecessary. Why should they think it "green" to be virtuous, and crow so shrilly upon their little perches, as if every chick in the barnyard were theirs?</p>
+                <p>There are some men who have no call to be married, and these are they. Hangers-on of green-rooms and lobbies and restaurants; there let them stay. But for men who <hi rend="italic">are</hi> men&#8212;who are worhty of true-hearted women; who err in their treatment of them, not from intention, but form ignorance of woman's nature; who have not found out that <hi rend="italic">little</hi> kindnesses make up the sum of married happiness&#8212;that little words, little actions, make woman's heart strong to toil and to forbear; to such, and they are many, I submit in all kindness and respect, these simple, unaffected, genuine lines, which I would be glad to see placed in their pocket-books, and, what is better, exemplified in their daily married lives. I know not their author, but I give my womanly testimony that the Bible is not truer.</p>
+                
+                <lg type="poem">
+                    <head>BE GENTLE WITH THY WIFE.</head>
+                    <lg type="stanza">
+                        <l>Be gentle ! for you little know</l>
+                        <l>How many trials rise ; </l>
+                        <l><hi rend="italic">Although to thee they may be small,</hi></l>
+                        <l><hi rend="italic">To her of giant size.</hi></l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Be gentle ! though perchance that lip</l>
+                        <l>May speak a murmuring tone,</l>
+                        <l>The heart may beat with kindness yet,</l>
+                        <l>And joy to be thine own.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Be gentle ! weary hours of pain</l>
+                        <l>'Tis woman's lot to bear ;</l>
+                        <l>Then yield her what support thou canst</l>
+                        <l>And all her sorrows share.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Be gentle ! for the noblest hearts</l>
+                        <l>At times may have some grief</l>
+                        <l>And even in a pettish word</l>
+                        <l>May seek to find relief.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Be gentle ! for unkindness now</l>
+                        <l>May rouse an angry storm,</l>
+                        <l>That all the after years of life</l>
+                        <l>In vain may strive to calm.</l>
+                    </lg>
+                    
+                    <lg type="stanza">
+                        <l>Be gentle ! none are perfect&#8212;</l>
+                        <l>Thou'rt dearer far than life ;</l>
+                        <l>Then, husband, bear and still forbear&#8212;</l>
+                        <l><hi rend="italic">Be gentle to thy wife.</hi></l>
+                    </lg>
+                </lg>
+                
+                             
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

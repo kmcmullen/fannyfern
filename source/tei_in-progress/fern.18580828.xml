@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580828">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Blackwell's Island. Number III.</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Blackwell's Island. Number III.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-08-28">28 August 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-08-09" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580828.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580828.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580828.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580828.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580828.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580828.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580828.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580828.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">BLACKWELL'S ISLAND.</head>
+                
+                    <head type="sub">NUMBER III.</head>
+                
+                <p>You can step aside, Mrs. Grundy; what I am about to write is not for your over-fastidious ear. <hi rend="italic">You</hi>, who take by the hand the polished roue, and welcome him with a sweet smile to the parlor where sit your young, trusting daughters; you, who "have no business with his private life, so long as his manners are gentlemanly;" you who, while saying this, turn away with bitter, unwomanly words from his penitent, writhing victim. I ask no leave of <hi rend="italic">you</hi> to speak of the wretched girls picked out of the gutters of New York streets, to inhabit those cells at Blackwell's Island. I speak not to <hi rend="italic">you</hi> of what was tugging at my heartstrings as I saw them, that beautiful summer afternoon, file in, two by two, to their meals, followed by a man carrying a cowhide in his hand by way of reminder; all this would not interest you; but when you tell me that these women are not to be named to ears polite, that our sons and our daughters should grow up ignorant of their existence, I stop my ears. As if they could, or did! As if they can take a step in the public streets without being jostled or addressed by them, or pained by their passing ribaldry; as if they could return from a party or concert at night, without meeting droves of them; as if they could, even in broad daylight, sit down to an ice-cream without having one for a vis-a-vis. As if they could ride in a car or omnibus, or cross in a ferry-boat, or go to a watering-place, without being unmistakably confronted by them. No, Mrs. Grundy; you know all this as well as I do. You would push them "anywhere out of the world," as unfit to live, as unfit to die; <hi rend="italic">they</hi>, the weaker party, while their partners in sin, for whom you claim greater mental superiority, and who, by your own finding, should be much better able to learn and <hi rend="italic">to teach</hi> the lesson of self-control&#8212;to them you extend perfect absolution. Most consistent Mrs. Grundy, get out of my way while I say what I was going to, without fear or favor of yours.</p>
+                <p>If I believed, as legislators, and others with whom I have talked on this subject, pretend to believe, they best know why, that God ever made one of those girls for the life they lead, for this in plain Saxon is what their talk amounts to, I should curse Him. If I could temporise as they do about it, as "a necessary evil," and "always has been, and always will be," and (then add this beautiful tribute to manhood) "that pure women would not be safe were it not so"&#8212;and all the other budget of excuses which this sin makes to cover its deformity&#8212;I would forswear my manhood.</p>
+                <p>You say their intellects are small, they are mere animals, naturally coarse and groveling. Answer me this&#8212;are they, or are they not <hi rend="italic">immortal?</hi> Decide the question whether <hi rend="italic">this</hi> life is to be <hi rend="italic">all</hi> to them. Decide before you shoulder the responsibility of such a girl's future. Granted she has only <hi rend="italic">this</hi> life. God knows how much misery may be crowded into that. But you say, "Bless your soul, why do you talk to <hi rend="italic">me?</hi> I have nothing to do with it; I am as virtuous as St. Paul." St. Paul was a bachelor, and of course is not my favorite apostle; but waiving that, I answer, you <hi rend="italic">have</hi> something to do with it when you talk thus, and throw your influence on the wrong side. No matter how outwardly correct your past life may have been, if you <hi rend="italic">really believe</hi> what you say, I would not give a fig for your virtue if temptation and opportunity favored; and if you talk so for talk's sake, and do not believe it, you had better "tarry at Jericho till your beard be grown."</p>
+                <p>But you say to me, "Oh, you don't know anything about it; men are differently constituted from women; woman's sphere is home." That don't suspend the laws of her being. That don't make it that she don't need sympahty and appreciation. That don't make it that she is never weary and needs amusement to restore her. Fudge. I believe in no difference that makes this distinction. Women lead, most of them, lives of unbroken monotony, and have much more need of exhilarating influences than men, whose life is out of doors in the breathing, active world. Don't tell me of shoemakers at their lasts, and tailors at their needles. Do either ever have to lay down their customers' coats and shoes fifty times a day, and wonder when the day is over why their work is <hi rend="italic">not</hi> done, though they have struggled through fire and water to finish it? Do not both tailor and shoemaker have at least the variation of a walk to or from the shop to their meals? Do not their customers talk their beloved politics to them while they stitch, and do not their "confreres" run for a bottle of ale and crack merry jokes with them as their work progresses? Sirs! if monotony is to be avoided in man's life as injurious; if "variety' and exhilaration must always be the spice to his pursuits, how much more must it be necessary to a sensitively organized woman? If home is not sufficient, (and I will persist that any <hi rend="italic">industrious, virtuous, unambitious</hi> man, may have a home if he chooses); if home is not sufficient for him, why should it suffice for her? whose work is never done&#8212;who can have literally <hi rend="italic">no</hi> such thing as system, (and here's where a mother's discouragment comes in"), while her babes are in their infancy; who often says to herself at night, though she would not for worlds part with one of them&#8212;"I can't tell what I have accomplished to-day, and yet I have not been idle a minute;" and day after day passes on in this way, and perhaps for weeks she does not pass the threshold for a breath of air, and yet men talk of "monotony!" and being "differently consituted," and needing amusement and exhilaration; and "business" is the broad mantle which it is not always safe for a wife to lift. I have no faith in putting women in a pound, that men may trample down the clover in a forty-acre lot. But enough for that transparent excuse.</p>
+                <p>The great Law-giver made no distinction of sex, as far as I can find out, when he promulgated the seventh commandment, nor should we. You tell me "society makes a difference;" more shame to it&#8212;more shame to the women who help to perpetuate it. You tell me that infidelity on the wife's part involves an unjust claim upon the husband and provider; and I ask you, on the other hand, if a good and virtuous wife has not a right to expect <hi rend="italic">healthy</hi> children?</p>
+                <p>Let both be equally pure; let every man look upon every woman, whatsoever her rank or condition, as a sister whom his manhood is bound to protect, even, if need be, against herself, and let every woman turn the cold shoulder to any man of her acquaintance, how polished soever he may be, who would degrade her sex. Then this vexed question would be settled; there would be no such libels upon womanhood as I saw at Blackwell's Island, driven in droves to their cells. No more human traffic in those gilded palaces, which our children must not hear mentioned, forsooth! though their very fathers may help to support them, and which our tender-hearted legislators "can't see their way clear about." Then our beautiful rivers would no longer toss upon our island shores the "dead bodies of unfortunate young females."</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

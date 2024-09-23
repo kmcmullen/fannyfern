@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560621.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Try Again</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Try Again</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1856-06-21">21 June 1856</date>
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                <biblStruct xml:id="issue">
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#km" when="2018-06-14">created file; pasted text from fern.18560621.01</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560621.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560621.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560621.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560621.04.jpg"/>
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560621.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560621.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560621.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560621.08.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+
+            
+            <div type="column">
+                
+                <head type="main">TRY AGAIN.</head>
+                
+                <q>"No woman ever produced a great painting or statue."&#8212;<hi rend="italic">Ex</hi>.</q>
+                
+                <p>On the contrary, she has produced a great many "statues," who may be seen any sun-shiny day, walking Broadway, in kid gloves and perfumed broad-cloth, while "Lawrence" lies in ashes.</p>
+                
+                <q>"No woman ever wrote a great drama."&#8212;<hi rend="italic">Ex</hi>.</q>
+                
+                <p>Aye&#8212;but they have lived one; and when worn out with suffering at hands which should have shielded them, have died without a murmur on their martry lips.</p>
+                
+                <q>"No woman ever composed a great piece of music."&#8212;<hi rend="italic">Ex</hi>.</q>
+                
+                <p>What do you call a baby?</p>
+                
+                <q>"No woman was ever a great cook!"&#8212;<hi rend="italic">Ex</hi>.</q>
+                
+                <p>True&#8212;it takes a man to get up a <hi rend="italic">broil</hi>.</p>
+                
+                <q>"Women have invented nothing outside of millinery since the world began."&#8212;<hi rend="italic">Ex</hi>.</q>
+                
+                <p>How can they? when they are so <hi rend="italic">hooped</hi> in?</p>
+                
+                <q>"Women have written clever letters, tolerable novels, and intolerable epics."&#8212;<hi rend="italic">Ex</hi>.</q>
+                
+                <p>Indeed! It strikes me, though, that we have furnished you the material for yours; just tell me what <hi rend="italic">your</hi> "letters," <hi rend="italic">your</hi> "novels," <hi rend="italic">your</hi> "epics," would have amounted to, without the inspiring theme&#8212;<hi rend="italic">woman</hi>. When the world furnishes us <hi rend="italic">heroes</hi>, perhaps <hi rend="italic">we</hi> shall write splendid novels, and splendid letters, and splendid epics. Pharaoh once required bricks to be made "without straw."</p>
+                
+                <p>"Letters?"&#8212;No man, since the world began, could pen a letter equal to a woman. Look at the abortions dignified by that name in men-novels; stiltified&#8212;unnatural&#8212;stiff&#8212;pedantic or else&#8212;coarse. You can no more do it, than an elephant can waltz. The veriest school girl can surpass you at it. I have often heard men confess it, (when off their guard.) One thing at least we know enough to do, viz: when we wish to make one of your sex our eternal and unchangeable friend we always allow him to beat us in an argument.</p>
+                
+                <byline>FANNY FERN.</byline>
+                
+            </div>
+
+        </body>
+    </text>
+</TEI>

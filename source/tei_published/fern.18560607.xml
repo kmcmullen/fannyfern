@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560607">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Peeps from Under a Parasol&#8212;No. 4</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName>Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Peeps from Under a Parasol&#8212;No. 4</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1856-06-07">7 June 1856</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>
+                    <note type="editorial_images" target="https://digital.library.villanova.edu/Item/vudl:733959">Images of original issue courtesy of Digital Library @ Villanova University</note>
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-06" who="#km">proofed</change>
+            <change when="2023-10-03" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560607.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560607.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560607.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560607.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560607.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560607.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560607.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560607.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">PEEPS FROM UNDER A PARASOL&#8212;NO. 4.</head>
+                
+                    <p>I was sauntering along one sunny day last week, when I saw before me a young girl, hooped, flounced, fringed, laced, bugled and ribboned, regardless of cost. Her mantilla, whether of the "Eugenie" or "Victoria" pattern I am too ignorant to inform you, was of black, and had more trimming than I could have believed the most ingenious of dressmakers could pile on <hi rend="italic">one</hi> mantilla, though backed by every dry goods merchant in New York. Venus! what a figure it was hung on! Short, flat-chested, narrow-shouldered, angular and stick-like! Her bonnet was a marvel of Lilliputianism, lightness and lilacs.&#8212;Raphael! what a face was under it! Watery, yellow, black eyes, a sallow, unwholesome skin, and&#8212;Barpolph! what a nose! Imagine a spotted "Seckle pear"&#8212;imagine a gnarled bulb-root&#8212;imagine a vanquished prize-fighters proboscis, and you have it! That such a female, with such repulsive features, living in a Christian country, where there were looking-glasses, should strain back from the roots what little hair she had, as if her face were beautiful in its outline&#8212;it was incredible.</p>
+                
+                <p>Who, or what, was she? One of those poor, bedizened unfortunates who hang out signal "Barkis" flags? The poor thing had no capital, even for that miserable market; nobody would have bid for her, but a pawn-broker.</p>
+                
+                <p>While I speculated and wondered, she slowly lifted her kidded forefinger. I was all eyes and ears! A footman in a livery sprang forward, and obsequiously let down the steps of a superb carriage, in waiting, on whose panels was emblazoned a coat-of-arms. The bundle of millinery&#8212;the stick-like figure inside the hoops&#8212;the gay little bonnet, and the Bardolphian nose, took possession of it. The liveried footman mounted behind, the liveried coachman cracked his whip on the box, the sleek, shiny horses arched their necks, the silver-mounted harness glistened in the sunlight, and the visison was gone. F-a-n-n-y F-e-r-n! is there no limit to your ignorance? You had been commiserating&#8212;actually <hi rend="italic">commiserating</hi> one of the <hi rend="italic">elite</hi> of New York!</p>
+                
+                <p>All-compensating Nature! tossing money bags to twisted features, and divorcing beauty from brains; unfortunate they, whom in thy hurry thou hast overlooked, bestowing neither beauty, brains nor money!</p>
+                
+                <p>That was not all I saw form under my parasol, on that sunny morning. I saw a young girl&#8212;bonnetless, shawless&#8212;beautiful as God often makes the poor&#8212;struggling in the grasp of two sturdy policemen. Tears streamed from her eyes, while with clasped hands, as she shrank away from their rough gripe, she plead for release. What was her sin I know not. It might have been the first downward step in a life of unfriended and terrible temptation; for the agony in that young face could not have been feigned; or&#8212;she might have been seized only on suspicion; but in vain she begged, and prayed, and wept. Boys shouted; men, whose souls were leprous with sin, jeered; and heartless, scornful women "passed by on the other side."</p>
+                
+                <p>The poor young creature, (none the less to be pitied, <hi rend="italic">had</hi> she sinned,) goaded to madness by the gathering crowd, seized her long traling tresses, and tossing them up like a veil over her shame-flushed and beautiful face, resigned herself to her fate.</p>
+                
+                <p>Many will think any expression of sympathy for this poor unfortunate, uncalled for. There are enough to defend that side of the question, and to them I willingly leave it; there are others, who, with myself, could wish that young girls thus (it may be <hi rend="italic">innocently</hi>) accused, should not, before trial, be dragged roughly through the public streets, like shameless, hardened offenders. There are those, who, like myself, as they look upon the faces of their own fair young daughters, and think of the long life of happiness or misery before them, will wish that the sword of the law might be tempered with more mercy.</p>
+                
+                <p>The two scenes above recorded, are not <hi rend="italic">all</hi> that I saw from under my parasol, on that sunny morning. I passed the great bow-windows of the St. Nicholas&#8212;those favorite lounging places for male guests, and other gentlemen, well pleased to criticise lady pedestrians, who, thanks to the inventor of parasols, can dodge their battery of glances at will.</p>
+                
+                <p>Not so, the gentlemen; who, weary with travel and sight-seeing, unthinkingly fall asleep in those luxurious arm-chairs, in full view of the public, with their heels on the window sill, their heads hanging on one side, and their wide-open mouths so suggestive of the&#8212;<hi rend="italic">snore</hi>&#8212;that I fancy I hear. Heaven forgive these comical-looking sleepers the cachinnatory sideaches they have often given me!</p>
+                
+                <p>Was there <hi rend="italic">ever</hi> anything uglier than a man asleep? Single women, who have travelled in railroad cars, need not be too modest to answer!</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

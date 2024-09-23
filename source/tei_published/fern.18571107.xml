@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571107">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Hard Times</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Hard Times</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-11-07">7 November 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-23" who="#km">proofed</change>
+            <change when="2023-10-22" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571107.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571107.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571107.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571107.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571107.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571107.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571107.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571107.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">HARD TIMES.</head>
+                
+                
+                
+                    <p>All the ministers have preached a sermon on "The Hard Times;" why shouldn't I?&#8212;although "The Puritan Recorder" has recorded that I "have a spice of wickedness in me," which I can never sufficiently deplore, as I would wish to differ as much as possible from the Puritan Recorder, and everything else that is Bostonian. Yes&#8212;why shouldn't I preach? The LEDGER parish is extensive, and I have the loan of its pulpit; no minister whom I ever saw stopped sinning before he preached to sinners; why should I try to be better than my betters? My sermons are short, which is more than can be said of theirs, and I get well paid for them, which is another difference; so here's my text:</p>
+                
+                <p rend="center">HARD TIMES.</p>
+                
+                 <p>"Hard times" undoubtedly; one hears nothing else, turn which way he will. No doubt business men have reason for their long, troubled faces; for my part, I dread getting into an omnibus, or sitting down in a car or ferry-boat, lest I should catch the infection; for I will persist that a hopeful heart is the best antidote for times like these. "Hopeful?" you ask, when banks are suspending, and railroad stock is worthless, and long-established business firms are tumbling over like a child's block-houses. Yes&#8212;hopeful even then&#8212;for what good can come of croaking? What good ever came of despair? If you are satisfied that you have planned for the best&#8212;as far as human foresight could plan&#8212;what more could you have done? As to what "people will think"&#8212;as to what "people will say"&#8212;he who has not outgrown that may write himself down a slave. If "there's no business doing," don't do it; if there is, turn your back on discouragement, and fly at it like seven fiends; but for sweet pity's sake don't croak&#8212;don't groan&#8212;don't discourage others who, but for you, might put their shoulders again to the wheel, thanking God this His blessed sunshine was still left, and that they were above the mold to enjoy it; and above all, don't ring the changes on money, money, money, till every child who stops his play to listen, thinks that there must be nothing else in this world or the next worth existing for. </p>
+                
+                <p>And next-ly, don't charge the "hard times" to women, as if men had not their petty ambition to top it over their fellows. As if <hi rend="italic">they</hi> never built big marble stores, and made a business splurge generally, greater than their capital warranted, and, when pay-day came, and they were brought up standing, proved themsevles lineal descendants of that primeval sneak, who whined out to the Almighty, "the woman whom thou gavest to be with me," she did this, that and the other! Of course, I don't mention in this connection the little private expenses of these consistent gentlemen, peculiar to those subterranean regions where the choicest of palate ticklers are served up for these victimized business men and their distressed business friends, to the tune of ten dollars a lunch. No&#8212;I scorn to allude to an expense so trifling, incurred, perhaps, only twice a day. Besides, don't I know that a ten dollar bill, <hi rend="italic">viewed from a masculine point of view</hi>, has often elicited the philosophical query, Pray, what is a ten dollar bill?</p>
+                
+                <p>Not that all business men are selfish or unjust&#8212;no, no more than that all women are frivolous and extravagant who appear so. Oh, how many wives turn heartsick away from dress and jewels thrown to them, like toys to a restless child, to keep their unsatisfied hearts quiet; the mistaken giver, because pride lays her finger on the rebellious lip, and clasps her armor tightly over the tortured heart, imagining these things a satisfactory equivalent for the love withheld, to be unworthily squandered. I solemnly believe that many a woman would welcome even the "hard times," should it bring back to her lonely fireside the truant husband, for that comfort his summer friends denied him. Try it, disappointed business men, whose pursuit of money and pleasure has swallowed up your better feelings. No man can be poor who has wife and children left&#8212;no man can be homeless who has their hearts to nestle in. God help him, who, rich in this world's goods, has no ear to listen for his coming&#8212;no eye to look brighter when he comes!</p>
+                
+                <p>Satisfy a true woman's god-implanted heart-craving for love&#8212;and what to her is adversity? This craving, of which she need no more be ashamed than the sweet flower, which leans this way and that, yearning for the warm unfolding sun-ray. Ashamed? A woman is not a woman without it&#8212;she is a negation, an abortion, a monster. It is right she should feel thus&#8212;it is the glory and perfection of her womanhood; but oh! where shall she turn, if, stretching our her wifely arms, she clasp but love's semblance&#8212;its mocking shadow? Blessed is she who, with only a crust for a dinner, can lean trustingly on her husband's heart, and number her rosy children.</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

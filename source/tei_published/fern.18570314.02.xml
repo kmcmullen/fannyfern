@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570314.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Breakfast</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Breakfast</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-03-14">14 March 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-06-16" who="#km">created file; pasted text from fern.18570314.01</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570314.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570314.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570314.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570314.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570314.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570314.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570314.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570314.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+            
+            <div type="column">
+                <head type="main">BREAKFAST.</head>
+                
+                <p>Let the world fly off its axle any hour in the twenty-four, save the breakfast hour. Ruffle me not then, and I promise to out-Socrates Socrates, though it should rain tribulations all the rest of the day. If I am to have one glimpse of sunshine until nightfall, let it be then. A plague on him or her who sits down to coffee (all hail coffee!) with a doleful phiz. The witches fly away with that female who presents herself in curl-papers, or introduces herself with a yawn. Unassoiled be that grocer, who offends my proboscis with a doubtful egg; garroted be that dairy-man who waters my milk; kneaded be that fat podge of a baker who is tardy with his hot rolls.</p>
+                
+                <p>Tell me no disagreeables&#8212;be not argumentative over our Mocha; discourse not of horrid murders, not yet dabble in the Black Sea of politics. Tell me not the price of any article I am eating, neither inquire of me prematurely, what I will have for my dinner. Let thy "Good morning." have <hi rend="italic">heart</hi> in it, and touch thy lips to my eye-lids as thou passest to thy seat. If thou hast a clover-blossom, or a babe, set it before me; and dream not, because my heart's incense rises silently as its perfumed breath, that I praise not God for the sweet morning.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

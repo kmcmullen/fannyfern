@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571010">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">"Fresh Leaves, by Fanny Fern"</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">"Fresh Fern Leaves, by Fanny Fern"</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-10-10">10 October 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-10" who="#km">proofed</change>
+            <change when="2023-10-09" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571010.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571010.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571010.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571010.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571010.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571010.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571010.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571010.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">"FRESH LEAVES, BY FANNY FERN."</head>
+                
+                    <p>This little volume has just been laid upon our table. The publishers have done all they could for it, with regard to outward adorning. No doubt it will be welcomed by those who admire this lady's style of writing: we confess ourselves not to be of that number. We have never seen Fanny Fern, nor do we desire to do so. We imagine her, from her writings, to be a muscular, black-browed, grenadier-looking female, who would be more at home in a boxing gallery than in a parlor,&#8212;a vociferous, demonstrative, strong-minded horror,&#8212;a woman only by virtue of her dress. Bah! the very thought sickens us. We have read, or, rather, tried to read, her halloo-there effusions. When we take up a woman's book we expect to find gentleness, timidity, and that lovely reliance on the patronage of our sex which constitutes a woman's greatest charm. We do not wish to be startled by bold expressions, or disgusted with exhibitions of masculine weaknesses. We do not desire to see a woman wielding the scimetar blade of sarcasm. If she be, unfortunately, endowed with a gift so dangerous, let her&#8212;as she values the approbation of our sex&#8212;fold it in a napkin. Fanny's strong-minded nose would probably turn up at this inducement. Thank heaven! there are still women who <hi rend="italic">are</hi> women&#8212;who know the place Heaven assigned them, and keep it&#8212;who do not waste floods of ink and paper, brow-beating men and stirring up silly women;&#8212;who do not teach children that a game of romps is of as much importance as Blair's Philosophy;&#8212;who have not the presumption to advise clergymen as to their duties, or lecture doctors, and savans;&#8212;who live for something else than to astonish a gaping, idiotic crowd. Thank heaven! there are women writers who do not disturb our complacence or serenity; whose books lull one to sleep like a strain of gentle music; who excite no antagonism, or angry feeling. Woman never was intended for an irritant: she should be oil upon the troubled waters of manhood&#8212;soft and amalgamating, a necessary but unobtrusive ingredient;&#8212;never challenging attention&#8212;never throwing the gauntlet of defiance to a beard, but softly purring beside it lest it bristle and scratch.</p>
+                
+                <p>The very fact that Fanny Fern has, in the language of her admirers, "elbowed her way through unheard of difficulties," shows that she is an antagonistic, pugilistic female. One must needs, forsooth, get out of her way, or be pushed one side, or trampled down. How much more womanly to have allowed herself to be doubled up by adversity, and quietly laid away on the shelf of fate, than to have rolled up her sleeves, and gone to fisticuffs with it. Such a woman may conquer, it is true, but her victory will cost her dear; it will neither be forgotten nor forgiven&#8212;let her put that in her apron pocket.</p>
+                
+                <p>As to Fanny Fern's grammar, rhetoric, and punctuation, they are beneath criticism. It is all very well for her to say, those who wish to commas, semi-colons and periods, must look for them in the printer's case, or that she who finds ideas must not be expected to find rhetoric or grammar; for our part, we should be gratified if we had even found any ideas!</p>
+                
+                <p>We regret to be obliged to speak thus of a lady's book: it gives us pleasure, when we can do so conscientiously, to pat lady writers on the head; but we owe a duty to the public which will not permit us to recommend to their favorable notice an aspirant who has been unwomanly enough so boldly to contest every inch of ground in order to reach them&#8212;an aspirant at once so high-stepping and so ignorant, so plausible, yet so pernicious. We have a conservative horror of this pop-gun, torpedo female; we predict for Fanny Fern's "Leaves" only a fleeting autumnal flutter.</p>
+                    
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

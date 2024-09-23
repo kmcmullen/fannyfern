@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580220.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Rainy Day</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Rainy Day</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-02-20">20 February 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-07" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue"><!-- change all image names here -->
+        <surface xml:id="pp1">
+            <graphic url="fern18580220.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580220.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580220.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580220.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580220.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580220.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580220.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580220.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A RAINY DAY.</head>
+                
+                
+                
+                    <p>Rain&#8212;rain&#8212;rain. Soot and chimney-sweeps! Everything dingy and doleful&#8212;gloomy and gummy&#8212;sticky, and solemn, and sad. I shall go mad. Everybody's nose is as red as a lobster, and the mud is ankle deep. <hi rend="italic">New York</hi> mud! Ask the laundresses what that is. One might as well dip one's petticoats in a pot of brown paint. I'll go out though, in spite of it; but how about the umbrella? for it will take both my hands, till the cramp seizes them, to hold my clothes out of the puddles; and as to walking under an umbrella held by a man! Try it once. When he is not giving you all the drippings from the points of the whalebones, he is catching those points in the ribbon on your bonnet; and when he is not doing that, he is holding it so far back that the rain drives slap in your face; and when he is not doing that, he is holding it so far down over your nose that it would take a seer to find out your latitude and longitude. Ask any woman if it isn't a gospel fact, not to mention the puddles he plants his boots in for the edification of your stockings.</p>
+                <p>Go without an umbrella. Yes, and get a stiff neck for my folly. I won't. I'll not go out at all. I'll sit wiht my nose flattened against the windowpane, watching those miserable gray clouds, that came on purpose to drive me&#8212; Ah, here come a batch of letters, the gods grant there may be something pleasant, for I'm just at the last-drop-in-the-bucket pinch. I'm cross enough to eat my grandmother, and she deserves it, for if it hadn't been for her I shouldn't have been here.</p>
+                <p>Let's see now. "Mrs. Robert Bonner, alias Fanny Fern." I wonder how Mr. Bonner's wife will relish that? I wonder what will be the predominant expression of Mr. Fern's physiognomy when he sees it? I wonder if a woman, whose husband is a small man, can be taken up for <hi rend="italic">big</hi>-amy?</p>
+                <p>Here's another:</p>
+                <p>"FANNY FERN:&#8212;Madam&#8212;Please send your autograph <hi rend="italic">by return of mail.</hi>          JOHN STOKES."</p>
+                <p>Cool, that!</p>
+                <p>And here's a manuscript which I am requested to read through, hand to Mr. Bonner, and request him to publish and pay for, as the writer wants money.</p>
+                <p>Now, if I could ensure this, I would be most happy to do so; but when an editor's acceptance of a MS. depends not upon <hi rend="italic">my</hi> handing it to him, but upon its merit, and the kind of merit adapted to his uses; and, more than all, when that editor absolutely declines even giving a glance at any new contributions, as he is neck deep in them already, of what avail are my good wishes?</p>
+                <p>And here's another from a dear little girl whom I never saw, way off in the prairies, who wants me to write another "Play-Day Book" for her. It is written in a little crooked, childish hand; mamma evidently dotting the i's and crossing the t's. She has more sense than half the adults, for at the close she says, <hi rend="italic">I stop now because I have nothing to say.</hi> Naive little "Fanny!" I wish the world was two-thirds children, and the other third babies. It is the grown people and the rain that put me out of tune. I should be a seraphim else. The little ones always humanize me&#8212;combed or uncombed, dirty or clean, I can always see their folded wings. Well might He "take a little child and set it in their midst."</p>
+                
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

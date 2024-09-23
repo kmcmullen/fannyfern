@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580123">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Child Whom Nobody Can Do Anything With</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">The Child Whom Nobody Can Do Anything With</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-01-23">23 January 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-31" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580123.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580123.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580123.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580123.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580123.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580123.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580123.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580123.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">THE CHILD WHOM NOBODY CAN DO ANYTHING WITH.</head>
+                
+                
+                
+                    <p>I wonder is it foreordained that there shall be one child in every family whom "nobody can do anything with?" Who tears around the paternal pasture with its heels in the air, looking at rules, as a colt does at fences, as good things to jump over. We all know that the poor thing must be "broken in," and all its graceful curvetings sobered down to a monotonous jog-trot; that it must be taught to bear heavy burdens, and to toil up many a steep ascent at the touch of the spur; but who that has climbed the weary <choice><sic>hight</sic><corr>height</corr></choice> does not pass the halter round the neck of the pretty creature with a half-sigh, that its happy day of careless freedom should be soon ended?</p>
+                <p>How it bounds away from you, making you almost glad that your attempt was a failure; how lovingly your eye follows it, as it makes the swift breathless circle, and stops at a safe distance to nod you defiance. Something of all this every loving parent has felt, while trying to reduce to order the child whom "nobody cna do anything with."</p>
+                <p>Geography, grammar and history seem to be put into one ear, only to go out at the other. The multiplication table might as well be written in Arabic, for any idea it conveys, or lodges, if conveyed, in the poor thing's head. Temperate, torrid, and frigid zones may all be of a temperature for all she can remember, and her mother might have been present at the creation of the world, or at the birth of the Author of it, for aught she can chronologically be brought to see.</p>
+                <p>But look! she is tired of play, and has taken up her pencil to draw; she has had no instruction; but peep over her shoulder and folow her pencil; there is the true artist touch in that little sketch, though she does not know it&#8212;a freedom, a boldness which teaching may regulate, never impart. Now she is tired of drawing, and takes up a volume of poems, far beyond the comprehension, one would think, of a child of her years, and though she often miscalls a word, and knows little and cares less about commas and semi-colons, yet not the finest touch of humor or pathos escapes her, and the poet would be lucky, were he alwasy sure of so appreciative a reader. She might tell you that France was bounded south by the Gulf of Mexico, but you yourself could not criticise Dickens or Thackeray with more discrimination.</p>
+                <p>Down goes the book and she is on the tips of her toes pirouetting. She has never seen a dancing-school, no need she; perfectly modeled machinery cannot but move harmoniously; she does not know, as she floats about, that she is an animated poem. Now she is tired of dancing, and she throws herself into an old arm-chair, in an attitude an artist might copy, and commences to sing; she is ignorant of quavers, crotchets and semi-breves, of tenors, baritones and sopranos, and yet you, who have heard them with rapturous encores, stop to lsiten to her simple melody.</p>
+                <p>Now she is down in the kitchen playing cook; she turns a beef-steak as if she had been brought up in a restaurant, and washes dishes for fun, as if it had been always sober earnest; singing, dancing, and drawing the cooks portrait at intervals, and all equally well done.</p>
+                <p>Now send that child to any school in the land, where "Moral Science" is hammered remorselessly and uselessly into curly heads, and she would be pronounced an incorrigible dunce. Idiotically-stupid parrot-girls would ride over her shrinking, sensitive shame-facedness, rough-shod. She would be kept after school, kept in during recess, and have a discouraging list of bad recitation marks as long as Long Island; get a crooked spine, grow ashamed of throwing snow-balls, have a chronic headache, and an incurable disgust of teachers and schools, as well she might.</p>
+                <p>She is like a wild rose, creeping here, climbing in there, blossoming where you least expect it, on some rough stone wall or gnarled trunk, at its own free, graceful will. You may dig it up and transplant it into your fomral garden if you like, but you would never know it more for the luxuriant wild-rose, this "child whom nobody can do anything with."</p>
+                <p>Some who read this may ask, and properly, is such a child never to know the restraint of rule? I would be the last to answer in the negative, nor (and here it seems to me the great agony of outraged childhood comes in) would I have parents or teachers stretch or dwarf children of all sorts, sizes and capacities, on the same narrow Procrustean bed of scholastic or parental rule. No farmer plants his celery and potatoes in the same spot, and expects it to bear good fruit. Some vegetables he shields from the rude touch, the rough wind, the blazing sun; he knows that each requires different and appropriate nurture, according to its capacities. Should they who have the care of the immortal be less wise?</p>
+                <p>"You have too much imagination, you should try to crush it out," was said many years ago to the writer, in her school days, by one who should have known that "He who seeth the end from the beginning" bestows <hi rend="italic">no</hi> faculty to be "crushed out;" and who must have seen before now that this very faculty it is which has placed the writer, at this moment, beyond the necessity of singing, like so many of her sex, the weary Song of the Shirt.</p>
+                
+                
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571219">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">"Where Have I Been, and What Have I Seen?"</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">"Where Have I Been, and What Have I Seen?"</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-12-19">19 December 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-14" who="#km">proofed</change>
+            <change when="2023-10-24" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571219.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571219.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571219.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571219.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571219.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571219.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571219.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571219.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">"WHERE HAVE I BEEN, AND WHAT HAVE I SEEN?"</head>
+                
+                
+                
+                    <p>Well&#8212;in the first place, I have been to see Miss Hosmer's statue of "Beatrice Cenci," and I hope all who read this will go, too. Now, if you look for an artistic description of it, you must look somewhere else; there are plenty of walking dictionaries who will prate to you about the "pose" of the figure, etc., as they look through their cold, scientific spectacles. I shall simply say that to my eye it is so surpassingly lovely, I could almost weep that no breath of life will ever warm it into love. If there is a fault in those undulating limbs, and in that sweet, sad, child-like face, I thank the gods my eye was too dull to perceive it; and I thank the gods, too, that the young sculptress has had the courage to assert herself&#8212;to be what nature intended her to be&#8212;a genius&#8212;even at the risk of being called unfeminine, eccentric, and unwomanly. "Unwomanly?" because crotchet-stitching and worsted foolery could not satisfy her soul! Unwomanly? because she galloped over the country on horseback, in search of health and pleasure, instead of drawing on her primrose kids and making a lay-figure of herself, to exhibit the fashions, by dawdling about th estreets. Well, <hi rend="italic">let</hi> her be unwomanly, then, I say; I wish there were more women bitten with the same complaint; let her be "eccentric," if nature made her so, so long as she outrages only the feelings of those conservative old ladies of both sexes, who would destroy individuality by running all our sex in the same mold of artificial nonentity&#8212;who are shocked if a woman calls things by their right names&#8212;who are such double-distilled fools, that they cannot see that a frank, natural, hearty, honest woman may be safely trusted, when your Miss Nancies woudl be found kissing behind the door. Show me a cut-and-dried "proper" person of either sex, and I will show you one whose evil inclination wait only upon opportunity. Show me a long face, and I'll invariable show you an arrant hypocritic. Show me a woman who rests the tips of her prudish fingers on a man's coat sleeve when she takes his arm, and I will show you a woman who will run away with him the first chance she gets, be he married or single.</p>
+                
+                    <p>"What have I seen?" I have seen the portrait of "Rose Bonheur;" with the short, dark hair pushed back, man-fashion, from an open, fine, spirited, and not unhandsome face; with the delicate white hand which I acknowledge feeling a most masculine inclination to "propose" for, resting upon the arm of&#8212;(dear Miss Nancies of both sexes, pray forgive me, I must say it;) resting on the arm of a tremendous great bull; which it was actually refreshing to see after the kidded dandies we had just left in Broadway. "And this is Rosa Bonheur," said I. Well, Miss Rosa, it is my opnion that you are sufficient unto yourself, and would consider a husband only in the light of an incumbrance. I am very sure that a woman who can paint such animals as yours, would have to wait till a race of men has sprung up, very different from those unchivalric wretches who stand in this warm gallery <hi rend="italic">with their hats on</hi>, in the presence of so many ladies, not to mention your talented self. "Ah, my dear," said an old gentleman to whom I made this last remark, "the good old stock has nearly run out; you musn't expect it, my dear." And so I don't&#8212;but if men only knew how to be gallant without being effeminate, how to be manly and yet to be tender, <hi rend="italic">wouldn't</hi> we adore them? But, good gracious, they don't; and so I am glad that a new order of woman is arising like the Bonheurs and Hosmers, who are evidently sufficient unto themselves, both as it regards love and bread and butter; in the meantime, there are plenty of monosyllabic dolls left for those men who, being of small mental stature themselves, are desirous of finding a wife who will "look up to them."</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

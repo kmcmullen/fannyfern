@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571121">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Servants</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Servants</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-11-21">21 November 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-07" who="#km">proofed</change>
+            <change when="2023-10-21" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571121.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571121.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571121.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571121.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571121.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571121.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571121.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571121.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">SERVANTS.</head>
+                
+                
+                
+                    <p>"An admirer" wishes to know if I have nothing to say "on the troubles ladies experience with their help," some of which the writer enumerates.</p>
+                
+                <p>I confess that my sympathies are enlisted much more strongly on the side of servants than of their mistresses, who at any moment can show them the door at their capricious will, without a passport to any other place of shelter. Their lot is at best a hard one;&#8212;the best wages being a very inadequate equivalent for the great gulf which, in many cases, separates the servant from her employer as effectually, as if her woman's nature had no need of human love and human sympathy; as if she did not often bear her secret burden of sorrow with a heroism, which should cause a blush on the cheek of her who sits with folded hands in the parlor, all neglectful of woman's mission to her dependant sister. They who have listened vainly for kind words know how much they may lighten toil. They who have shut up in their aching hearts the grief which no friendly look or tone has ever unlocked, know how it will fester and rankle. They who have felt every ounce of their flesh taxed unrelentingly day by day to the utmost, with no approving "well done" to lighten slumber when the heavy yoke is nightly cast down, know what is servitude of <hi rend="italic">soul</hi>, as well as body.</p>
+                
+                <p>I could wish that mistresses oftener thought of this; oftener sat down in the gloomy, underground kitchen or basement, and inquired after the absent mother, or brother, or sister, in the old country; oftener placed in the toil-hardened hand the book or paper, or pamphlet, to shorten the tedious evening in the comfortless kitchen, while the merry laugh in which the servant has no share, resounds from the cheerful parlor above.</p>
+                
+                <p>I do not forget that there are bad servants, as that there are unfeeling, inhuman mistresses who make them. I know that some are wasteful and improvident; and I know, from experience, that there are cases where the sympathy and kindness I speak of are repaid with ingratitude; but these are exceptional cases; and think how much hard usage from the world such an one must have received, ere all her sweet and womanly feelings could be thus blunted. I must think that a humane mistress makes a good servant. I know that some of these servants of the present day dress ridiculously above their station,&#8212;so does often the mistress; and why is a poor, unenlightened girl more reproachable, for spending the wages of a month on a flimsy, gaudy bonnet, or dress, than is her employer, for trailing a seventy-five or one hundred dollar robe through ferryboats and omnibuses, while her grocer and milliner dun in vain for their bills?</p>
+                
+                <p>Let the reform in this and other respects begin in the parlor. Our mothers and grandmothers were not always changing servants. <hi rend="italic">They</hi> did not disdain to lend a helping hand, when a press of work, or company, made the burden of servitude too heavy. A headache in the ktichen, to them, meant the same as a headache in the parlor, and, God be thanked, a heart-ache too. The soul of a servant was of as much account as that of her mistress; her creed was respected, and no elaborate dinner came between her and the church-door. How can you expect such unfaltering, unswerving devotion to your interests, when you so wholly ignore theirs?&#8212;and spur and goad them on like beasts of burden, and with as little thought for their human wants and needs? No wonder if you have poor service&#8212;eye-service. I would like to see you do better in their place. Lift up the cloud, and let the sun shine through into their underground homes, if it is not a mockery to use the word home. Don't think it an unpardonable sin, if they are ten minutes behind tea-kettle time; call your daughter off from the piano, and let her set it boiling&#8212;her husband will call you "blessed" for it one of these days. Let her run down and set the dinner table, and cook the dinner for them sometimes, of a washing or an ironing day. It will be a great help, and much better for Matilda-Sophia than to be crying salt-tears over the last novel. We exact too much&#8212;we give too little,&#8212;too little sympathy&#8212;too little kindness&#8212;too little encouragement. "Love thy neighbor as thyself" would settle it all. You don't do it&#8212;I don't do it, though I try to. Human laws may require only of the mistress that she pay her servant's wages punctually; God's law requires much more&#8212;let conscience be its interpreter;&#8212;then, and not till then, we shall have good servants.&#8212;How I hate that word "servants!"</p>
+                
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570718">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Peeps at Philadelphia. Number Two</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2019</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Peeps at Philadelphia. Number Two</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-07-18">18 July 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2019-07-03" who="#km">proofed</change>
+            <change when="2019-07-03" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570718.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570718.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570718.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570718.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570718.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570718.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570718.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570718.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">PEEPS AT PHILADELPHIA.</head>
+                
+                    <head type="sub">NUMBER TWO.</head>
+                                
+                <p>If you want to see unmasked human nature, keep your eyes open in railroad cars and on steamboats. See that man now, poring over a newspaper, while he is passing through scenery where the shifting lights and shadows make pictures every instant, more beautiful than an artist ever dreamed. See that woman, who has journeyed with her four children hundreds of miles alone&#8212;as I am proud to say women may safely journey in America, (if they behave themselves,)&#8212;travel-stained, care-worn and weary, listening to, and answering patiently and pleasantly the thousand and one questions of childhood; distributing to them, now a cracker, now a sip of water from the cask in the corner, brushing back the hair from their flushed brows, while her own is throbbing with the pain, of which she never speaks. In yonder corner are two Irish women, each with a little red-fretted baby, in the universal Erin uniform of yellow; their little heads bobbing helplessly about in the bumping cars, screaming lustily for the comfort they well know is close at hand, and which the public are notified they have at last found, by a ludicrously instantaneous suspension of their vociferous cries. Beautiful as bountiful provision of Nature! which, if there were no other proof of a God, would suffice for me.</p>
+                
+                <p>There is a surly old fellow, who <choice><sic>wont</sic><corr>won't</corr></choice> have the windows open, though the pale woman beside him mutely entreats it, with her smelling-salts to her nose. Yonder is an old bachelor, listening to a sweet little blue-eyed girl, who, with untasked faith in human nature, has crept from her mother's side, and selected him for an audience, to say&#8212;"that once there was a kid, with two little totty kids, and don't you believe that one night when the old mother kid was asleep," &amp;c., &amp;c. No wonder he stoops to kiss the little orator; no wonder he laughs at her naive remarks; no wonder she has magnetised the watch from his pocket "to hear what it says;" no wonder he smooths back the curly locks from the frank, white brow; no wonder he presses again and again his bachelor lips to that rosy little mouth; no wonder, when the distant city nears us, and the lisping "good-bye" is chirruped, and the little feet are out of sight and sound, that he sighs,&#8212;God and his own soul know why! Blessed childhood&#8212;thy shortest life, though but a span, hath yet its mission. The tiniest babe never laid its velvet cheek on the sod, till it had delivered its Maker's message&#8212;heeded not then, perhaps&#8212;but coming to the wakeful ear in the silent night-watch, long after the little preacher was dust. Blessed childhood!</p>
+                
+                <p>It is funny, as well as edifying, to watch hotel arrivals; to see the dusty, hungry, lack-lustre-eyed travelers drag into the eating-room&#8212;take their allotted seats&#8212;enviously regard those consumers of dainties who have already had the good fortune, by rank of precedence, to get their hungry mouths filled; to see them at last "fall to," as Americans only know how. Heaven help the landlord! Beefsteak, chicken, omelette, mutton-chops, biscuit and coffee&#8212;at one fell swoop. Waiters, who, it is to be hoped, have not been kept breakfastless since early daylight, looking on calm, but disgusted. Now, their appetites appeased, that respectable family yonder begin to notice, that Mr. and Mrs. Fitzsnooks, and Miss Seraphene Fitzsnooks opposite, who are aristocratically delicate in their appetites, are shocked beyond the power of expression. They begin, as they wipe their satisfied lips with their table-napkins, and contemplate Miss Fitzsnooks' showy breakfast-robe, to bethink them of their dusty traveling-dresses; as if&#8212;foolish creatures&#8212;they were not in infinitely better taste, soiled as they are, than her gaudy finery at so early an hour&#8212;as if a man was not a man "for a' that"&#8212;aye, and a woman, too&#8212;as if there <hi rend="italic">could</hi> be vulgarity without pretension&#8212;as if the greatest vulgarity was not ostentatious pretension.</p>
+                
+                <p>"<hi rend="italic">Fairmount,</hi>" of which the Philadelphians are so justly proud, is no misnomer. He must be cynical, indeed, hopelessly weak in the <hi rend="italic">understanding</hi>, who would grumble at the steep ascent by means of which so lovely a panorama is enjoyed. At every step, some new beauty develops itself to the <choice><orig>worshiper</orig><reg>worshipper</reg></choice> of nature. In the grey old rocks, festooned with the vivid green of the woodbine and ivy, considerately draping statues for eyes&#8212;I confess it, more prudish than mine. The placid Schuylkill, flowing calmly below, with its emerald-fringed banks, nesting the homes of wealth and luxury; enjoyed less, perhaps, by their owners, than by the industrious artisan, who, reprieved from his day's toil, stands gazing at them with his wife and children, and inhaling the breeze, of which, God be thanked, the rich man has no monopoly.</p>
+                
+                <p>Of course I visited Philadelphia "State-House;" of course I talked with the nice old gentleman who guards the country's relics; of course I stared&#8212;with my '76 blood at fever heat&#8212;upon the big bell which clanged forth so joyfully our American Independence; of course I stared at the piece of stone-step, from which the news of our Independence was first announced; and of course I wondered how it was possible for it, under such circumstances, to <hi rend="italic">remain</hi> stone. Of course I sat down in the venerable, high-backed leather chair, in which so many great men of that time, and so many little men of this have reposed. Of course I reverently touched the piece of a pew which formerly was part of "Christ Church," and in which Franklin and Washington had worshipped. Of course I inscribed my name, at the nice old gentleman's request, in the mammoth book for visitors. And of course I mounted to the Cupola of the State House to see "the view;" which, with due submission, I did not think worth (from that point) the strain on my ankles, or the confused state of my cranium, consequent upon repeated losses of my latitude and longitude, while pursuing my stifled and <hi rend="italic">winding</hi> way.</p>
+                
+                <p>"The Mint?" Oh&#8212;certainly, I saw the Mint; and wondered, as I looked at the shining heaps, that any of Uncle Sam's children should ever want a cent; also, I wondered if the workmen who fingered them, did not grow, by familiarity, indifferent to their value&#8212;and to their <choice><sic>possesion</sic><corr>possession</corr></choice>. I was told that not the minutest particle of the metal, whether fused or otherwise, could be subtracted without detection. I was glad, as I always am, in a fitting establishment, to see <hi rend="italic">women</hi> employed in various offices&#8212;such as stamping the coin, &amp;c.; and more glad still, to learn that they had respectable wages. Heaven speed the time when a thousand other doors of virtuous labor shall be opened to them, and silence forever the heart-rending "Song of the Shirt."</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

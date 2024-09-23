@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570620">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Word to Shop-Keepers</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2018</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Word to Shop-Keepers</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-06-20">20 June 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>  
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-10-16" who="#km">proofed</change>
+            <change when="2018-10-16" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570620.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570620.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570620.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570620.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570620.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570620.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570620.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570620.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A WORD TO SHOP-KEEPERS.</head>    
+                
+                    <p>In one respect&#8212;nay, in more, if so please you, I am unfeminine. I detest shopping. I feel anything but affection for Eve every time I am forced to do it. But we must be clean and whole, even in this dirt-begrimed, lawless city; where ash barrels and ash boxes, with spikes of protruding nails for the unwary, stand on every sidewalk, waiting the bidding of balmy zephyrs to sift their dusky contents on our luckless clothes. All the better for shop-keepers; indeed, I am not at all sure, that they and the street-cleaning gentry do not, as doctors and druggists are said to do, play into each other's hands!</p>
+                
+                <p>Apart from my natural and never-to-be-uprooted dislike to the little feminine recreation of shopping, is the pain I experience whenever I am forced to take part in it, at the snubbing system practiced by too many shopkeepers towards those whose necessities demand a frugal outlay. Any frivolous female fool, be she showily dressed, may turn a whole store-full of goods topsy-turvy at her capricious will, although she may end in taking nothing away, but her own idiotic presence; while a poor, industrious woman, with the hardly-earned dollar in her calico pocket, may not presume to deliberate, or to differ from the clerk as to its most frugal investment. My blood often boils as I stand side by side in such an one. I, by virtue of better apparel, receiving respectful treatment; she&#8212;crimsoning with shame, like some guilty thing, at the rude reply.</p>
+                
+                <p>Now, gentlemen, imagine yourselves in this woman's place. <hi rend="italic">I</hi> have no need to do so, because I have stood there. Imagine her with her fatherless, hungry children by her side, plying the needle late into the night, for the pitiful sum of seventy-five cents a week, as I once did. Imagine her, with this discouraging price of her eye-sight and strength, creeping forth with her little child by the hand, peeping cautiously through the glass windows of stores, to decide unobtrusively upon fabrics and labelled prices, or vainly trying to read human feeling enough in their owners' faces to insure her from contemptuous insult at the smallness and cheapness of her contemplated purchase. At length, with many misgivings, she glides in amid rustling silks and laces, that drape hearts which God made womanly and tender like her own, but which Fashion and Mammon have crushed to ashes in their vice-like clasp, hearts which never knew a sorrow greater than a misfitting dress, or a badly matched ribbon, and whose owners' lips curl as the new-comer holds thoughtfully between her thin fingers the despised fabric, carelessly tossed at her by the impatient clerk.</p>
+                
+                <p>Oh, how can you speak harshly to such an one? how can you drive the blood from her lip, and bring the tear to her eye? how can you look sneeringly at the little sum she places in your hand, so hardly, <hi rend="italic">virtuously, bravely</hi> earned?&#8212;She has seen you!&#8212;See her as she turns away, clasping so tightly that little hand in hers, that the pained child would tearfully ask the reason, were it not prematurely sorrow-trained.</p>
+                
+                <p>Oh, <hi rend="italic">you</hi> have never (reversing the order of nature) leaned with a breaking heart upon a little child, for the comfort and sympathy that you found nowhere else in the wide world beside. <hi rend="italic">You</hi> never wound your arms about her in the silent night, drenching brow, cheek and lip with your tears, as you prayed God in your wild despair, dearly as you loved her, to take her to himself;&#8212;for, living, she, too, must drink of the cup that might not pass away from your sorrow-steeped lips.</p>
+                
+                <p>It is because I have felt all this, that I venture to bespeak your more courteous treatment for these my unfortunate sisters who can only weep for themselves.</p>
+                                                       
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

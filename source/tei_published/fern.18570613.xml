@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570613">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Facts for Unjust Critics</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2018</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Facts for Unjust Critics</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-06-13">13 June 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>       
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-10-16" who="#km">proofed</change>
+            <change when="2018-10-16" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570613.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570613.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570613.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570613.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570613.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570613.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570613.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570613.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">FACTS FOR UNJUST CRITICS.</head>
+                
+                    <p>A few scraps from the "Life of Charlotte Bronte," that I would like to see pasted up in editorial offices throughout the length and breadth of the land:</p>
+                
+                <q>"She, Miss Bronte, especially disliked the lowering of the standard by which to judge a work of fiction if it proceeded from a feminine pen; and praise, mingled with pseudo-gallant allusions to her sex, mortified her far more than actual blame."</q>
+                
+                <q>"Coome what will," she says, "I cannot, when I write, think always of myself, and of what is elegant and charming in femininity; it is not on these terms, or with such ideas, that I ever took pen in hand, and if it is only on these terms my writing will be tolerated, I shall pass away from the public and trouble it no more."</q>
+                
+                <q>"I wish all reviewers believd me to be a man; they would be more just to me. They will, I know, keep measuring me by some standard of what they deem becoming to my sex; where I am not what they consider graceful, they will condemn me."</q>
+                
+                <q>"No matter&#8212;whether known or unknown&#8212;misjudged or the contrary&#8212;I am resolved not to write otherwise. I <hi rend="italic">shall bend as my powers tend</hi>. The two human beings who understood me are gone; I have some who love me yet, and whom I love, without expecting or having a right to expect they shall perfectly understand me. I am satisfied, <hi rend="italic">but I must have my own way in the matter of writing</hi>."</q>
+                
+                <p>Speaking of some attacks on Miss Bronte, her biographer says:</p>
+                
+                <q>"Flippancy takes a graver name, when directed against an author by an anonymous writer; we then call it <hi rend="italic">cowardly insolence</hi>."</q>
+                
+                <p>She also says:</p>
+                
+                <q>"It is well that the thoughtless critics, who spoke of the sad and gloomy views of life presented by the Brontes in their tales, should know how such words were wrung out of them by the living recollection of the long agony they suffered. It is well, too, that they who have objected to the representation of <hi rend="italic">coarseness, and shrank from it with repugnance, as if such conception arose out of the writers, should learn, that not from the imagination, not from internal conception&#8212;but from the hard curel facts, pressed down, by an external life upon their very senses, for long months and years together, did they write out what they saw, obeying the stern dictates of their consciences</hi>. They might be mistaken. They might err in writing at all, when their afflictions were so great that they could not write otherwise than, as they did of life. It is possible that it would have been better, to have described good and pleasant people, doing only good and pleasant things, (<hi rend="italic">in which case they could hardly have written at any time</hi>): all I say is, that never, I believe, did women possessed of such wonderful gifts exercise them with a fuller feeling of responsibility for their use."</q>
+                
+                <p>A friend of Miss Bronte says:</p>
+                
+                <q>"The world heartily, greedily enjoyed the fruits of Miss Bronte's labors, <hi rend="italic">and then found out she was much to blame for possession such faculties."</hi></q>
+                
+                <p>Mrs. Gaskell says:</p>
+                
+                <q>"So utterly unconscious was Miss Bronte, of what was by some esteemed "<hi rend="italic">coarse</hi>" in her writings, that on one occasion, when the conversation turned upon women's writing fiction&#8212;she said, in her grave, earnest way, 'I hope God will take away from me whatever power of invention, or expression I may have, before he lets me become blind to the sense of what is fitting, or unfitting to be said."</q>
+                
+                <p>Fanny Fern says:</p>
+                
+                <p>I would that all who critically finger women's books, would read and ponder these extracts. I would that reviewers had a more fitting sense of their responsibility, in giving their verdicts to the public; permitting themselves to be swayed neither by personal friendship, nor private pique; speaking <hi rend="italic">honestly</hi>, by all means, but remembering their own sisters, when they would point a flippant, smart article <hi rend="italic">by disrespectful mention of a lady writer; or by an unmanly, brutal persistence in tearing from her face the mask of incognito-ship, which she has, if she pleases, an undoubted right to wear</hi>. I would that they would speak respectfully of those whose pure, self-denying life, has been through trials and temptations under which <hi rend="italic">their</hi> strong natures would have succumbed; and who tremblingly await the public issue of days and nights, of single-handed&#8212;single-hearted weariness and toil. Not that a woman's book should be praised because it is a woman's, nor on the contrary condemned for that reason. But as you would shrink from seeing a ruffian's hand laid upon your sister's gentle shoulder, deal honestly&#8212;but, I pray you, <hi rend="italic">courteously</hi> with those whose necessities have forced them out from the blessed shelter of the home circle, into the jostling contact with rougher natures.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

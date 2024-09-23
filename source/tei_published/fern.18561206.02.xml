@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561206.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Shadow of a Great Rock in a Weary Land</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor xml:id="cm">Carmen McCue</editor>
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date>2015</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">The Shadow of a Great Rock in a Weary Land</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1856-12-06">6 December 1856</date>
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                <biblStruct xml:id="issue">
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#km" when="2018-06-16">created file; pasted text from fern.18561206.01</change>
+            <change who="#cm" when="2012-04-07">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18561206.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18561206.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18561206.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18561206.04.jpg"/>
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18561206.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18561206.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18561206.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18561206.08.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+                 
+            <div type="column">
+                <head type="main">THE SHADOW OF A GREAT ROCK IN A WEARY LAND.</head>
+                
+                <p>Man may turn his back upon Revelation, and feed upon the dry husks of infidelity, if he will; but sure I am, that <hi rend="italic">woman</hi> cannot do without her Saviour. In her happiest estate, she has sorrows that can only be entrusted to an Almighty ear; responsibilities that no human aid can give her strength to meet. But what if earthly love be poisoned at the fountain?&#8212;what if her feeble shoulders bend unsupported under the weight of her daily cross!&#8212;what if her life-sky be black with gathering gloom!&#8212;what if her foes be they of her own household!&#8212;what if treachery sit down at the hearth-stone, and calumny await her without, with extended finger? What then&#8212;if no Saviour's arms be outstretched to enfold her? What if it be "absurd," (as some tell her,) that the God who governs the universe should stoop to interest himself in her petty concerns? What if the Bible to which she flies be "a dead letter?" and "Come unto me all ye who are weary and heavy laden,"&#8212;only "a metaphor?" What earthly accents can fall upon her ear as sweet as these&#8212;"A bruised reed will I not break?" Woman may be "weak;" but blessed be the weakness which leads her to lean on that Almighty arm, which man in his pride rejects; listening rather in his extremity, to the demon whisper&#8212;"Curse God and die."</p>
+                
+                <p>Woman may be "weak;" you may confuse her with your sophistries, deafen her with your arguments, and standing before her in your false strength, explain like the unbelievers of old&#8212;"Away with him!" and still her yearning soul cried out, with a voice no subtlety of yours can satisfy or stifle&#8212;<hi rend="italic">My</hi> Lord and <hi rend="italic">my</hi> God!</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            
+        </body>
+    </text>
+</TEI>

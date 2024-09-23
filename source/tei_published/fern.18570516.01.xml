@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570516.01" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Sable Subject</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Sable Subject</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-05-16">16 May 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-06-12" who="#km">moved text of "Soliloquy of a Literary Housekeeper" to a another file (fern.18570516.02)</change>
+            <change when="2014-09-21" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570516.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570516.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570516.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570516.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570516.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570516.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570516.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570516.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A SABLE SUBJECT.</head>
+                
+                    <p>Every day, in my walks, I pass a large bow window on the corner of two streets, in which is displayed the agreeable spectacle of big and little coffins of all sorts and shapes, piled up and standing on end. This is in bad taste enough; but yesterday, through the ostentatious glass-windows of the shop, I saw a little rosy baby crawling over and around them, while the elder children were using them for play-houses for their dolls! Now such a sight may strike other people agreeably, or they may pass it every day with entire indifference; unfortunately for my peace of mind, I can do niether one nor the other, for by a sort of horrid fascination my eyes are attracted to that detestable window, and familiarity but increases my disgust.</p>
+                
+                <p>Now I know I shall need a coffin some day or other; but to-day the blue sky arches over my head, the fresh wind fans my temples, and every blade of grass, and now-blown violet, makes me childishly happy; now what right has that ghoul of an undertaker to nudge me in my healthy ribs as I pass, check my springing step, send the blood from my cheek back to my heart, change my singing to sighing, and turn this bright glorious earth into one vast charnel-house? In the name of cheerfulness, I indict him, and his co-fellows, for unmitigated nuisances.</p>
+                
+                <p>And while I am upon this subject I would like to ask why the <hi rend="italic">New York</hi> sextons, for I believe it is peculiar to them, should have the exclusive privilege of advertising their business on the outer church-walls, any more than the silver-smith who furnishes the communion-plate; or the upholsterer who makes the pulpit and pew-cushions; or the bookseller who furnishes the hymn-books; or the dry-goods merchant who sells the black silk to make the clergyman's robe? It strikes me that it is a monopoly, and a very repulsive one. In my opinion, this whole funeral business needs reforming. Much of the shrinking horror with which death is invested even to good Christians, is traceable to these repulsive, early associations, of which they cannot, by any exercise of faith, rid themselves in after years. This unnecessary, ostentatious, long-drawn-out paraphernalia of woe; these gloomy sable garments, which all should unite in abolishing; these horrible pompous-funerals, with their pompous under-takers, where people who scarce ever glanced at the living face congregate to sniffle hypocritical tears over the dead one; these stereotyped round-about prayers that mean so little, and which the mourner never hears; this public counting of scalding tears by careless gazers at the grave-yard or the tomb; it is all horrible&#8212;it need not be&#8212;for the sake of childhood, often through fear of death all its lifetime subject to bondage, it <hi rend="italic">ought not</hi> to be. Even the "heathen," so called, have the advantage of us in the cheerfulness with which they wisely invest a transition, from which flesh and blood with its imperfect spiritualization instinctively shrinks.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+           
+            
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580102">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Living in Brooklyn</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Living in Brooklyn</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-01-02">2 January 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-02-26" who="#km">proofed</change>
+            <change when="2023-10-30" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580102.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580102.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580102.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580102.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580102.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580102.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580102.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580102.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">LIVING IN BROOKLYN.</head>
+                
+                
+                
+                    <p>It is a very common remark for the New York city press, that "the monotony of Brooklyn was broken in upon, last week, by this or that novel incident." As if Brooklyn were some provincial place, where loungers gathered around the village pump, or blacksmith's shop, or tavern, to take a drink, and discuss the price of chicken-feed or grain, and were the drawing out of <hi rend="italic">the</hi> fire engine on the village green to be washed, was an object of stunning importance to every biped who swung his heels over his barnyard fence. I wonder do not the New York press know that there may be intolerable monotony in hubbub, gas, gilding, glitter and confusion, as anybody who has sojourned for a year or two in the Broadway hotels, and listened to the ceaseless Niagara roar of equestrian and pedestrian life past its windows, can testify. The great human tide ever surging on, bearing on its mighty bosom the straws and feathers of the hour; the eloquent voices of the midnight stars, never heard for the clamors of human need and human passions, till the very soul grows sick with the changeful, yet changeless, purposeless, yet fore-ordained, eternal drifting, yet never passing away.</p>
+                
+                <p>Brooklyn is a heaven after it. The chest expands, the breath comes freer, the step grows lighter, the moment the crowded boat strikes the pier, and we spring ashore. Clean streets await us; smokers, thank goodness, are few and far between; pretty gardens greet us; healthy children jump, and run and shout; mothers dare indulge in the luxury of taking out their own little rosebud babies, instead of mounting guard over a hireling nurse; papas can walk about in old hats and comfortable boots; ladies can run out after dark, without danger of being taken for what they are not, or ramble bonnetless in couples round whole blocks, without fear of molestation, or comb their hair leisurely before the window, without anxiety on account of an opposite eye-glass.</p>
+                
+                <p>Our shop-keepers are civil, respectful and obliging, our "cakes and ale" as good as yours, our carriages&#8212;ah, there you have us&#8212;I never get into one but I see small pox and yellow fever, <hi rend="italic">perdu</hi> in its dirty cushions, floor mat, and soiled window "fixin's," or without wondering what makes all the servant girls whom we pass grin at the graceless driver.</p>
+                
+                <p>And as to dogs, we knock under to nobody. Every cur, of high degree and low degree, agrees with me when I say that Brooklyn is a heaven; the bob-tailed, ugly, yellow terrier, the kingly Newfoundland, the waggly little podge of incipient bulldog-ism, the lithe, fleet, graceful grayhound, and the dog whose tail might be pulled out a little farther to advantage, or driven clear in out of sight, "ary one"&#8212;every one of them knows that muzzles are a dead letter, and Brooklyn safe barking ground.</p>
+                
+                <p>And as to schools, male and female, they are as good and as plentiful as yours, and like yours, keep their pupils, I am sorry to say, doubled up over their grammars about five times as long as common sense and good health give them any right to do. And as to preachers, have we not the magnetic Beecher, who is yet guilty, every Sunday, of turning his friends out doors; and the scholarly Storrs, who, by right of inhertiance, should be a man of talent and mark, and who, when he reads a hymn, makes you fancy you hear an angel singing it; and Bethune, and many others of whom New York is not worthy.</p>
+                
+                <p>And have we not our horticultural shows and our library, though the least said about that last, the better&#8212;and our undertakers' shops, with ghastly coffins, piled, like your own, on the sidewalks and in the windows, in tempting rows, and butchers and bakers, and candlestick makers&#8212;why not?</p>
+                
+                <p>Then, where will you show me a finer view of its kind than may be seen from Washington Park, once the old battle ground? And have we not a famous "Navy-yard," and "Marine Hospital," and close by, "An Asylum for Aged and Indigent Females," the lettering of which I would jog the Directors' elbows about, as better readers than myself might peruse it as I did, viz., an Asylum for Aged and <hi rend="italic">Indecent</hi> females.</p>
+                
+                <p>And when "hard up" for fun, can we not go to the New York Opera? Take tea, for instance, at goodly country hours in the middle of the afternoon, then ride in the cars from the extreme end of Brooklyn to the Fulton Ferry, which cross, to gain the "right up Broad'ay" omnibus, tightly packed in with other pleasure-seekers, bound to the different theatres and concerts, each of whom is desirous to stow his party of six or eight into the <hi rend="italic">very first</hi> omnibus going. Driver swearing&#8212;horses prancing&#8212;wheels hitching&#8212;gentlemen stepping on ladies' toes, and crushing their bonnets, as they hand up the fare. Driver at last gives the signal to start, with an accompaniment of jolts and jerks, more edifying to himself than his impatient freight, whom (by a strange perversity, reversing his usual break-neck speed) he drags at a snail-pace up interminable Broadway, to that interminable Fourteenth street. Arrived there, we are pushed, without any volition of our own, into the vestibule, trod on, spit on, punched in the back, punched in the ribs, punched in the stomach, if I may be allowed the expression, and shoved into a crowd, while our respective gallants show or buy tickets, and finally are ushered into the perfumed atmosphere of song, to dispute our seats, or yield them up to avoid doing so, or to find our party separated by a huge pillar, which was not down in the plan of the house when seats were selected, and which, how architecturally beautiful soever, can neither be seen through nor whispered across, nor, alas! got out of the way.</p>
+                
+                <p>Opera over, we go through the same operation getting out, which we did getting in, and reach the vestibule at 12 o'clock to find a pouring rain, Broadway omnibuses done running for the night, no conveyance for love or money; street cars&#8212;one, two, three&#8212;crowded double and treble; stand in the rain till No. four passes&#8212;<hi rend="italic">that</hi> full, too, but gentlemen cry, "Get in!"&#8212;so we do, and ride in a vapor bath of steam to the City Hall; no buss to the ferry; walk down Fulton street in the rain; wait in the ferry house for a boat, all of a perspiration for fear the last car will have ceased running for the night on the other side; catch it, after crossing, just as it starts; pile in&#8212;wet feet, wet skirts, and yawning fearfully; reach home between one and two; rub ourselves down with bay water and arnica; eat some supper, get into bed, and feel like stewed fools in the morning;&#8212;there, if you call that "monotony," I should like to know what dictionary is your standard.</p>
+                
+                <p>For all that, Brooklyn is a little heaven; a heaven for writers who, within sound of New York, can yet compass the necessary hours for work, there so difficult or impossible. And&#8212;listen, ye parents who sepulcher your offspring by scores in the stifled city&#8212;<hi rend="italic">a heaven for children, who have here plenty of fresh air, and plenty of safe playgrounds.</hi></p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

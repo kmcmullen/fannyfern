@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570725">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Peeps at Philadelphia. Number Three</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2019</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Peeps at Philadelphia. Number Three</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-07-25">25 July 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>            
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2019-07-04" who="#km">proofed</change>
+            <change when="2019-07-04" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570725.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570725.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570725.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570725.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570725.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570725.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570725.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570725.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">PEEPS AT PHILADELPHIA.</head>
+                
+                    <head type="sub">NUMBER THREE.</head>
+                
+                
+                
+                <p>Always an <hi rend="italic">if!</hi> <hi rend="italic">If</hi> the Philadelphians would not barricade their pretty houses with those ugly wooden-outside-shutters, with those ugly iron hinges. I am sure my gypsy breath would draw hard behind one. And <hi rend="italic">if</hi> the Philadelphians would not build such garrison-like walls about their beautiful gardens. Why not allow the passer-by to view what would give so much pleasure? certainly, we would hope, without abstracting any from the proprietors. Clinton avenue, as well as other streets in Brooklyn, is a beautiful example of this. Light, low iron railings about the well-kept lawns and gardens&#8212;sunset groups of families upon piazzas, and, oh&#8212;prettier yet&#8212;little children darting about like butterflies among the flowers. I missed this in Philadelphia. The balmy air of evening seemed only the signal for barring up each family securely within those jail-like shutters; behind which, I am sure, beat hearts as warm and friendly as any stranger could wish to meet. I must say I feel grateful to any householder who philanthropically refreshes the <hi rend="italic">public</hi> eye with the vines and flowers he has wreathed about his home. I feel grateful to any woman I meet, who rests my rainbow-sated eye by a modest, tasteful costume. I thank every well-made man who passes me, with well-knit limbs and expanded chest, encased in nice linen, and a coat he can breathe in; yes&#8212;why not? Do you purse up your mouth at this? do you say it was not <hi rend="italic">proper</hi> for me to have said this? I hate the word proper. If you tell me a thing is not proper, I immediately feel the most rabid desire to go "neck and heels" into it. Proper! it is a fence behind which indelicacy is found hidden much oftener than in the open highway. Out upon proper! So I say again, I like to see a well-made man&#8212;made&#8212;not by the tailor&#8212;but by the Almighty. I glory in his luxuriant beard; in his firm step; in his deep, rich voie; in his bright, falcon eye. I thank him for being handsome, and letting me see him. We all yearn for the beautiful; the little child, who drew its first breath in a miserable cellar, and has known no better home, has yet its cracked mug or pitcher, with the treasured dandelion or clover blossoms. Be generous, ye householders, who have the means to gratify a taste to which God himself ministers, and hoard not your gardens and flowers for the pallid eye of satiety. Let the little child, who, God knows, has few flowers enough in its earthly pathway, peep through the railing, and, if for only a moment, dream of paradise.</p>
+                
+                <p>The Philadelphia Opera House, which I am told is a very fine one, I did not see, as I intended, as also many institutions which I hope yet to visit, when I can make a longer stay. Of one of the principal theatres I will say, that she must be a courageous woman who would dare to lean back against its poisonously dirty cushions. Ten minutes sufficed me to breathe an atmosphere that would have disgraced the "Five Points;" and to listen to tragic howlings only equalled in the drunken brawls of that locality. Upon my exit, I looked with new surprise upon the first pair of immaculate marble steps I encountered, and putting this and that together, gave up the vexed problem. New York streets may be dirty, but our places of amusement are clean.</p>
+                
+                <p>At one public institution I visited, we were shown about by the most dignified and respectable of grey-haired old men; so much so, that I felt serious compunctions lest I should give trouble by asking questions which agitated my very inquiring mind. Bowing an adieu to him, with the reverence with which his appearance had inspired me, we were about to pass down the principal stairs to the main entrance, when he touched the gentleman who accompanied me on the shoulder, and said in an undertone, not intended for my ears, "Please don't offer me money, sir, <hi rend="italic">in the presence of any one!"</hi> A minute after he had pocketed, with a bow, the neatly-extracted coin, (which <hi rend="italic">I</hi> should as soon have thought of offering to General Washington,) and with a parting touch of his warning forefinger to his lip, intended for my companion, we found ourselves outside the building, doing justice to his generalship by explosive bursts of laughter. So finished was the performance, that we admiringly agreed to withhold the name of the venerable perpetrator.</p>
+                
+                <p>We found the very best accommodations at the hotel where we were located, both as to the fare and attendance. I sent a dress to the laundry-room for a little re-touching, rendered necessary by my ride the day before. On ringing for its return, the summons was answered by a grenadier-looking fellow, with a world of whisker, who, as I opened the door, stood holding the gauzy non-descript at arm's length, between his thumb and finger, as he inquired of me, "Is this the item, Mem?" <hi rend="italic">Item!</hi> Had he searched the dictionary through, he could not have better hit it&#8212;or me. I have felt a contempt for the dress ever since.</p>
+                
+                <p>Having had the misfortune to set the pitcher in my room down upon vacancy, instead of upon the wash-stand, and the natural consequence thereof being a crash and a flood, I reported the same, lest the chambermaid should suffer for my careless act. Of course, I found it charged in my bill, as I had intended, but with it the whole cost of the set to which it belonged! It never struck me, till I got home, that by right of proprietorship, I might have indulged in the little luxury of smashing the remainder&#8212;which I think of taking a special journey to Philadelphia to do!</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

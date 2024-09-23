@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580313">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Few Bridal Thoughts, Which Need Make Nobody Bridle</title>
+                <title type="sub">a machine readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Few Bridal Thoughts, Which Need Make Nobody Bridle</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-03-13">13 March 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-09-04" who="#km">proofed</change>
+            <change when="2024-06-15" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580313.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580313.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580313.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580313.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580313.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580313.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580313.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580313.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A FEW BRIDAL THOUGHTS,</head>
+                
+                    <head type="sub">WHICH NEED MAKE NOBODY BRIDLE.</head>
+                
+                    <p>I have often wished that mothers were more sensible in their bridal outlay for their daughters. What folly to accumulate for them such loads of dresses&#8212;so surely, and so soon, to be laid aside by chameleon fashion or necessity. Give them fewer trinkets, laces, and ribbons, and instead "no end of" changes of under-clothing, which never become useless, or go out of fashion. A bride is generally furnished with everything but what she needs most. Judicious was that old lady who, soon after the marriage of a young friend, came trudging toward the handsomely furnished house of the bride, holding by the strings an apoplectic-looking calico bag. "Poor thing!" she exclaimed, after seating herself carefully in an arm-chair, and recovering her breath: "poor thing! I knew they'd never think to give you any old linen rags."</p>
+                
+                    <p>Every married woman who reads this, and who remembers being set down in a bran-new house, that smelt like a coffin ware-room, looking so dreadfully new, and formal, and unhome-like&#8212;for it takes time to get used even to one's husband&#8212;looking in vain perhaps upon the shelf that corresponds to mother's at home, for an inch of string, or a bit of old cotton or linen, or any of the homely, old, useful things, which a bride's house is sure never to contain&#8212;every married woman who reads this can appreciate the value of that bag of rags.</p>
+                
+                    <p>Of course your bridal home looks more like home while your husband is in it. When he is gone off to his business, and you sit there in your new dress&#8212;how I hate a new dress&#8212;looking round on every spick-and-span article about you&#8212;missing your brother Tom, who <hi rend="italic">did</hi> steal your cologne, and whose foot was always in your lap for a missing gaiter button; missing your sister Matty, who was always coming into the parlor at the wrong moment, and who had a way of airing your gloves and boots without leave; missing snuffy old Mrs. Jones, who used to waddle in to dinner whenever her pointer nose scented turtle soup; missing your dimpled baby sister;&#8212;and there you stop, and look serious; and you sit a long while without unclasping the hands which lay so idly on your knee, and the tears come into your eyes, and you seem all at once to have left girlhood a long way behind. You are happy&#8212;of course you are happy. Isn't Harry the best and dearest fellow in the world? but you think you'll just tie on your bonnet, and run down to "mother's" till it is time for him to come home to dinner; and when you kiss her&#8212;there she sits in the same old place, in the same old chair&#8212;you feel a choking in your throat, and you beg her to give you some little trifle to do for her&#8212;a handkerchief, or a ruffle to hem; and you sit right down upon the carpet at her feet, nestling as close as you can, and now and then laying your brown head in her lap. She says nothing&#8212;she knows your heart. Years ago she laid her head&#8212;now covered with silver hairs&#8212;on <hi rend="italic">her</hi> mother's knee; and so have thousands of girls before, and so will thousands of girls to come, when the baptism of maternity floods their lustrous eyes with holy, happy tears, and sends them quivering back to the heart they once lay beneath, and whose goodness, and strength, and tenderness they never knew till that conscious moment.</p>
+                
+                    <p>To lay one's first born fondly in "mother's" arms! How many happy wives have turned their pale faces to the pillow and wept that every step but "mother's" came so softly through that chamber door&#8212;that she never would look upon that little face. As if she <hi rend="italic">were</hi> not there! As if she did not watch the gentle breathing of that little sleeper! As if she "had not charge" to keep, both you and it! As if the gentle dew of sleep did not come to you laden with her blessing. As if the holy thrill those little velvet lips sent through your breast, she did not know of, and rejoice in. Heaven were not heaven else&#8212;I, for one, must believe it.</p>
+                
+                    <p>And all this makes me think of the little Princess Royal. Poor thing&#8212;cover her with tinsel as they may, she is after all but a woman. In her far-off Berlin home, when the crown of maternity, brighter than all others, shall descend upon her girlish brow, the All-Merciful grant her that nice place to cry&#8212;a <hi rend="italic">mother's arms</hi>&#8212;for, thank God, Victoria, though a Queen, is human.</p>
+            
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

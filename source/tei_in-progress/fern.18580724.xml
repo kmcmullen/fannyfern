@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580724">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Chapter for Domestics</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Chapter for Domestics</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-07-24">24 July 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-07-19" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580724.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580724.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580724.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580724.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580724.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580724.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580724.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580724.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A CHAPTER FOR DOMESTICS.</head>
+                
+                
+                
+                <p>I have thought a great deal, lately, about the foolish manner in which many servant girls spend their hard-earned wages. And pray have we not a right to spend our money how and when we like? I hear them ask. Certainly, nobody questions that; and I too, have a right to wish that you spent it more judiciously&#8212;that you did not, in your desire to dress, make the riduculous mistake of supposing that a gaudy hat of cheap materials looks well with a soiled calico dress, coarse stockings, and badly-fitting shoes. A lady who knows how to dress, is always particular that all parts of her dress should correspond; she considers the hour of the day, the place and the occasion on which it is to be worn. She knows, in the first place, that anything showy should always be of a fabric that well bear inspection; in fact, <hi rend="italic">ladies</hi> do not dress showily in the street. If they appear to do so, you will find that it is not their clothes, which are always of a modest color, but their air, walk and figure, which have attracted your notice; if nature has done her part, art need only furnish the plainest of straw bonnets, the most unpretending robe, with trimly gaitered feet and neatly covered hands; and if nature has slighted her work, a plain costume like this good policy would certainly dictate in any rank of life. If you would only be persuaded that a showy dress hat is the worst possible purchase for a girl who can afford but one bonnet, to be worn in all weathers and on all occasions. If a lady of taste wears a "dress hat," you will always notice that her gloves, boots, laces, mantilla, skirts and robe will bear a comparison with it. Now it is impossible for a servant-girl&#8212;else why remain in service?&#8212;to afford <gap reason="paper smudged" extent="one word"/> expensive an outlay; if, instead of giving coarse imitations of expensive things, you would only dress plainly, neatly, and befitting your position, which I consider to be as respectable as any other, according as you choose to make it so; if you would not go to the grocer's of an afternoon, in company with a tin pail, and several yards of pink or red ribbon fluttering from your back hair, or run to the pump round the corner in a black cotton velvet basque, with a stunning gilt breast-pin, chain and locket; if you would only remember, in buying a cheap dress, that it should never be of a glaring color or large pattern; that your mantilla had better be made up plain, than trimmed with coarse black cotton lace; that it would be wise and healthful to secure plenty of changes of under-clothes, before going extensively into the dress department; that when you have money for only one pair of boots, you had better not choose them of a light cream color, and that before you purchase a gilt bracelet, or rather instead of it you had better get a nice, serviceable umbrella; if you only <hi rend="italic">would,</hi> I often say to myself, when I see you in flimsy finery and coarse embroidery.</p>
+                <p>If it is your ambition to "look like a lady"&#8212;what <hi rend="italic">I</hi> call a lady&#8212;the more plainly and neatly you dress, the nearer you will approach it. I have sometimes seen nurses and servant girls who had self-respect and good sense enough to observe this rule, look much more like ladies than their mistresses, who, having come suddenly into the posession <gap reason="paper folder over" extent="six to eight words"/> very questionable taste and judgment. It is said that no American servant can be prevailed upon to wear a livery; I could wish that so large a number did not wear a self-imposed livery quite as slavish.</p>
+                <p>The worst feature of this passion for dress is not its ridiculous inaptitude. Alas! many a poor girl&#8212;all the more to be pitied because she does not pity herself&#8212;who flaunts her finery in the street at midnight, and pains the ear of the passer-by with words that should blister a woman's lips, can tell you what I mean. You start indignantly&#8212;so would she have done <hi rend="italic">once.</hi> I tell you that that woman is already on the road to destruction who dresses beyond her means, I care not whether you find her in parlor or kitchen.</p>
+                <p>It is pleasant to turn away from such to those domestics who, toiling patiently on in their underground homes, neatly and plainly appareled, with honest independence lay by the spare dollar or half-dollar for a day when their strength shall fail, or, investing it in a bank which will never fail, send it far over the seas to some infirm parent, or young orphan sister; with no approving voice near them but that of conscience, to cheer; and none to blame if they were less thoughtful, less true to their better natures. Oh! the flowers of virtue and self-denial that have grown up in such soil, spite of the choking weeds of temptation&#8212;spite of the cruel indifference of those for whom, day after day, they toil, and who complacently consider their wages an ample equivalent; who have no word of sympathy, no heart-warming smile, not recognition of a common humanity to give them.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

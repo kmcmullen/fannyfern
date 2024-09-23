@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580821">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Blackwell's Island. Number II.</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Blackwell's Island. Number II.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-08-21">21 August 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-08-08" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580821.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580821.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580821.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580821.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580821.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580821.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580821.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580821.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">BLACKWELL'S ISLAND.</head>
+                
+                    <head type="sub">NUMBER II.</head>
+                
+                <p>It is a great blessing when they who are about the sick in any department, are themselves of robust physique, cheerful countenance, and winning speech. The invalid is insensibly magnetized by such a healthful atmosphere, catching the inspiration of the bright eye and springing step. Certain it is that I never look upon such without feeling my chest expand and my breath come freer; what then must be the effect upon the feeble and dispirited! Mark the introduction of a merry traveling party at some dull way-station, into a car full of jaded, hungry, cross travelers. See one after another shake himself up from his ungraceful posture; mark the brow unknit, and the compressed lips relax into smiles. He who, a moment ago, was at swords-point with all the world, is now bursting off his waistband buttons in the attempt to raise or shut a window for a person he never set eyes on before, and may never see again after that day's travel. Thank God, then, I say, for every man or woman with a smiling face and <hi rend="italic">cheery</hi> voice; and thank Him doubly when such have the desire, as well as the power, to unweave the tangled web which insanity has spun over the delicate brain. For these and other reasons, Dr. Ranney seems to me admirably well calculated to fill the responsible office of physician to the lunatic department on Blackwell's Island; and as I saw his patients walking up and down the long halls, out of which their neatly appointed rooms opened, the window of each commanding a view of sea, sky and woodland, as diverse as beautiful, I could not but thankfully contrast it with the stupid past-time tyranny which placed such unfortunate sufferers on a par with criminals, lashing and goading their unsettled intellects far beyond the faintest hope of recall. </p>
+                <p>It is curious how each lunatic inevitably hugs to his deluded breast the idea that he is the only sane person in the establishment. (I have known many people <hi rend="italic">out</hi> of a lunatic asylum give the same convincing proof of their qualifcations to be in it!) One gentleman, whose appearance interested me, and with whom I conversed as we walked up and down the lawn, thought the Island a fine place for "these people," as he patronizingly termed his fellow sufferers. Doctor Ranney, finding his patients disinclined to exercise, hit upon the ingenious expedient of organizing a military company, who, with caps and drum, were parading under the trees after their own fashion, with a ludicrously solemn earnestness that would have quite <hi rend="italic">doubled up</hi> the "seventh regiment." "Do you like us, your friends, to come from the city to see you?" I asked of a quiet-looking woman, who was pacing up and down the hall. "When you don't stay too long, and talk too much," was her sharp reply. I amused myself imagining the diplomatic world we had left, "speaking out in meetin'," after this fashion. I am not at all sure that the wheels of society need be greased with so much fibbing and flattery to keep them from creaking. A young girl, into the half-opened door of whose room I glanced as I passed, started to her indignant feet with such a tragic "How <hi rend="italic">dare</hi> you?" that I was forced to believe that the proverb, "Every man's house should be his castle," held as true of the lunatic as of any body else. The more violent of Dr. Ranney's patients are in a secure building by themselves, and much as I wished to see them, I could not urge it, when I learned that such visits were to their injury; but in my dreams that night their pale hands, as I saw them extended through the gratings when I passed, seemed to beckon me back, and my sleep was broken and unrefreshing.</p>
+                <p>Not the least interesting portion of the inmates were the paupers, especially the long halls appropriated to the mothers with their new-born babies&#8212;bright, lovely little things they were, too, fated, perhaps, who knows? to come back to that very spot with <hi rend="italic">their</hi> babies, as their mothers had before them. One pretty little creature lay nestled on a bed alone by itself, with its little fat arms tossed gracefully above its rosy face, as if some sculptor had laid it there. And so He had! and I questioned not His goodness, or wisdom, or mercy, though its sleeping hours may be all it ever knows of Heaven this side of the grave; though I know not why He should have lain it on that pauper bed, instead of the downy one which plenty delights to deck for its own.</p>
+                <p>Oh, the soft blue, and bright black eyes in those baby heads! the flitting smile on the waxen features; the little gleeful, dancing hands; the pride of motherhood, so touching then and there to see, and which, beaming forth from the coarsest face, makes it for the time angelic.</p>
+                <p>The mystery of life! who can solve it? Eternity were none too long to turn its blotted pages. Faith can trust and wait.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

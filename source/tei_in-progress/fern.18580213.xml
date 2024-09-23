@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580213">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Reading the Bible for Hire</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Reading the Bible for Hire</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-02-13">13 February 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-06" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue"><!-- change all image names here -->
+        <surface xml:id="pp1">
+            <graphic url="fern18580213.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580213.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580213.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580213.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580213.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580213.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580213.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580213.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">READING THE BIBLE FOR HIRE.</head>
+                
+                
+                
+                    <p>"Do you see this gold dollar?"</p>
+                <p>(Of course the little bright eyes saw it.)</p>
+                <p>"Well, it shall be yours at the end of the year, if you will promise to read two chapters in the Bible every day."</p>
+                <p>It seems incredible that any parent or teacher should be guilty of this unwisdom, and yet it is by no means of uncommon occurrence; the child, greedy for the reward, accepts the conditions, and forever after associates the Bible, with its sublime imagery, its beautiful, blessed, life-giving, sorrow-soothing teachings and precepts, with the idea of a disagreeable task. The Bible is too precious a pearl to be thus dissolved by careless fingers, and forcibly swallowed without tasting; anybody who has common sense knows that the palate rejects for food what has once been offered as a pill; dish it up as you will you can never afterwards disguise its odor to the disgusted nostril.</p>
+                <p>Forbear! says the conservative&#8212;you are treading on dangerous ground&#8212;and I retort, it is <hi rend="italic">you</hi> who are treading on dangerous ground. It is you who are making Sabbath-haters, and Sabbath-breakers, and infidels of the worst sort; for there is no unbeliever so rabid as he who, in his youth, has been forcibly tied to the church steeple, and gagged when he dared question the infallibility of the creed upon whihc he was spiritually nursed. It is that child, who when arrived at man's or woman's estate, snaps the finger at the church-going bell&#8212;sees hypocrisy under every white neckcloth in the land&#8212;runs to the farthest end of the tether of social license, and hastens to deny an Existence which proclaims itself in every motion of the curiously organized frame: in every little flower revelling in its sweet day of life, content to fade when its heavenly errand is delivered, and its mission over.</p>
+                <p>Oh, what sadder sight to see, than the brow on which the baptismal seal was set, lifted in defiance to that God who would <hi rend="italic">draw</hi>, not <hi rend="italic">drive</hi> us to his arms. Most truly has He said that "the children of this world are wiser in their generation than the children of light." If one half of the wisdom that is brought to bear upon wordly schemes, illuminated spiritual teachings, the Bible would not to so many be stale and weary as a thrice told tale, or be gathering dust when it should be gathering souls.</p>
+                <p>I know two young girls: one who was brought up in a family who thought it right to bribe children to read the Bible; who thought it right when they were guilty of a fault to force them to commit to memory an admonitory verse or two as a penalty; and who, in addition to their daily attendance at school on the present murderous school-system, with the present murderous allowance of lessons out of school, exacted the presence of those children at three services on a Sunday&#8212;with Sabbath school in the noon intermission, and the Bible to be read at every spare moment in the home intervals. The very parents who exacted all this from restless childhood were obliged to shorten the dreariness of Sunday <hi rend="italic">for themselves</hi> by long naps! What wonder that that child hated Sunday? What wonder now that she is a woman she seldom or never enters a church-door? What wonder the Bible lies on her table unopened, and that she has a thorough disgust of hymn-books and vestry meetings?</p>
+                <p>I know another child who was not taught that the Almighty was pleased with a long-drawn face&#8212;who was as free to pluck the flowers that bloomed on Sunday as the one that blossomed on a weekday; who was never taught to "<hi rend="italic">say</hi> her prayers," although she was shown the prints of <hi rend="italic">His</hi> stately footsteps in the bright world about her; yet when she is troubled, or when she is happy, the prayer rises as spontaneously to her young lips as the dew to the exhaling sun. God to her is a father, not a tyrant; she goes to Him not at formal hours, but whenever her heart leaps out into unstudied words.</p>
+                <p>Not long since her mother being obliged to leave her for the afternoon gave her an amusing story book to read while she was gone. On her return she asked, "Well, Katy, how did you like the book?"</p>
+                <p>"I <choice><sic>did'nt</sic><corr>didn't</corr></choice> read it, mamma."</p>
+                <p>"Not read it? I thought it was very amusing. What have you been doing then?"</p>
+                <p>"Oh, I found a Bible, and have been reading it all the afternoon, I liked it so much."</p>
+                <p>Now do you suppose any child who had had that book drilled into her like a spelling-book from the cradle, would have done that?</p>
+                <p>Ah no; it came to the little creature with the fresh charm of novelty in all its glorious, simple, eloquent beauty. Thus would I have it! Thus should it ever be read; because it is <hi rend="italic">loved</hi>&#8212;never for <hi rend="italic">cold duty's sake</hi>.</p>
+                
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

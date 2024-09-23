@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580522"><
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Chapter for the Brethren</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Chapter for the Brethren</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-05-22">22 May 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-07-05" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580522.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580522.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580522.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18590522.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580522.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580522.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580522.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580522.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A CHAPTER FOR THE BRETHREN.</head>
+                
+                
+                
+                <p>Do <hi rend="italic">gentlemen</hi> ever&#8212;spit&#8212;in the presence of women? I see plenty of <hi rend="italic">men</hi> who do it&#8212;whose coats, hats, boots, gloves and linen, are as unexceptionable as I wish their manners were; but do <hi rend="italic">gentlemen</hi> ever do it? that's what I want to know. I am not taking Chesterfield for my model; that hoary old sinner, who spent all his life polishing his head, and who could coolly sit down with one foot in the grave, to teach his son how to debauch women, and even taunt him with the modesty, which, thank God, the young man could not at once throw overboard as worthless cargo, even at the bidding of that accomplished old villain his father; I hate the hollow-hearted, diplomatic, surface-politeness he inculcates, and after which so many of his own corrupt stamp have patterned, and do pattern. I hate, too, when I set down in the cars opposite a nice, loveable looking man, whom it is quite a pleasure to look at, to have those feelings changed at once into intense disgust by his spitting over my shoulder out of the window, or in the straw at my feet; (oh that straw, which I never bury my gaiter-boot in, without a shuddering horror)! The offender's luxuriant whiskers, which but a moment before were quite captivating, now look like an old shoe-brush; his eyes are very common orbs; his mouth, heaven forbid a woman's should ever come in contact with it after such a bar-room indecency; he might talk like a seraph, and I should be as deaf as if he asked me what Mr. Bonner pays me for my articles.</p>
+                <p>I can't help it. It gives me a mental as well as a physical nausea; it is a disgusting disrespect to every woman present; and I see no more reason why men, more than they, should contract such a habit. Good sirs&#8212;Handsom sirs&#8212;Well-coated, Well-booted, Well-pantalooned&#8212;Otherwise loveable sirs&#8212;Will you desist?</p>
+                <p>It is such a pity you won't; you do so many good and gallant things; and that is why I take the pains to improve your manners, though I know at this moment you are inwardly saying words which a minister would'nt approve! You sometimes bring the tears into my eyes, by cheerfully giving up your seat when you are very tired, to some poor, old, unattractive woman; or some over-burdened mother, with an infant in her arms, looking wistfully round for a seat; or as good-naturedly you crush in your hat and dislocate your neck, while you hand up some poor girl's omnibus fare, and then carefully count her change for her, to see that it is all right; or when returning weary and footsore from the city at night, laden with parcels, you stop at the ferry to buy a bouquet, to carry home to your wife; though the girl who sells them is <hi rend="italic">not</hi> pretty, and though you may lose one boat by it.</p>
+                <p>These are sweet and good actions, which often beautify your rugged manhood as does the climbing clematis the sturdy oak around which it twines its fragrant blossoms. They make my heart throb with a sweet, strange pleasure, though I may see but for a passing moment in a whole life-time the man who performs them, though I know no more of his name, or history, than he does that he has given me pleasure, and why.</p>
+                <p>"Are women perfect?" Not at all; we, or rather <hi rend="italic">they</hi>, don't&#8212;(I solemnly declare <hi rend="italic">I</hi> do)&#8212;thank you for you little civilities; we&#8212;I mean <hi rend="italic">they</hi>&#8212;take much more than their fair share of room in cars and omnibusses; and talk any quantity of weary nonsense then and there in your hearing about fringe, and lace, and buttons, and basques. They smother you with patchouli, musk, jockey club, etc., which is almost as nauseating as the dead tobacco smoke in your clothes and hair. <hi rend="italic">They</hi> seem to think you ought to be everlastingly obliged to them for letting you get up in a crowded church and give them your seat, while you stand on one leg during the entire service; (N.B. You are not so much to be pitied when Henry Ward Beecher preaches.) <hi rend="italic">They</hi> ought to be ashamed of themselves for doing these uncivil, unladylike, and inexcusable things; but, good sirs, I pray you, don't reward us who <hi rend="italic">are</hi> civil, who <hi rend="italic">do</hi> thank you, who want to like you. by &#8212;&#8212;spitting upon us.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

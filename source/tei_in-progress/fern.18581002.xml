@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Notes of a Summer Tour. Number V</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Notes of a Summer Tour. Number V</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-10-02">2 October 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-09-15" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18581002.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18581002.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18581002.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18581002.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18581002.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18581002.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18581002.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18581002.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">NOTES OF A SUMMER TOUR.</head>
+                
+                <head type="sub">NUMBER V.</head>
+                
+                    <p>Oh, these early breakfasts in "banquet halls deserted" of huge hotels, waited upon by yawning servants scarce awake; no appetite for the food you know you will be dying for five or six hours afterward; meanwhile, conscious only of an intense and unmitigated disgust of big trunks, little trunks, bonnet-boxes, keys, carpet-bags and reticules. The morning foggy and chill; the hotel parlor, so pleasant the evening before, as you sat upon its comfortable sofa with a party of friends, looking now quite as miserable as you feel, with its gay bouquets of yesterday drooping and faded. Blue-looking men emerging from the bar-room, twisting their traveling-shawls, in folds more warm than graceful, over their chests and shoulders; ladies shivering as the chill morning air strikes their but half-protected, shrinking figures. "All ready" at last, and away we start for Portland. Yet, stay; what's this? Heaven bless that ebony waiter, who, running after me, slid into my hand a cold chicken, with a little package of salt inclosed, and, with an indescribable twist of his good-natured, shiny phiz, whispers, "Ladies gets <hi rend="italic">so</hi> hungry on railroads, ma'am!" Now that's what I call a compliment, and a substantial one, too; he should have seen me a few hours after with one of the drumsticks, bless his soul. May he meet some appreciative Dinah, and may they never want for a chicken!</p>
+                <p>Rain, rain, rain all day, in the most pitiless manner. Some solace themselves with newspapers, some with novels, and some with sleep; the latter sure to be broken in upon by the conductor's nudge, and "your ticket, sir!" Directly in front of me sat two young men, strangers to each other, who presently finding one of those convenient pretexts for speaking which travel always affords, commenced conversation. Imagine how long those two fellows kept it up without stopping to wink, or even to look at the "way stations?" <hi rend="italic">Sixty-five miles!</hi>&#8212;I repeat it&#8212;<hi rend="italic">sixty-five miles!</hi> Wouldn't the fact have been published from Dan to Beersheba, had the conversationists happened to have been a couple of women? And by the help of the limitless NEW YORK LEDGER, I'll send it thus far. Mostly, these young men appeared to pity the Canadian nuns, whom they seemed to have philanthropic desires to benefit, without the opportunity. Then the vexed question of North and South was discussed, that grindstone upon which every youngster must needs whet his jack-knife. But time would fail to tell all the nonsense I was forced, in the next seat, to hear, far transcending that of women, which, the saints know, is oft-times bad enough.</p>
+                <p>Well, we lived through that day's drizzle and rain, and reached Portland in a most limp condition, just at night. Curious to be again in a birthplace which I left when I was but six weeks old! "If the sun will only shine out to-morrow," said I, as I cuddled under the blankets with horrible forebodings. The fates were propitious. A warm, lovely morning; every tree and shrub newly polished, and as fresh as if just made. Within range of my window was a beautiful garden, gay as a rainbow with all sorts of brilliant flowers. Two Quakers came along in solemn drab. I smiled and held my breath. "Thank God," said I, as I saw them lean delightedly over the fence to look at the gay flowers, "nature is, and ever will be, stronger than creeds." A hasty breakfast, and forth I started on my exploring tour. "I shall know the house where I was born, if I pass it," said I; "some magnetic influence will surely arrest my steps. Stay, that is Dr. Payson's church." "How do you know?" asked my companions. "I <hi rend="italic">feel</hi> it; ask and see." And so it was. He who, by his sweet, consistent, loving, holy life, came between me and the grim creed which my very soul spurned, and which was driving me to disbelieve all of which his Christ-like life was the beautiful exponent. <hi rend="italic">He</hi> who laid holy hands of blessing on my baby-forehead, and knew God's creatures too well to try to drive them, through fear of endless torment, to Heaven. I felt like crossing myself, as I passed the church where his feet had so often entered, to tell, in that most musical of voices, of God's infinite love to everything he had made&#8212;of God's infinite pity&#8212;but why attempt to convey an idea of what must have been heard to be understood and felt. Hundreds whom man's denunciatory self-righteousness had driven to cursing, bitterness and despair, are now stars in his crown.</p>
+                <p>Well, I passed on through the lovely streets of my native city, with their green hedges and climbing plants, and bright flowers, and stately trees, and most substantial, palatial stone houses, with shining window-panes and massive entrances. Not there, not there, said I; it must have been in some small wooden house, with an inch or two of ground, and perhaps a few flowers that needed little care, for those were humble days to her who, taking the baby-boy (poet that was to be) in her arms, went daily to nurse him in the jail where his father was confined. She who, if there <hi rend="italic">is</hi> a Heaven of bliss, is in it today, as one of those earth-martyrs whose mask of heavenly serenity a short-sighted world never pierces. No, I feel no throb at my heart when looking at these grand houses. Sure I am, it was not there that the baby was baptized, whose little grave-clothes were well nigh bespoken. It was not there that the little face purpled with what they said was the death-agony. Would to God it had pleased him to make it so. It was not there that the little life began, from which that baby might well struggle to escape. And so, wearily my feet passed up and down one lovely street after another, admiring all, yet not drawn magnetically to any. <hi rend="italic">Somewhere</hi>&#8212;let it suffice&#8212;in that lovely, leafy city, with its grand old drooping elms, and glimpses of the broad, blue sea, I first opened eyes that will close far enough away from its Sabbath stillness and quiet.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

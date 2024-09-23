@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580529">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">"What is my Opinion about Women Voting?"</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">"What is my Opinion about Women Voting?"</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-05-29">29 May 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-07-06" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580529.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580529.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580529.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580529.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580529.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580529.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580529.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580529.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">"WHAT IS MY OPINION ABOUT WOMEN VOTING?"</head>
+                
+                
+                
+                <p>All my life I have <choice><sic>take</sic><corr/></choice> taken the liberty to say what I think, and I am not going to stop now. Though I have not written on this subject, I have done some thinking, and the result will not be satisfactory to the conservative; for I hold up both hands for a woman's ballot-box. It implies, in my humble opinion, nothing derogatory to the loveliest feminine traits; no greater exposure than women are every day meeting, in various ways, with the full approbation of husbands, fathers, and brothers, or through their indifference. Every summer they are taken to watering-places by these their protectors, where they are jostled and elbowed in full (<hi rend="italic">un</hi>) dress, even if they do not waltz with black-legs and morally broken down men of every description. They sit, at such places, at the public table opposite, or by the side of, men who bring thither women whom they would dare bring to no private <hi rend="italic">respectable</hi> table in the land. And if these wives and mothers intercept in passing the telegraphic glances of such women, enlightening them at once as to their true character, or rather, want of it, and express surprise and disgust at the tainted neighborhood into which their innocent young sisters and daughters have been brought, how seldom is there any other reply from their male protectors than an indifferent "Oh it is none of our business, you know&#8212;this is a public-house." Nor are the gentlemen shocked when their wives, sisters, and daughters, are elbowed, jostled, and pushed about in the lobbies of the theater or opera-house, when, for some reason or other, tickets have not been secured before-hand, and so they are kept waiting till the ticket-master has pocketed the price of an evening's squeeze. None of them seem to feel troubled for the sensibilities of their lady-friends, when gentlemen in the next box bandy profane words with the usher respecting a prior right to a seat, and perhaps bandy fists, as well as words. Women may go into business streets, to wholesale stores, in quest of a good bargain, without jeopardising the family pudding, and it is all right; nay, they may travel hundreds of miles alone&#8212;nights included&#8212;and that when they are neither old nor ugly&#8212;"and pray is it not perfectly safe for an <hi rend="italic">American</hi> woman to do so?" is the indignant male rejoinder, with an extra cock of the republican nose; they may go to the coal-yard, and wood-yard, and the butcher's and grocer's, without any objection being raised by the men&#8212;<hi rend="italic">not they!</hi> anywhere but to the ballot-box&#8212;that would be unfeminine and indelicate.</p>
+                <p>Now, one might say that their reason for this tender regard for our toes, crinoline, and reputation (and how many of them in this last respect regard every woman as a sister, I should be afraid to ask), is&#8212;that yielding this point would place in our hands a weapon of power which they are very unwilling we should wield; that in many ways they would be necessitated to contemplate their "P's and Q's" with regard to us in a much more diplomatic, unselfish, and careful manner. For instance, if the democratic Mrs. B. came into the cars, just before election, and the democratic Mr. C was up for a candidate, the latter&#8212;as he valued her vote&#8212;had better not keep his seat while she was standing; no&#8212;though he might have a "rocking-horse" for his boy under one arm, and a barrel of flour under the other. However, male politicians have always kept such clean hands that one would think a woman for very shame could never be influenced by such poetty personal motives!</p>
+                <p>Seriously&#8212;is it not an acknowledged fact that a virtuous woman's presence has a refining effect? and surely, where more than a t the ballot-box is this influence needed? Men have shown us what they can make it, and certainly by no possibility could it be worse, even if woman had a finger in it. Our scholars and poets have refrained from voting, jointly fearing their tender sensibilities and tender coat-tails. Let them no longer unpatriotically ignore the future of their country, but join the women in a decent ballot-box.</p>
+                <p>I should dislike to apply the term coward to these talented men, who sit in their libraries burying that "talent," so far as Government is concerned, while ruffians, who can neither read nor write, are choosing their children's rulers by the help of bad rum. In Heaven's name, if they will not wake up themselves to what is due from their intelligence and their manhood, at least let them bid God-speed to the day when the mothers of their children may be allowed an intelligent and intelligible voice.</p>
+                <p><hi rend="italic">How</hi> this will be brought about I do not know; that it is only a question of time I am very sure; and I am just as sure that it will in no <choice><sic>wise</sic><corr>way</corr></choice> peril connubial puddings, or connubial babies; and though I have no cherished fancy for hearing women "talk politics," it would certainly be music in this sinner's ears, when compared to the everlasting "he" or "the divine ribbons" and "adorable laces." It is very well for bandboxy men to call Lucy Stone obnoxious names. I have not the pleasure of her personal acquaintance, and I am not sure I should have fought it out with <hi rend="italic">that</hi> sheriff, but I have read, and do endorse, her publicly expressed views on Woman voting, and rejoice that such men as Brady, Curtis, Chapin and others are standig manfully by her side on this vexed question.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

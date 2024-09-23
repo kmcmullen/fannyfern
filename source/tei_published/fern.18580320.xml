@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580320">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lady-Skating</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2024</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Lady-Skating</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-03-20">20 March 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-06-18" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580320.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580320.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580320.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580320.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580320.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580320.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580320.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580320.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">LADY-SKATING.</head>
+                
+                
+                    <p>Future generations will probably be born with a back-bone; ladies have taken to skating! The saints be praised! no more crooking over "registers" in skin-drying parlors, with pallid faces and throbbing heads! Fashion for once has done the female world a good turn, and we grasp her hand for it, in the name of those timid souls who never dare venture away from her royal apron-strings, and in the name of countless cradles yet to come. Think of it! Emancipation for narrow-chested mothers, and their dead-and-alive, nipped-up, sentimental, snail-creeping daughters, whom nobody but the undertaker even contemplates with satis-faction. The gods be praised!</p>
+                
+                <p>Of course Cupid will lurk in those skate-straps; of course manly fingers will tremble, not altogether with cold, and they adjust them found nice an-kles. As if I didn't know; as if female skating never was in fashion before 1858; as if there was not once a nice pond where&#8212;but that's a digres-sion.</p>     
+                
+             <p>As I was going to say, the times are certainly improving. I am not referring now to the "N. Y. Times." I was thinking of New England, where a <hi rend="italic">minister</hi> was lately discovered <hi rend="italic">skating!</hi> Imagine the pious horror of his "constituents." Imagine what a surfeit of starch and buckram he must have been bursting with, before he dared break through the ice. No more Puritan babies named after <hi rend="italic">him</hi>. No more donation parties, and black surplices, and embroidered book-marks, and sets of shirts made by the ticklish fingers of old maids of the parish; no more silver mugs presented to the unholy off-spring of a man who disgraced his calling by us-ing muscles which of course the Lord made only to dry up and wither. Bless him! I wish I had been there to clap him on his clerical back, and buckle his skate-straps. I shoud believe in the millenium, could I see a whole flock of black coats gliding like emancipated crows over the ice.</p> 
+                
+              <p>I tell you I feel encouraged. The devil has had it his own way long enough, making goodness so sour-visaged and straight-laced as to drive every-thing that was human into the alluring but wither-ing clasp of vice. Beat him at his own weapons, if you want to thin his ranks. It suits him to a charm to see the saints crawling and sniveling round creation, till everybody feels as if God put us here to torment us, and as if it were a mortal sin in his eyes to be happy, and rebel accordingly. Out upon such religion! Lift up your church roofs, and giev you creeds and airing. Stop bor-ing restless children to death with long services on Sunday, and then capping the climax of their dis-gust by telling them, with an oracle air, that "Heaven is one eternal Sabbath." No wonder they are in no hurry to go there. What right have you to fence it in with such narrow bounda-ries? I am sure there's not an angel there that would consider your</p> 
+                  
+    <q>
+        <lg type="linegroup">
+            <l>"Hark from the tombs a doleful sound"</l>
+        </lg>
+    </q>    
+                  
+                  <p>and accession to their choir. The sincerest Chris-tians I ever knew were the cheerfulest, the loving-est. I hate that stilt-ified, dismal, unchristian religion, which sniffs nothing bu dead carcasses in a world full of life and crightness and beauty, and all for our seeing and enjoying withn innocent and proper limits, of which you, by reason of your biliousness, can be no judge. I deplore its blighting effects on the young bounding natures which cannot, and will not, and <hi rend="italic">ought</hi> not to believe it acceptable to God. "O sing unto the Lord a <hi rend="italic">new</hi> song. Sing unto the Lord <hi rend="italic">all the earth."</hi></p>
+                
+                <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

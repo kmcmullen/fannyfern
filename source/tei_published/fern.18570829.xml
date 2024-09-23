@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570829">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Mamma, Am I Pretty?</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Mamma, Am I Pretty?</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-08-29">29 August 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-10" who="#km">proofed</change>
+            <change when="2023-09-17" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570829.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570829.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570829.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570829.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570829.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570829.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570829.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570829.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">MAMMA, AM I PRETTY?</head>
+                
+                    <p>"Mamma, am I pretty?</p>
+                
+                    <p>"No, my dear; but beauty is of no consequence."</p>
+                
+                    <p>Now what an unmitigated fib! and every day of that child's life she will be finding it out. Why not tell her the truth&#8212;that beauty <hi rend="italic">is</hi> of consequence, as is everything that God has made. Why not tell her that the eye is irresistibly fascinated by it; that a handsome child is always more noticed by a stranger than a plain one; just as when one walks in a garden, a beautiful flower invites admiration above its fellows; but like that, if upon examination it be found scentless; if it pierces with sharpness the hand that would caress it&#8212;the gazer plucks it but to throw it aside, or passes it for one less pretentious, whose sweetness will endure long after its pale hues shall have faded away.</p>
+                
+                <p>Tell her&#8212;what children should always be told&#8212;<hi rend="italic">the truth;</hi> tell her that bright eyes, beautiful hair, satin skins, and dimpled limbs, are indeed very lovely to look upon; and it is just as right to admire them as it is to admire the floating beauty of the changeful clouds, the stately majesty of the trees, the sweet blush of the rose. It is right for people to wish to be pleasing, and it is not only right, <hi rend="italic">but a duty,</hi> for everybody to look as beautiful as they can. Tell your child all this; but tell her that for the higher order of beauty, something beside the body must be decorated.</p>
+                
+                <p>Tell her that the soul must be washed of bad passions&#8212;the cobwebs of envy brushed away&#8212;the dust of selfishness wiped off, and its chambers aired of the foul atmosphere of uncharitableness. That its windows must be thrown open wide, that the Heavenly Dove may enter, and sing a perpetual song, that shall make the eyes shine with a light borrowed only of Heaven; that shall make the drooping form expand, and stand erect in the consciousness of its spiritual majesty&#8212;serene, unabashed in the greatest, most beautiful, earthly presence,&#8212;lifting the brow upon which <hi rend="italic">immortality</hi> is so legibly written, beautiful in its fearlessness, to that Heaven, whose brightest seraph sings, as if it had never dropped the chrysalis which earth is crumbling, atom by atom, to dust.</p>
+                
+                <p>Oh, tell your child this&#8212;tell her how resplendent the soul can make the body. How, like a light within a crystal vase, it makes fair what else were dark and dim to human sight. Tell her how before its radiance men bow down, hushing the hot breath of worldliness, as before God's own calm presence. Tell her to tread the earth with the triumphant step of one who is heir to all Heaven&#8212;second to none!</p>
+                
+                <p>Oh, I have seen such! Lofty&#8212;yet lowly. No earthly artist could trace their beauty, or sculptor mould their symmetry. To hear the rustle of their garments was to feel the sweep of an angel's wing. To look upon them was to pray. It was to bathe the blushing face with repentant tears, and cry&#8212;unclean&#8212;unclean!</p>
+                
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

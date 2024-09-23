@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570606">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charlotte Bronte</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2018</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Charlotte Bronte</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-06-06">6 June 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>             
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-10-10" who="#km">proofed</change>
+            <change when="2018-07-10" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570606.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570606.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570606.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570606.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570606.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570606.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570606.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570606.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">CHARLOTTE BRONTE.</head>                
+                
+                <p>Who has not read "Jane Eyre?" and who has not longed to know the personal history of its gifted author? At last we have it. Poor Charlotte Bronte! So have I seen a little bird trying bravely with outspread wings to soar, and as often beaten back by the gathering storm-cloud&#8212;not discouraged&#8212;biding its time for another trial&#8212;singing feebly its quivering notes as if to keep up its courage&#8212;growing bolder in each essay till the eye ached in watching its triumphant progress&#8212;up&#8212;up&#8212;into the clear blue of heaven.</p>
+                
+                <p>Noble Charlotte Bronte! worthy to receive the baptism of fire which is sent to purify earth's gifted. I see her in the gloomy moors of Haworth, in the damp parsonage house&#8212;skirted by the grave-yard, sickening with its unwholesome exhalations, crushing down, at the stern bidding of duty, her gloomy thoughts and aspirations; tending patiently the irritable sick, performing cheerfully the most menial household offices; the days passing "in a slow dead march;" cheered by no mother's loving smile, or rewarding kiss; waiting patiently upon the hard, selfish, unsympathising father, who saw, one by one, his gifted daughters sink into untimely graves, for want of the love, and sympathy, and companionship for which their yearning hearts were aching.</p>
+                
+                <p>I see these sisters at night, released from toil, when their father had retired to rest, denied the cheerful candle-light, pacing up and down, in utter darkness, the dreary little sitting-room, talking of the vacant past and present, and trying vainly to pierce the impenetrable future for one glimmering ray of hope: and as years passed on, and vision after vision faded away&#8212;alas! with those who wove them&#8212;I see Charlotte, the last survivor of that little group, pacing <hi rend="itaic">alone</hi> that desolate sitting-room; while the winds that swept over the bleak moor; and through the church-yard, and howled about the windows, seemed to the excited imagination of the lonely, feeble watcher, like the voices of her sisters shrieking to be again enfolded in her warm, sisterly embrace. Alone&#8212;<hi rend="italic">all</hi> alone!&#8212;no shoulder to weep upon&#8212;no loving sister's hand to creep about her waist&#8212;the voices of her soul crying eternally, unceasingly, vainly&#8212;give&#8212;give&#8212;and he who gave her life, sleeping, eating, drinking, as stoically as if ten thousand deaths were not compressed, to that feeble girl, into each agonized moment.</p>
+                
+                <p>One smiles now, when the priase of "Jane Eyre" is on every tongue, at the weary way the author's thumbed MS. travelled from publisher to publisher, seeking a resting-place, and finding none; and when at length it did appear in book-form&#8212;the caution of the sapient book-dissecting "London <choice><sic>Athan&#230;um</sic><corr>Athen&#230;um</corr></choice>" containing only "very qualified admissions of the power of the author"&#8212;also of "The Literary Gazette," which "considered it unsafe to pronounce upon an unknown author;" also at "The Daily News," which "did not review novels"&#8212;but found time soon afterwards to notice others. Mistaken gentlemen! you were yet, like some others of your class, to take off your publishing and editorial hats to the little woman who was destined to a world-wide fame, but, (as if ye have manly hearts they must have ached ere now to think of it,) not until the bitter cup of privation and sorrow had been so nearly drained to the dregs by those quivering lips, that the laurel wreath, so bravely, hardly won, was twined with the cypress vine.</p>
+                
+                <p>Literary fame! alas&#8212;what is it to a <hi rend="italic">loving</hi> woman's heart, save that it lifts her out of the miry pit of poverty and toil? To have one's glowing thoughts handled, twisted, and distorted by coarse fingers; to shed scalding tears over the gravest charge which can be untruthfully brought against a woman's pen; to bear it writhing in silence, and have that silence misconstrued&#8212;or, speak in your own defence, and be called unwomanly; to be a target for slander, envy, and misrepresentation, by those of both sexes who cannot look upon a shining garment without a wish to defile it&#8212;all this, a man's shoulders may be broad enought to bear, but she must be a strong <hi rend="italic">woman</hi> who does not stagger under it.</p>
+                
+                <p>I see Charlotte Bronte in the little parsonage parlor, at Haworth, draperied, hung with pictures, furnished at last with books from the proceeds of her own pen; and upon the vacant chairs upon which should have sat the toiling, gifted sisters, over whom the grave had closed, I see inscribed, Too late&#8212;Too late! and I look at its delicate and only inmate, and trace the blue veins on her transparent temples, and say Too late!&#8212;even for <hi rend="italic">thee</hi>&#8212;Too late! Happiness is not happiness if it be not shared&#8212;it turns to misery. But, thank God, at last came the delirious draught of love, even for so brief a space, to those thirsting lips&#8212;but which, incredible as it may seem, the father, in his selfishness, would have dashed aside: relenting at last, he gave up this tender, shrinking flower to more appreciative keeping; but the blasts had been too keen that had gone before&#8212;the storms too rough&#8212;the sky too inclement. We read of a wedding, the happiness of which the selfish father must cloud at the last moment, by refusing, for some inexplicable reason, or no reason at all, to give away the bride in person according to the Episcopal usage&#8212;we read of a short bridal tour&#8212;of a return to a love-beautified, love-sanctified home&#8212;we read of a pleasant walk of the happy pair&#8212;of a slight cold taken on that occasion&#8212;of a speedy delirium&#8212;of a conscious moment, in which the new-made bride opened wide her astonished eyes upon her kneeling husband, pleading with God to spare her precious life; and we read the heart-rending exclamation of the latter as the truth flashed upon her clouded intellect&#8212;"Oh! I am not to die <hi rend="italic">now?</hi>&#8212;when we have been so happy?" and with streaming eyes we turn away from the corpse of Charlotte Bronte.</p>
+                                                      
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

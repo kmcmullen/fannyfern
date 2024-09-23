@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571205">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">To Young Ladies</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">To Young Ladies</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-12-05">5 December 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-07" who="#km">proofed</change>
+            <change when="2023-10-23" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571205.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571205.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571205.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571205.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571205.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571205.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571205.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571205.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">TO YOUNG LADIES.</head>
+                
+                    <p>I was thinking to-day, how many young ladies who read the NEW YORK LEDGER, ever made it their business to relieve the suffering poor. I do not doubt that you have contributed sums of money, when called upon to do so; that is not what I mean; that often requires little or no self-denial. Have you ever left your comfortable homes, and passed through narrow streets and alleys, up rickety stair-ways lined with neglected children, whose cradle-heritage is sorrow, to search out some poor woman, languishing for everything that makes life sweet to you? It is not agreeable, I know, to see and hear nothing from which the sickened soul and senses do not turn shuddering away. But was life intended for a holiday? Is there nothing for the young and happy but to dance, laugh, and sing? Does it matter nothing to that young heart, that within the very sight of the cheerful fire-light from your windows, within sound of your musical laughter, (which God forbid I should find fault with,) sits despair with tearless eye&#8212;doubting man, doubting God&#8212;to whom the sight of your fresh, cheerful and sympathizing face would be like a flash of sunlight across the captive's dungeon floor; to whom your sweet heart-tones would be like the plank to the ship-wrecked mariner? I am sure you cannot have thought of this, or you would not have contented yourself with sending now and then a coin by the hand of some friend. You can never have felt that delicious joy which thrills through every nerve, as the bowed head is lifted, the pale cheek flushes, and the rayless eye overflows with the gratitude which words are so meaningless to express. I am sure you could never have listened to the sad, truthful story, and there are many such, without execrating your own selfishness, that you had eaten, drunk and slept, day after day, as if there were no hungry mouths to feed, no broken hearts to bind. I am sure you can never appreciate your own table, your own fireside, your own bed, till you see them by this contrast.</p>
+                
+                <p>Oh, there are lessons to be learned up those narrow stairways, in those darkened rooms, which whole libraries were powerless to teach you. Lessons of sublime faith and trust in God under crushing sorrows, which are written in letters of light, read only by angels, and those human angels who see their Father's lineaments in every sorrow-stained face. There is to be seen the fierce, one-handed struggle with temptation, which, whether victorious or not, is <hi rend="italic">justly</hi> weighed in the balance by Him who made every quivering nerve, and who can make allowance when the sharp cry of childhood nerves the outstretched hand of plunder. Why He permits this, is not for you and me, who believe in, and love Him, to ask. What we know not now, we shall know hereafter&#8212;faith can trust wait&#8212;meantime he says to us, "Feed my lambs."</p>
+                
+                <p>Will you do it, not by proxy, but with your own hands? Will you seek out <hi rend="italic">one</hi> sufferer at least, to whose necessities you will minister? Some day, though your eyes are so bright, your limbs so round, your locks so glossy; some day, though Heaven forbid it, you may need such ministration yourself. I have seen this very week one as delicately cared for once as you now are, with as little prospect of future want, sitting by her fireless hearth, holding to her breast a little skeleton of a babe, with two other children clamoring for food; and no hope of relief but in Him who feedeth the sparrows. "Oh," said she to me, "when I think of what I <hi rend="italic">was</hi>, and what I <hi rend="italic">am</hi>," and she looked about her cold, cheerless room and at her hungry children, "I get <hi rend="italic">wild</hi> with trouble."</p>
+                
+                <p>Ah&#8212;that thinking!&#8212;that contrast of plenty with destitution&#8212;of tender care and love, with the cold charity of the world;&#8212;that hopeless gaze into the future&#8212;those fettered hands and feet, and yet that weary road to travel;&#8212;and the arm&#8212;dust&#8212;that was once so strong to lean upon, so tender to shield!&#8212;Ah&#8212;have you no pity for such! Can you not feed those little innocent children, and ask your friends each to contribute something to help to feed them? Can you not, with your own hands, make from your useless dresses something to cover them? Can you not sit down by that sorrowing woman, once so happy, and ask her to try for her own sake, not to look back&#8212;not to look forward so repiningly? Can you not ask her to try to <hi rend="italic">live by the day</hi>, not by the month, or year? Can you not say to her, as you place the loaf of bread on her table; or the coal, or wood on her hearth; <hi rend="italic">to-day</hi> you have food, warmth and shelter&#8212;trust God for the morrow;&#8212;and will you not be His almoner till the cloud is a <hi rend="italic">little</hi> lifted, and the sunlight streams through?</p>
+                
+                <p>I have spoken of lessons to be learned in these abodes of sorrow. Oh, it is beautiful the unselfishness of some of the poor each for the other: the sharing the small loaf, the watching by the sick bed, when the watcher is scarcely less sick; the loan of the ragged shawl, or shoes; the comforting word, when there is nothing else to give. I have seen in those places deeds that would put to blush many, for the reward of which an admiring world clamors so loudly. Are they lost? Neither you nor I believe it. We shall hear of them yet, but not from mortal tongues.</p>
+                
+                <p>In conclusion I would say, that it would make me very happy if, at this time of distress, when so many, by no fault of their own, are without the means of a livelihood, I should call the attention of only one young lady who reads this article in the LEDGER, to the duty of <hi rend="italic">personal ministration</hi> to the suffering poor.</p>
+                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

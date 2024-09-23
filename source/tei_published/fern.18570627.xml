@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570627">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">For the Children Who Read the New York Ledger</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2018</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">For the Children Who Read the New York Ledger</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-06-27">27 June 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>                 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-12-04" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570627.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570627.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570627.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570627.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570627.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570627.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570627.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570627.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">FOR THE CHILDREN</head>
+                
+                <head type="sub">WHO READ THE NEW YORK LEDGER.</head>
+    
+                    <p>Oh, what a cold night it was! The wind blew round the corners strong enough to lift you off your feet; and the stars glittered over head so brightly, that it seemed as if the sun could never again quench out their beams. It was very late; between one and two o'clock. Every body who had a shelter had gone to find it. Not even a dog would willingly have crept out on such a bitter night; and yet there stood a man, apparently as
+                        
+                        <figure>
+                            <graphic url="http://fannyfern.org/images/illustrations/fern18570627.04_ill1.jpg"/>
+                            <figDesc>A man leaning against a wall.</figDesc>
+                        </figure>
+                        
+                        insensible to its fury as the wall he leaned against; his cap was crowded down upon his forehead, and his coat-collar turned up, so that you could see but little of his face, except a pair of large eyes that gleamed like fire-coals. Now and then he would dart forward, as his ear caught the sound of footsteps, and then he would sink back again into his old position, and his upraised arm would fall powerless by his side. Still the stars glittered overhead, and the wild wind howled past him; but a wilder struggle was in the young man's soul.</p>
+                
+                <p>Far off, over the blue sea, was an humble English home. Under its roof this man's youth had passed with his kind old mother; their wants were few, for their tastes were simple. Many an evening you might have heard the lad singing the hymn his mother taught him, or reading from that Book which brings wealth to the poorest cabin. But the time came on, as the lad grew to manhood, when the walls of his home, dearly as he loved them, seemed all too narrow for his restless spirit. He would go to America&#8212;where fortune was kinder to the young and hopeful, and bring back to her, who had for so many years clothed and fed him, comfort and plenty for her last days. There was another&#8212;young and hopeful like himself, who was not afraid to bear him company on life's journey. And so the two, man and wife, rich only in each other's strong love, bent their heads for the withered hand of blessing; and as their mother's tremulous tones fell upon their ears, "Remember your mother's God," the young man's stifled "aye&#8212;aye," seemed to take the load from off her heart, and make it hopeful as his own.</p>
+                
+                <p>And so farewell was said, and the strong vessel glided over the blue waters, and battled with its huge waves as a child would play with a mimic boat. There were rough old sailors on board, and fragile women, and delicate little children; each and all had strong ties to life; fathers, mothers, brothers, sisters, whom they had left behind, or were going to meet. But John and his young wife were company enough for each other; they could fancy no evil that could befal them, while God spared them, and their old mother, to each other. It does not take as long time as it used to cross the ocean; the voyage was soon made&#8212;the ship's passengers all went their various ways&#8212;and the young couple, full of hope, landed on the quay at New York to seek their fortune. Day after day John walked the crowded streets in search of employment, and always with a stout heart under each discouragement, until the little sum he had carefully hoarded for present use grew less and less, and employment seemed further off than ever.</p>
+                
+                <p>There is no wilderness so solitary to the friendless and poor as the bustling hum of a strange city. You look into people's faces and wonder that they can be so indifferent whether you starve. You know that your death, at any minute, would be no more to that busy, laughing throng than a pebble tossed into a lake. You wonder why so many should riot in plenty, while you long for the crumbs that fall from their tables. Bitter, despairing thoughts take possession of you. You forget that God reigns, or doubt His goodness.</p>
+                
+                <p>So it was with poor John on that dreary night on which he stood in the street, unmindful of the biting cold. Time had passed on, as I have told you, and another mouth had come to John to be fed; and his wife, and his little babe, lay shivering in a miserable garret, without fire, without food, and alas! without hope; slowly&#8212;surely dying of want and cold. John looked on till he could bear it no longer; and on the night of which I speak, he kissed his wife and babe, and muttering wild words of "plenty" fled form the house&#8212;he knew not whither. Food he must have&#8212;others had it&#8212;why not he? Must the wife he so dearly loved perish before his eyes, with her innocent babe upon her breast? There was gold enough in that great city; he had tried to earn some honestly&#8212;now, he <hi rend="italic">would</hi> have it, at any rate&#8212;<hi rend="italic">even, if need be, at the cost of life!</hi> And so as I told you, there he stood, with his hat slouched over his eyes, and his rough coat-collar turned up over his face, as if he could hide even from himself his guilty purpose. And now there came along a young man, well-dressed, light-hearted, singing gaily as he went home from some place of evening amusement. Why should <hi rend="italic">he</hi> sing? John was young, too; but was not want and misery his portion&#8212;and what was worse, the portion of those whom he loved? This thought nerved again the arm that had fallen powerless by his side, and with a stealthy step he is at the young man's side to strike him down. Why does he not do it?&#8212;why does he stand looking at him with those strange, wild, tearless eyes? There is no witness there against him but the glittering stars. No human voice has spoken. And yet, clear upon the midnight air ring out these well-remembered words&#8212;</p>
+                
+                <p>"Forget not your mother's God."</p>
+                
+                <p>Oh, child of many prayers! across the wide blue sea, a pious mother's arms have girt thee round!</p>
+                
+                <milestone unit="undeclared" rend="horbar-short-center"/>
+                    
+                <p>And now you ask me what became of John, and his wife, and the baby; and I ask <hi rend="italic">you</hi>, does God ever forget those who, when fearfully tried and tempted, at last remember him? No, never! John told the young man that his intention was to steal&#8212;perhaps to kill him: he told him with streaming eyes of his starving wife and babe. Youth is fearless, generous and sympathetic, and the plenty which God had given the young man he fully shared with John and his famished household.</p>
+                
+                <p>Little children&#8212;the night may be long and dreary, but to the weariest watcher, the day will surely break.</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

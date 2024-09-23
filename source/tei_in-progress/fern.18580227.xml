@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580227">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Street Thoughts</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Street Thoughts</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-02-27">27 February 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-02-10" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue"><!-- change all image names here -->
+        <surface xml:id="pp1">
+            <graphic url="fern18580227.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580227.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580227.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580227.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580227.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580227.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580227.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580227.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">STREET THOUGHTS.</head>
+                
+                
+                
+                    <p>Unexhausted, inexhaustible New York! fertile in fun and filth; kaleidoscoping every minute a hundred phases of human life, with its joys and its agonies; giving as little heed to the smiles of the one as the tears of the other; swallowing up thy thousands by omnibuses, cars and ferries, only to replace them by other thousands who pass away as before. Who stops to heed? Each one knows that his death, from out that seething mass of humanity, would be but as a leaf on the stream, which is bearing us on so surely to that far distant shore whence there is no return voyage. But we close our ears to its rush and drift on; not all thoughtlessly; not all unmindful of the heart histories written on the tightly compressed lip, and anxious eye, and knotted brow beside us; not all without a heart-pang that there should pass us that woman, from whose eyes the pure light of Heaven has forever fled. Not all ungrieved that he who has slept on a holy mother's breast should not hesitate for the memory of her, ere he pushes over the precipice the feeble one whom the voices of his manhood should clamor to him to save. Not all careless that they whose motto is&#8212;For God and the right, should wield such clumsy and unskillful weapons. Not all careless that he who started in the race with the clear brow upon which all men might look&#8212;upon clean hands which honesty delighted to grasp&#8212;should wind and turn like the hare, and spring at last the goal panting only with his own belittling aims and selfish passions&#8212;with only the tatters of patriotism hanging about him. Not all ungrieved that so many of the mothers in the land should let the sweet altar fire of home die ou, that the funeral pyre of their children's happiness may glare upon the dazzled eye of the multitude. Not all ungrieved that sixteen years of the city lad's life should have exhausted its powers. Not all ungrieved that a husband may blush to love to stay in his home, but not stealthily to disgrace it.</p>
+                <p>Not that there are no Lots in this brilliant Sodom; not&#8212;blessed be God&#8212;that there are not happy homes in it, where no modern blight has ever come; where the happy wife is content to sit, as in the olden time, "making auld claes look maist as weel as new;" where the husband, in his slippered feet and easy-chair, reads and smiles at the bright faces around him, caring not to join the jaded peasure-seekers in chasing what he knwos will always elude their grasp. Not that some faces in this brilliant Sodom never shine with the light of high and holy deeds; not that lips never mention God's name reverently; not that there are no children here who never turned disgusted away from parents who preach one thing and practice another. All this we know&#8212;all this we have seen; but oh! how small a band are these! It still remains that our young people are too old, and that our old people are not sufficiently young&#8212;that the latter seldom or never mingle their sympathies with the former; that parents are content to feed, clothe and house their children, and that children are of course content with <hi rend="italic">external</hi> service, and not always that. And this, I cannot but think, is the soil from which all these modern vices spring; this is why the daughter takes so lightly upon her lips the vow that releases her from parental bondage; this is why we hear of dissipated sons; this is why many a white head bows with agony, that might have been crowned by the hand of filial love; this is why we have atheism in its most revolting forms, and this is why too late, from so many pale lips, goes forth the despairing cry&#8212;Would to God I could die for thee, my child&#8212;my child!</p>
+                <p>And still the petty strife of life goes on, and I stand amid the seething, swaying mass, a mite, looking off upon the boundless, limitless sea which swallows up the sky; seeing the dismantled wrecks; looking with loving compassion upon the little bark making its first essay; trembling as I think of the treacherous rocks and quicksands, the wild winds, the wilder storms and the hungry sea; trembling for myself, looking ever fearfully about me, lest the only Arm that can save be not around my fearful heart.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

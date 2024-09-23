@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570905">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Traveling Companions</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Traveling Companions</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-09-05">5 September 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="columns">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        <revisionDesc>
+            <change when="2023-10-10" who="#km">proofed</change>
+            <change when="2023-09-17" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570905.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570905.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570905.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570905.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570905.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570905.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570905.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570905.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">TRAVELING COMPANIONS.</head>
+                
+               
+                <p>Reader&#8212;did you ever travel with an uncongenial companion? You open your eyes&#8212;perhaps you think that any person with whom you could spend a passable hour in your parlor, is qualified for an agreeable traveling companion. Not a bit of it! There is not one in a hundred who would not wear you to a skeleton, on a journey.</p>
+                
+                <p>How? In the first place, there is your human magpie, who rattles off the dictionary as though he were doing it for a wager, till your ears ache as if they had been boxed, and to whom you answer yes, and no, at random, without the slightest idea of what he is talking about, any more than he has himself.</p>
+                
+                <p>Then, there is your mock sentimentalist, full of "ohs," and "ahs," and common-place, guidebook ecstasies, nudging your elbows and ribs to look at this, and look at that, and notice the other thing; exacting the admiration which none but an idiot would withhold, were it not compulsorily forestalled; leaving nothing to gladden the asking eye, with the sweet pleasure of surprise; torturing you with the possible history of every pebble and brook, and stupidly imagining that he is laying you under a debt of gratitude for the information, which will render you forever a bankrupt in thanks.</p>
+                
+                <p>Then there is your hobby-ist, who everywhere, in all companies, in all places, rides his favorite idea to death; lugging it in by the horns and tail on all possible, and impossible, occasions; puffing, panting, snorting and rearing, trampling roughshod on everybody's toes, while he claims exemption for his own; and stopping only for want of breath or&#8212;listeners!</p>
+                
+                <p>Then there is your fussy person, who thinks it will rain, and thinks it will shine, and thinks it will be hot, and thinks it will be cold, and is eternally muffling and unmuffling, in anticipation of these expected changes&#8212;who is constantly locating his carpet-bag, and dis-locating other passenger's umbrellas&#8212;fearing collisions, and gasping for impossible suppers and dinners and breakfasts, and every how and every way, making himself an unbearable bear, and an unmitigated nuisance.</p>
+                
+                <p>Then, there is your braggart who, with nose skywardly inclined, is always boasting of the superiority of the tillage and crops, cattle and fences, barns and bridges, "in <hi rend="italic">his</hi> section,"&#8212;to those you may be passing.</p>
+                
+                <p>Then, there is your moper&#8212;who, wishing to pass for an oracle, wisely says nothing but "humph!"</p>
+                
+                <p>Then there is your traveled person, whom every cow's tail reminds, of "what I saw in England, or Paris, or the North Pole." Then there is your obstinate person, whom no lever of contingency can pry out of his hole&#8212;who expects all travel, and other people's convenience and desires, to be regulated by the programme his selfishness drew up before starting, and who would not deviate a hair from that prepared document, to treat a whole party to the finest sunrise or sunset on which God ever inscribed his love and majesty to adoring mortals.</p>
+                
+                <p>Then there is your spick-and-span <hi rend="italic">female</hi> traveler; whose becoming dress got up for the occasion, she expects to pass unscathed through the ordeal of dust, rain, perspiration, crowded seats, and possible collisions; who scowls vengefully at all these enemies of her peace, and is implacable at a dent in her bonnet, a spot on her skirt, or an unlucky angle in her hoops. Who must have a room in a crowded hotel, in the hight of the season, (to the displacing and dispossessing of everybody else) which faces the north, fronts the street, is up only one flight of stairs, has a dozen closets, plenty of ottomans, rocking-chairs and bell-ropes; bolts and bars on the doors ad infinitum&#8212;and above all&#8212;large and <hi rend="italic">becoming</hi> looking-glasses.</p>
+                
+                <p>From all the above-mentioned bores may a good Providence deliver us, one and all.</p>
+                
+                <p>What would I have in a traveling companion?</p>
+                
+                <p>In the first place, <hi rend="italic">good humor.</hi></p>
+                
+                <p>In the second place, a soul above dry-goods, and their wear and tear.</p>
+                
+                <p>In the third place, good breeding, and humanity enough to prompt kind speech to and treatment of hotel servants and others in that position.</p>
+                
+                <p>In the fourth place, sense to observe, and delicacy to respect, the sometime necessity for, and luxury of&#8212;<hi rend="italic">silence.</hi></p>
+                
+                <p>In the fifth place, which, after all, embraces all the rest,&#8212;<hi rend="italic">tact,</hi> my friends, <hi rend="italic">tact;</hi> without which man is a blunder&#8212;buss, or may I never more be kissed!</p>
+                
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

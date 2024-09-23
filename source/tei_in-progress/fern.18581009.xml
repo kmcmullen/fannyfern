@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581009">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Notes of a Summer Tour. Number VI</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Notes of a Summer Tour. Number VI</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when=""1858-1-09"""09 October 1858"</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-09-16" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern.18581009.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern.18581009.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern.18581009.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern.18581009.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern.18581009.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern.18581009.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern.18581009.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern.18581009.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">Notes of a Summer Tour. Number VI</head>
+                
+               
+                
+                <p>Slow old Boston is waking up at last. Washing-ton street is nearly as dirty as New York streets. Old landmarks are fast disappearing, new stores are springing up on the sites of old dwelling houses, and the wheel of progression is going round in that latitude, in a way to make an old resident stare. What a pity it could not extend to the Boston <hi rend="italic">newspapers!</hi></p>
+                <p>Tortured with a slow fever and racking cough during my stay there, I could only ride round to make my investigations, with the exception of one short walk, during which I had the flicity of meeting the greatest scoundrel that Boston can boast&#8212;a sight hardly worth rising from a sick bed to see. For months I had so louged to see "The Common;" (how I like that good, homely name.) How I feasted my eyes upon its fountain and trees, its green banks and its nicely-kept gravel walks, over which time has so closely woven its net-work of leaves, that you can scarce believe them to be the same your feet used to tread, up and down, and across, in all weather and moods, but chiefly when nature seemed to you the only safe and soothing confidant of anguish of spirit else intolerable. Old associations, how thick and fast they came. Tripping feet flew over the greensward, that no eyes but mne could see; golden locks floated on the wind, whose rare beau-ty had only a parallel in a severed tress, precious as the little head lying low in Mount Auburn.</p>
+                <p>"Mother! mother!" not from around this tree, nor yet that, did the little, merry face peep, nor from this grassy bank, nor that shaded pathway, nor yet by the cool plash of the fountain, where childish feet loved best to stray, did that most mu-sical call come. Other little forms there were there&#8212;God grant them long to bless the homes they brighten&#8212;but not <hi rend="italic">hers</hi> not <hi rend="italic">hers.</hi></p>
+                <p>Beacon street, Boston's Fifth Avenue, is looking its loveliest now, since its inhabitants have had the good taste to drape their balconies and door-ways with the luxuriant woodbine, tossing out its long, green tendrils, as the wind comes sweeping over Charles, Rivers, laden with sweets rifled from the hay-fileds beyond. I should marvel, did I not know how powerless are outside belongings to se-cure happiness, or even content that such resi-dences should be abandoned by their inamtes when most attractive; putting aristocracy out of the question of neighborhood, no lovelier spot could be found for a city home all the year round. What lunatic was permitted to daub the "State House" its present sulphureous hue I did not inquire ; as-tonishment struck my dumb; I drove quickly past it to feast my eyes on the rural beauty of Cam-bridge, of which one never tires, no more than of sweet Mt. Auburn, which I will persist in prefer-ring to Greenwood, though I have been talked out of breath so many times by the admirers of the latter, amond whom I number myself, with the above amendment. Ah, here we are, now; the old gateway is, the same, under which so many bereaved ones have passed tearfully, saying, "Though has taken away my idol and what have I left?"</p>
+                <p>Stay&#8212;what is this? Where are the tall sentinel pines, whose aromatic leaves, dropping upon the pathway, muffled the sound of our carriage wheels as we slowly passed into their dim shades, softening so tenderly the garish, mocking sunlight for weeping eyes, as the wind whispered through them, "Peace&#8212;be still!" Where are they? Like the face of a dear, long absent friend, upin whose breast I had often leaned, I yearned to see them. <hi rend="italic">Hewn down!</hi> by the hand of "modern improvement!" Heaven grant us patience to look upon such sacrilege by the stupidity of somebody&#8212;it is little matter who&#8212;since a century could scarce make good the cruel devestation. I should like to take down a tall monument I saw in Mt. Auburn to a bogus philanthropist, and, effacing the lying inscription, write one to the memory of those giant pines, and erect it on the spot where they fell. May the tongue be palsied that spoke their death-knell, be-fore it does any more michief. Well, it is of no yse fretting&#8212;everybody says that when they are through doing it, and Mt. Auburn is not the place for anger; and yet, if there ever was an excep-tionable case, this is it. I call upon every one whose dead are garnered there&#8212;to whom the place is holy&#8212;to join issue with me against this un-pardonable desecration. One word more while on this subject. It seems hard that the ownders of "lots" in Mt. Auburn <hi rend="italic">living at a distance</hi>, should see them, on their annual visits, overgrown with weeds and nettles for that reason. As I stood over <hi rend="italic">my</hi> dead I felt grieved that the flowers planted by love, and watered by tears, should be so neglected by those who should perform the duty for which they are hired, without regard to eye-service. Some day I shall lie there myself; till I do, this will not cease to pain me.</p>
+                    <p>Apart from these things of which I have spoken, the general appearance of Mt. Auburn is much im-proved. The chapel especially, which has been renovated and adorned with two fine statues. The one to Chief Justice Story is a just tribute to the worth of the original, and a glory to the filial heart and hand of the sculptor. The Tower is a great accession, and though I was too ill to get out of the carriage to see th view from the top, those of our party who did so, used up the dictionary in its praise. We returned by way of Brighton, which announced itself to out olfacto-ries in the usual manner; from thence over the Western Avenue, home to our hotel. For the one hundred and fiftieth time I smiled at the wooden look of those Boston women, and the wooden way they locomote the streets. Bston and New York should be shook up in a bag together. It would be the salvation of both.</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

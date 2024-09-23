@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx"><fern.18580626
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">What Sort of Old Maid I Should Be</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">What Sort of Old Maid Should I Be</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-06-26">26 June 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-13-07" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580626.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580626.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580626.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580626.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580626.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580626.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580626.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580626.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">What Sort of Old Maid I Should Be</head>
+                
+                
+                
+                <p>Do you suppose that the woman ever lived who would <hi rend="italic">prefer</hi> single to married life had she ever met with a man whom she could really love? I have seen cold, proud, intellectual women, <hi rend="italic">apparently</hi> self-poised and self-sustained, gliding like the moon on her solitary path alone, diffusing light, perhaps, but no warmth; to the superficial observer looking as carelessly dwn upon joy as upon sor-row; but no power on earth could persuade me, that beneath that smooth ice there smouldered no volcano; no reasoning persuade me that those fingers would not rather have been twisting a baby's soft curls, than turning the leaves of musty folios; no negative shake of the head, or forced laugh prevent my eyes from following with sorrowful looks the woman who was trying to make herself believe such a lie. Let her pile her books shelf upon shelf, and scribble till her pen, ink, paper, thoughts, eyes and candle give out;&#8212;and then let her turn rounf and face her woman's heart if she dare! I defy her to stop long enough to listen one half hour to its pleadings. I defy her to sit down in the still moonlight and look on, while old memories in mournful procession defile before her soul's mirror, without a smothered cry of anguish. I defy her to listen to the brook's ripple, the whis-pered leaf-music, or to look at the soft clouds, the quiet stars, the blossoming flowers, the little pair-ing birds as they build their nests&#8212;and above all, upon a mother with her babe's arms about her neck&#8212;without turning soul-sick away. She is <hi rend="italic">not</hi> a woman if she can do otherwise.She is not a woman if she can be satisfied with clasping her own arms over a waist which belongs to nobody but herself. I declare her to be a machine&#8212;a petrification&#8212;an abortion&#8212;a monster&#8212;let her keep her stony eyes and cold fingers off me; she has no place in this living, breathing, painting, loving world. Out upon her for a walking mum-my&#8212;leave her to her hierroglyphics, which I thank goodness are beyond my under-standing.</p>
+                <p>Pshaw&#8212;there are no such women; they are only making the best of what they can't help; they are eating their own hearts out and making no sign in dying. They ought all to be wives and mothers. Cats, poodle-dogs, parrots&#8212;plants, canaries and vestry meeting&#8212;are nothing to it. No woman ever has the faintest glimpse into heaven will she has nursed her won baby; in fact, I half doubt if she has earned a right to go there till she has legitimately had one.</p>
+                <p>Now were I an old maid&#8212;had no man had sense enough to endow me with the names of wive and mother, I would not go round the world whining about it, either in prose or verse, any more than I would affect a stoicism, transparent to every be-holder; I would just adopt the first fat baby I could find, though I had to work my fingers to the bone to keep its little mouth filled. I <hi rend="italic">wouldn't</hi> dry up and blow off like a useless leaf with the warm, fragrant sunshine and blue sky about me, and my heart beating against my breast like a trip-hammer. My little room <hi rend="italic">shouldn't</hi> be cheerless and voiceless. I <hi rend="italic">wouldn't die till some little voice had called me "mother," though my blood did not flow in its rosy veins. I <hi rend="italic">would</hi></hi>have somehting to make sunshine in my heart and home; my nature shouldn't be like a tree growing close to a stone wall, only one half of which had chance to develop, only one half of which caught the air and light and sun-shine&#8212;no, I would ter myself up by the roots, and turn round and re-plant myself. <hi rend="italic">Some</hi> bird should come, make its home with me, and sing for me; else what use were my shelterng leaves? Bet-ter the lightning should strike my, or the wood-man's axe cut me down</p>
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

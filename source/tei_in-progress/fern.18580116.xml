@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580116">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aaron Burr</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Aaron Burr</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-01-16">16 January 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-30" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580116.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580116.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580116.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580116.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580116.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580116.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580116.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580116.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">AARON BURR.</head>
+                
+               
+                
+                    <p>Aaron Burr, the terror of husbands who had pretty wives, and of fathers who had pretty daughters; the murderer of Hamilton; the traitor! Why should Mr. Parton exhume a reputaiton so inodorous to Americna nostrils? Have we not, as republican children, stood with round-eyed wonder, to listen to anathemas agains the bewitching, tricky monster, who could so fascinate even his jailers, that his adversaries were never sure of their prey, though they had him, to all human appearance, under substantial lock and key? This man, all devil, as they would have us believe, all the more to be feared that his cloven foot was concealed under such graceful drapery; who chose his friends as a carpenter would his tools, and threw them aside as coolly when worn out in his service. This man, who played with women's hearts as a kitten does with a ball&#8212;careless if its destination be a blackened heap in the fire. This man, who compassed heaven and earth to carry his point; who dared do everything that no other man would dare dream of; who knew neither fatigue, nor hunger, nor thirst, till the goal was reached; no matter though his chariot wheel ploughed through miles of human hearts. What can Mr. Parton have to say for such a wretch, in the hearing of men who, often more execrable than him whome they execrate, still shout over his senseless dust&#8212;"<hi rend="italic">Accursed</hi>!"</p>
+                <p>What every faithful biographer should say&#8212;<hi rend="italic">the truth</hi>.</p>
+                <p>No man is all devil, nor woman either. In every heart, ossified as it may appear, there is yet a spot, which the divining rod of humanity alone can discover, where lies the hidden fountain undiscernible to the up-turned eye of the self-righteous Pharisee.</p>
+                <p>We lay down Mr. Parton's impartial and fascinating history of this man's life with a sorrowful sigh. Had his <hi rend="italic">mother</hi> but lived to mold the priceless elements of such a character! To soften the ascetic features of Puritanism to his youthful eye, that he had not turned disgusted from the faith of his fathers, nor with the rash hand of impatience thrown away the wheat with the chaff. Had <hi rend="italic">she</hi> but lived, when injudicious teachers were drawing the bow so tightly, that a fatal rebound was inevitable; had <hi rend="italic">she</hi> been there to lay her gentle hand upon the loose rein of license; had <hi rend="italic">her</hi> soft voice but whispered in an ear that was always lsitening for love&#8212;"My son! my son!"</p>
+                <p>We should not, then, have read of that tragical duel, which no enlightened mind can regard but with horror; and yet whose accidental termination, had it been reversed, might have turned the world's fickle breath of obloquy upon an opponent now so canonized. That the victor in this unholy strife had, under that stoical exterior in his secret heart, a gnawing worm, for whose writhings society and its excitements were the necessary and constant alleviations, I, for one, cannot doubt. The ex-Vice-President skulking in foreign exile, who could repeatedly forego even his meagre allowance of food, that he might purchase a pleasure for his idelized little grandson, was not the man lightly to think of, or wholly to forget, the seven weeping children he had orphaned, nor the widow in whose lonely life-path he had planted such piercing thorns. That he believed that the odium cast upon him was from a political stand-point, and received it as such, was undoubtedly true; but that the stiffened <choice><sic>corse</sic><corr>corpse</corr></choice> of Hamilton was a skeleton at his feasts, I most religiously believe.</p>
+                <p>And&#8212;were it not so;&#8212;were he all, and worse, that his most virulent enemy could picture him; had he been the insatiate fiend they would make him out; what heart, be it never so relentless, could look unmoved upon the fortitude and assumed cheerfulness with which he bore the cutting slights of his former friends and allies; accepting patiently his own altered lot, which denied him every gratification for which cultivation and refinement cry give&#8212;give,&#8212;and unsoured by his own crushing misfortunes, shouldering ever the burdens poverty has laid too heavily on others;&#8212;is there nothing sublime in this? Nothing to admire in a fortitude that bore so bravely troubles which would have driven any ordinary man to suicide?</p>
+                <p>For myself, I could scarce refrain from tears at the spectacle. And when the last plank floated from under him; when the daughter, who was to him as the beacon-light to the shipwrecked mariner, went out in utter darkness, and after the storm the old man stood like a stately tree reft by the lightning, every green leaf shriveled and blackened, yet still striving, under the arching heavens, to put forth fresh blossoms of hope; can you not now throw the mantle of charity over the errors born of a mis-directed youth, and so nobly atoned for? Can you not desire to grasp in your own the kind hands which made smooth for those weary feet the steep descent to the grave? And would you not <hi rend="italic">yourself</hi> have hastened to stand around his deathbed, that the brave old man might have numbered one more friend at the last?</p>
+                <p>I have alluded to Burr's unfortunate rejection of the faith of his fathers. I know of nothing more affecting than the letter written by his daughter (Mrs. Alston, who was, like her father, the idol of society, and bore her share of the odium of his downfall with equal fortitude) to him on the death of her only child, whom they both so idolized. She says, "Whichever way I turn is anguish&#8212;<hi rend="italic">I think even Omnipotence could give me no equivalent for my boy&#8212;no&#8212;none&#8212;none."</hi> Alas, that that father should have taught this gifted daughter so much&#8212;and yet so little! Alas, that they <hi rend="italic">both</hi> should have thrown away, as useless, the chart and compass by which the most ignorant of tempest-tost mariners can steer safely into port. </p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

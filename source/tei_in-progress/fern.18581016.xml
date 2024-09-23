@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581016">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Story for the Children</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Story for the Children</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when=""1858-10-16" ">"16 October 1858"</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-10-16" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern.18581016.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern.18581016.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern.18581016.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern.18581016.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern.18581016.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern.18581016.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern.18581016.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern.18581016.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A Story for the Children</head>
+                
+                
+                <p>And so you are "sorry it is Sunday." That is a pity. I would like to make Sunday the pleas-entest day of the whole week to you. I should not require you to sit still, with your hands folded. I could not do that myself so I am sure I should not expect it of a restless little child. I should not make you read all day, because I should know you would get too weary to understand what you were reading; I should be almost sure when my eye was off you, or my back turned, that you would pull a string out of your pocket to play with, or tie your handkerchief up in knots, or fall asleep. I should expect if I did so that you would say, "I am sorry Sunday has come." I know that a great many very good people think very differ-ently fro me about these things; but I can't help thinking, when I hear their children say, "I am sorry Sunday has come," that <hi rend="italic">I</hi> am more right than <hi rend="italic">they</hi>. I can't help thinking that we should not require of little children what we cannot do ourselves; for I have seen many grown people who got tired of reading, lie down and <hi rend="italic">sleep away Sunday</hi> because they did not know what else to do with it, who, at the same time, expected <hi rend="italic">the children</hi> to sit stock still on their chairs, as "whist" as a mouse, or, at any rate, left them to yawn over their books, and long for Monday, just as they themselves do, only they are not as honest as the children, who <hi rend="italic">say</hi> so. Let me tell you a story:</p>
+                <p>Gertrude's father was dead. He loved gertrude better than anything in the world except Gertrude's mother. He was never weary of her&#8212;never too tired with business to kiss her when he came home. On Sunday he took her on his knee, and told her how cunning little Moses looked in his little cradle in the bulrushes, where his mother had placed him, hoping that the king's daughter would take him for her own baby, and so keep him from being killed like the other little hebrew babies; and then Gertrude would ask him all sorts of questions about it, and clap her little hands when the king's daughter did take him, and chose his own dear mother (though she did not know her to be his mother" to be his nurse. And then gertrude would wonder how this nurse could possibly keep from telling little Moses, when he got big enough to understand her, that she <hi rend="italic">was</hi> his own mother. and then she would say, "Oh, papa, I know they <hi rend="italic">did</hi> have nice times when nobdy was by to see the poor Hebrew mother kiss her own baby."</p>
+                <p>Well&#8212;when they were done talking about that, Gertrude's father would tell her of the little Syrian maid who cured the sick prophet; and the story of Daniel, and the story of the ravens who fed Eli-jah; and then by and by the bells would ring for church, and Gertrude would talk hold of her father's hand and walk along with him past the beautiful fields, where the tall grass waved, and the little ground bird built her nest, and down the winding grassy road, under the shady oaks, and else, and maples, round whole trunks the sweet bried and wild grape climbed, and then Gertrude would stop to pick the wild roses; and her Papa did not tell her it was "wicked" or wrong to gath-er flowers on a Sunday, but he would tell her to bring him a clover blossom, or a daisy, or a rise, and show her how different they were from the other in shape, color and perfume, and yet how beautiful was each; and then he would show her the dew-drops strung upon the blades of grass glistening in the sunlight; and the contented cat-tle, their tired nicks relieved from the heavy yoke lying in the shake, thanking God for Sunday <hi rend="italic">by enjoying it,</hi> teaching us a dumb lesson which we should do well to learn, always keeping in mind that we have souls while they have not. Well&#8212;then Gertrude and her papa went into church. Gertrude liked the singing very much; her Papa sung besides her, and sometimes, after looking cautiously round, for she was a timid little thing, she would sing softly too, her little finger moving along the line of the hymn they were singing. Gertrude did not understand all the sermon, her Papa did not expect that she would, but he always took her to church half a day, because the minister never forgot that little children had souls, and always had something to say to them in every sermon. After church when Gertrude skipped along home like a little kid, by his side, her father did not think it a sin, or say "sh&#8212;sh"&#8212;when she gave a merry little laugh because God had made the world so fair and given her so much love and happiness that she could not possible keep it all pent up in her little heart; not hex&#8212;he patted her pure uplifted forehead, and the world seemed very fair to him too, and Sunday very blessed.</p>
+                <p>Gertrude's father has blessed Sabbaths still&#8212;but not on earth; and little Gertrude with her warm trusting heart has passed from his pleasant smile, and sheltering arms, over the threshold of a strange, cold home. Sunday comes and goes to little Ger-trude, but oh how wearily! They who have the care of her, think that God is pleased with long faces, and so Gertrufe is placed in a chair after breakfast Sunday morning, and forbidden to stir till the bell rings for church; she may not step out on the piazza to see God smile on the green earth; she may not enjoy the blue sky, or bright flowers, which he has spread out to make the Sab-bath "a delight;" she must fix her eyes on a book, and read&#8212;read&#8212;read&#8212;till her brain reels, and then she goes to chuch morning&#8212;afternoon&#8212;evening till at last <hi rend="italic">she</hi> too has learned to say, "I am so sorry 'tis Sunday"</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

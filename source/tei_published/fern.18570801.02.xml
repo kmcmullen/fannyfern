@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570801.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Widow Hawthorne's Soliloquy</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Widow Hawthorne's Soliloquy</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-08-01">1 August 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-04-08" who="#km">proofed</change>
+            <change when="2023-09-23" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570801.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570801.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570801.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570801.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570801.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570801.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570801.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570801.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+               
+                    <head type="main">WIDOW HAWTHORNE'S SOLILOQUY.</head>
+                
+               
+                    <p>A love-letter for my daughter, Kitty! How ridiculous! It seems but yesterday since she had her first spanking. A love-letter for Kitty, and one for me by the same post. Well&#8212;either she is too old, or I am too young. It must be time I was feeling venerable; but how is a woman to feel venerable, who catches herself jumping down three stairs at a time? who never can lie a-bed a minute after sunrise, and who never feels tired, or cold, or solemn? How is a woman to feel venerable who likes a frolic better than a sermon? It is all nonsense. That feeling comes with grey hair, and my hair <hi rend="italic">wont</hi> turn grey.</p>
+                
+                <p>A love-letter for Kitty! Seems to me that the young folks of the present day are in a great hurry. I like young folks. What flowers are to a garden, they are to a house. Am I to have mine stripped at the pleasure of every youngster whose roving eye is caught? Am I to be left to a corner, a cat, and a snuff-box? Am I to hear no more bird-like caroling, up stairs, and down stairs, and in my lady's chamber? Is there to be a cover for one only at my merry table? Are the sunny tresses I have curled and braided to flash back the sunlight in other homes? Have I sung lullaby, and watched the stars pale for this? What is the love of any man living, to a mother's&#8212;to mine?</p>
+                
+                <p>Will she be dearer to <hi rend="italic">him</hi> when she is sick and grieved, than when she is well and happy? Will he comfort her when she is sorrowful&#8212;laugh with her when she is merry&#8212;open wide his sheltering arms at her fancied terrors&#8212;and love her very faults? Or, will he pluck the pretty flower that I have reared, and place it in his breast only till the bloom and fragrance have fled? Transplant it to a hothouse soil, only to expose it suddenly and capriciously to the chilling blast? Ah! take away my merry Kitty's love-letter. Time enough yet. Time enough yet!</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

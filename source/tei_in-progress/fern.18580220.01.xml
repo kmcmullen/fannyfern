@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580220.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Talk With My Readers</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Talk With My Readers</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-02-20">20 February 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-06" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580220.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580220.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580220.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580220.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580220.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580220.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580220.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580220.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A TALK WITH MY READERS.</head>
+                
+                
+                
+                    <p>Every day I meet that man. I don't think he has any idea of the emotions he excites under my belt ribbon; and lest any profane reader should be making up his mouth to giggle, I hasten to change the expression of his countenance immediately, by announcing that the unknown is a minister. And I do this without any hesitation, though I never spoke a word to him, and know not whence he cometh nor whither he goeth; for all that I would stake my reputation, or what there is left of it, after the press have had their way, on the veracity of the above assertion.</p>
+                <p>In the first place, if he had swallowed a church steeple, and hung his hat on the top of it, he couldn't be more perpendicular. Nothing could exceed the blackness of his coat, save the whiteness of his cravat. His arms hang as limp by his side as if the empty coat-sleeves were pinned there by some surgeon who had a scientific use for what generally fills them. His feet are lifted up and put down with a precision that would delight a drill sergeant. His mouth&#8212;you should contemplate the holy pucker of it! It <hi rend="italic">smacks</hi> of&#8212;well, how should I know? Still I may be allowed to have my little thoughts, and I have seen "frosting" cover very spicy condiments. That he deprecates a thaw I infer from teh fact that he never looks at a bonnet.</p>
+                <p>Now I suppose the poor wretch thinks that the Almighty is pleased with that sort of thing. Mistaken soul, which dreams of Heaven, but never'll get there by that road! Why don't he laugh, and sneeze, and even trip sometimes, to show that he is human? and why does he walk through God's earth with the measured tread of a funeral march&#8212;crushing all the sweet flowers of life under the iron heel of repression? Faugh! I bless the Lord every day for sending us Henry Ward Beecher, who does so much with his muscular ten-strikes towards knocking over these perpendicular, ninepin-looking clergymen, and others of that sort, for whom the little children clear the sidewalk, and hush the merry laugh as they pass.</p>
+                <p>Hurrah for his jolly face, brown coat, and wide-awake hat! Thank goodness for his capability to munch pea-nuts, and scatter the shells as he goes. Bless a kind Providence that he is human, and is not ashamed of it. That he takes a particular and roguish satisfaction in saying <hi rend="italic">squished</hi> instead of <hi rend="italic">crushed</hi> in the pulpit; where he is not penned in like a sheep, but strideth up and down at his will, and hath a place to jump off when he is too much for himself.</p>
+                <p>It is all very well to berate him and say he is no logician, no scholar. The dexterous marksman must expect to call forth such remarks from the wincing party. We need an army of just such to clear the field of these sacerdotal conservatives, who year after year do nothing but crack dry theological nuts, out of which never a listener yet extracted nutritious meat;&#8212;who bottle up all that is human, till the effervessing contents&#8212;harmless if unrestrained, mighty and dangerous from repression&#8212;fly in their astonished faces.</p>
+                <p>"Goes too far," growls old fogyism. What was ever accomplished in this world without going too far? Better to overshoot and hit something, than never in a life-time to aim. Let temporizers stand by and watch the battle if they will not take part in it, but, in the name of the rising generation of scoffers, don't try to hinder it.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

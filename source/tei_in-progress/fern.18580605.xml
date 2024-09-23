@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580605">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Why I Like New York</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a"><Why I Like New York</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-06-05>5 June 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-07-15" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580605.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580605.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580605.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580605.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580605.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580605.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580605.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580605.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">Why I Like New York</head>
+                
+               
+                
+                <p>New York, with all thy faults, I love thee still; and yet thy long-suffering pavements know thou never art still! Yes, I love thy rush, and hurry, and clatter, and din; it sounds as if the world was really "going round," as the geographers tell us, which a sojourn in Boston might tempt on edoubt. It suits my restless moods, though I must say I prefer my bed to be located in Brooklyn. I don't always find myself frowning when the impu-dent omnibusses coolly take off the hind to hear the ripping anathemas launched after them. I like the distant whiz of the breathless cars. I like the booming of connon, announcing a steamer's ar-rival, which comes to us on every breeze. I like the slap=dash, pell-mell rush of the fire-engines, rouch corners, and through throughfares, regard-less of every description of puppy and nondescript young kittens. The impudent persistence of thy beggars amuseth me, with their stock of blessing and curses ready to order, according to the gene-rosity, penuriousness, or indifferent of the listen-er; also the street "ballads," festooning park gates and railing, or held down by stones to coun-teract their exceeding <hi rend="italic">lightness.</hi></p>Thy sprinking of priests and dandies is funnt. Thy Babylonish wo-men also, bloated with high living, nothing to do, and no place to do it in. Thy vivacious little school-girls&#8212;the nature, not yet "moral science"-d out of all of them&#8212;more bewitching with their shining hair, plain collars, and satcheles, than all the after-trickeries of fashion can make them. Thy jaded editors and merchants, to whom one must give a wide berth as they pass home up-town to dinner&#8212;the very incarnation of jack-knives, east-wind, and vinegar; but how radiant in the evening at opera or concert, like all their sex after that male quietus&#8212;a good feed! (N.B)&#8212;No wife, who knows anything, will ask a favor of her husband at any less auspicious moment.&#8212;Thy stylish equip-ages, with their liveried coachmen, and anything but patrician-looking occuoants. Thy opera's, and theater's, and minstrel's, and mammoth women&#8212;the latter shwn at twenty-five cents a head; like wise skeleton men; likewise leaned pigs. Thy long-tailed, humbugging Chiramen, bent double on the sidewalk, with intense scrutiny of their toes, meantime drawing sympathy and coppers from un-sophisticated "green-horns." Thy bewitching shop-windows, which wise husbands never pass in company with their wives. Thy surfeit of church-steeples and dentists. (N.B.)&#8212;How is it that dentists are generally handsome?&#8212;Thy hetero-geneous, panoramic mixing-up of races and cos-tumes. Thy better than Babel-confusion of tongues. Good gracious! how refreshing to rush plump into the maelstron, and sink one's self; to shut one's mental eyes, and be borne carelessly off on the cur-rent of the hour, ignoring the musquito-stinging cares, annoyances, disgusts, perplexities, aye, even responsibilities, from which our overcharges hearts need an escape valve. 
+                <p>Heaven help the excitable wretch, doomed to vegetate like a turnip in the sleepy hum-drum-ness of a country village, with its one town-pump, its one blacksmith's shop, its one fire-engine, and its one desolate "meeting-house"&#8212;and that al-ways perched on an arid sand-bank, forty miles at least from any green thing, save the sexton.</p>
+                
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570801.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Peeps at Philadelphia. Number [Four]</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName>Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Peeps at Philadelphia. Number [Four]</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-08-01">1 August 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>        
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-09-15" who="#km">proofed</change>
+            <change when="2023-09-23" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570801.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570801.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570801.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570801.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570801.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570801.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570801.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570801.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">PEEPS AT PHILADELPHIA.</head>
+                
+                <head type="sub">NUMBER THREE.<ptr target="#note1" xml:id="nr1" n="1"/></head>
+                
+                    <p>I wonder&#8212;I suppose a body may wonder&#8212;if the outward sweeping and garnishing one sees in Philadelphia is symbolical of its inward purity? If the calm placidity of its inhabitants covers up smouldering volcanoes? It is none of my business, as you say; for all that, the old proverb&#8212;"Still waters run deepest"&#8212;would occur to me, as I walked those lovely streets. An eye witness to the constant verification of this truth, in the white-washed, saintly atmosphere of the city of Boston, may certainly be forgiven a doubt. Do the Philadelphia churches, like theirs, contain a sprinkling of those meek-faced Pharisees, who weary Heaven with their long prayers, and in the next breath blast their neighbor's character; who contribute large sums to be heard of men, and frown away from their doors their poverty-stricken relatives? Do those nun-like Philadelphia women ever gossip, "Caudle lecture" and pout? Do those correct-looking men know the taste of champaigne, and have they latch-keys? Are their Quaker habits pulled off, when they come "on business" to this seething Sodom? Or&#8212;is it true of them, as Mackay says of Lady Jane&#8212;
+                        
+                        <q>
+                            <lg type="linegroup">
+                               <l>"Her pulse is calm&#8212;milk-white her skin,</l> 
+                               <l>She hath not blood enough to sin?"</l>
+                            </lg>
+                        </q>
+                        
+               It is none of my business, as you say; but still I know, that white raiment is worn alike by the rosy bride and the livid corpse.</p>
+                
+                <p>Mischief take these microscopic spectacles of mine! mounted on my nose by the hypocrites I have known, who glide ever between my outstretched arms of love and those whom I would enfold. Avaunt! I like Philadelphia, and I like the Philadelphians, and I <hi rend="italic">will</hi> believe in appearances once more before I die.</p>
+                
+                <p>Like a cabinet picture in my memory, is lovely "Wisahickon;" with its tree-crowned summits&#8212;its velvety, star-blossomed mosses; its feathery ferns and its sweet-breath'd wild flowers. If any one thinks an editor is not agreeable out of harness, let him enjoy it as I did, with Mr. Fry of "The New York Tribune," whose early love it was in boyhood. In such an Eden, listening to the low whisper of the shivering trees, the dreamy ripple of the wave, and the subdued hum of insect life&#8212;well might the delicate artistic ear of song be attuned.</p>
+                
+                <p>But "Wisahickon" boasts other lions than Fry&#8212;in the shape (if I may use a Hibernicism) of a couple of live bears&#8212;black, soft, round, treacherous and cat-ty. To be gazed upon at a distance, spite of their chains&#8212;to shiver at, spite of their owner's assurance, as they came as far as their limits through the trees to look at us, "that they wouldn't do nothing to nobody." It would be a speculation for some Broadway druggist to buy that one who stood upon his hind legs, and taking a bottle of Sarsaparilla Soda in his trained forepaws, drained it standing with the gusto of a connoisseur.</p>
+                
+                <p>Not one beggar did I see in Philadelphia. After witnessing the squalor which contrasts so painfully with New York luxury and extravagance, this was an untold relief.</p>
+                
+                <p>Philadelphia, too, has what we so much need here&#8212;comfortable, cleanly, convenient, <hi rend="italic">small</hi> houses for mechanics; comprising the not-to-be computed luxury of a bath-room, and gas, at the attainable rent of seventy-five or a hundred dollars a-year. No house ever yet was built, broad enough, wide enough, and high enough, to contain two families. Wars will arise over the disputed territory of front and back stairs, which lawless childhood&#8212;bless its trustful nature&#8212;will persist in believing common ground. But apart from the cosy pleasure of having a little snuggery of one's own&#8212;where one may cry, or laugh, or sneeze, without asking leave&#8212;this subject in its <hi rend="italic">moral</hi> aspect is well worth the attention of humane New York capitalists&#8212;and I trust we have such.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+        <back>
+            <div type="notes">
+                
+                <note xml:id="note1" n="1" type="editorial" resp="#km">This column is incorrectly sub-titled "Number Three." This was actually Fern's fourth "Peeps from Philadelphia" installment; the actual <ref type="internal"  target="fern.18570725">"Number Three"</ref> was published on July 25.</note>
+                                    
+            </div>
+        </back>
+        
+    </text>
+</TEI>

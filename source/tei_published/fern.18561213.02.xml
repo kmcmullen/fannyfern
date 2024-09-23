@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561213.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">To the Ladies. A Call to be a Wife</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor xml:id="cm">Carmen McCue</editor>
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date>2015</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">To the Ladies. A Call to be a Wife</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1856-12-13">13 December 1856</date>
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                <biblStruct xml:id="issue">
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#km" when="2018-06-16">created file; pasted text from fern.18561213.01</change>
+            <change who="#cm" when="2012-04-07">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18561213.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18561213.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18561213.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18561213.04.jpg"/>
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18561213.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18561213.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18561213.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18561213.08.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+           
+            <div type="column">
+                
+                <head type="main">TO THE LADIES.</head>
+                
+                <head type="sub">A CALL TO BE A WIFE.</head>
+                
+                <p>Has that woman a call to be a wife, who thinks more of her silk dress than her children, and visits her nursery no oftener than once a day?</p>
+                
+                <p>Has that woman a call to be a wife, who cries for a cashmere shawl when her husband's notes are being protested?</p>
+                
+                <p>Has that woman a call to be a wife, who sits reading the last new novel, while her husband stands before the glass vainly trying to pin together a buttonless shirt bosom?</p>
+                
+                <p>Has that woman a call to be a wife, who expects her husband to swallow diluted coffee, soggy bread, smoky tea, and watery potatoes, six days out of the seven?</p>
+                
+                <p>Has she a call to be a wife, who keeps her husband standing on one leg a full hour in the street, while she is saying that interminable "last word" to some female acquaintance?</p>
+                
+                <p>Has she a call to be a wife, who flirts with every man she meets, and reserves her frowns for the home fireside?</p>
+                
+                <p>Has she a call to be a wife, who comes down to breakfast in abominable curl-papers, a soiled dressing-gown, and shoes down at the heel?</p>
+                
+                <p>Has she a call to be a wife, who bores her husband, when he comes into the house, with the history on a broken tea-cup, or the possible whereabouts of a missing broom-handle?</p>
+                
+                <p>Has she a call to be a wife, whose husband's love weighs naught in the balance with her next door neighbor's damask curtains, or velvet carpet?</p>
+                
+                <p>Has she a call to be a wife, who would take advantage of a moment of conjugal weakness, to extort money or exact a promise?</p>
+                
+                <p>Has she a call to be a wife, who "has the headache" whenever her husband wants her to walk with him, but willingly wears out her gaiter-boots promenading with his gentleman friends?</p>
+                
+                <p>Has she a call to be a wife, who takes a journey for pleasure, leaving her husband to toil in a close office, and "have an eye, when at home, to the servants and children?"</p>
+                
+                <p>Has she a call to be a wife, who values an unrumpled collar or crinoline more than a conjugal kiss?</p>
+                
+                <p>Has she a call to be a wife, to whom a <hi rend="italic">good</hi> husband's society is not the greatest of earthly blessings, and a house full of rosy children its best furnishing, and prettiest adornment?</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+
+            
+        </body>
+    </text>
+</TEI>
