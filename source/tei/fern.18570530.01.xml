@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570530.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Wayside Words</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Wayside Words</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-05-30">30 May 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-06-19" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570530.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570530.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570530.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570530.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570530.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570530.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570530.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570530.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">WAYSIDE WORDS.</head>                
+                
+                
+                    <p>I wonder is there a country on the face of the earth, where the Almighty is oftener called upon to send to perdition the souls of those who offend its inhabitants? Every where that horrid imprecation, so familiar that it is unnecessary to shock you by writing it, meets the pained ear. I say pained, because I, for one, cannot abhor it less on account of its frequency, or consider it less disgusting, because it filters through aristocratic lips. Every where it pursues me, in crowded streets, on ferry boats, in omnibuses, and, I am sorry to say, in ladies' parlors, which should afford a refuge from this disgusting habit.</p>
+                
+                <p>From old men,&#8212;whose toothless lips mumble it almost inarticulately; from those who would resent to the death any question of their claim to the title of gentlemen; from young men, glorious else, in the strength and vigor of youth; and sadder still&#8212;from little children, who have caught the trick, and bandy curses at their sports. <hi rend="italic">An oath from a child's lips!</hi> One would as soon expect a thunderbold from out the heart of a rose. And yet, there are those who deliberately <hi rend="italic">teach</hi> little children to swear, and think it sport, when the rosy lips, with childish grace, lisp the <choice><sic>domoniac</sic><corr>demoniac</corr></choice> lesson.</p>
+                
+                <p>An oath from a woman's lips! With shuddering horror we shrink away, and ask, what bitter cup of wrong, suffering and despair, man has doomed her to drink to the dregs, ere she could so belie her beautiful womanhood.</p>
+                
+                <p>One lovely moonlight night, I was returning late from the Opera, with a gentleman friend, the delicious tones I had heard still floating through my charmed brain. Suddenly from out a dark angle in a building we passed, issued a woman; old not 
+                    
+                    <figure>
+                        <graphic url="http://fannyfern.org/images/illustrations/fern18570530.04_ill1.jpg"/>
+                        <figDesc>A well-dressed couple being approached by a barefooted woman on the street.</figDesc>
+                    </figure>
+                    
+                    in years, but in misery, for her long, brown hair curtained a face, whose beauty had been its owner's direst curse. To my dying day I shall never forget the horrid oaths of that wretched woman as she faced the moonlight and me. Perhaps I had evoked some vision of happier days, when she, too, had a protecting arm to lean upon; sure I am could she had read my heart, she would not have cursed me. But oh, the wide gulf between what she must have been and what she was! Oh, the dreadful reckoning to be required at the hands of him who defaced this temple of the living God, and left it a shapeless blackened ruin!</p>                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

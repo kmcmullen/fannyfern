@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571031">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Things I Have Lately Seen</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Things I Have Lately Seen</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-10-31">31 October 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-23" who="#km">proofed</change>
+            <change when="2023-10-22" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571031.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571031.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571031.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571031.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571031.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571031.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571031.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571031.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">THINGS I HAVE LATELY SEEN.</head>
+                
+                
+                
+                    <p>It does not follow, of course, that genius should spring to life in a garret; but, for all that, it is a well accredited fact, that necessity is the crucible in which the gold, otherwise hidden, has been filtered from many a gifted son and daughter of Adam. "Rosa Bonheur" is a little woman, who, not many years since, lived in a garret, with a pet sheep. Now look at her famous picture of "The Horse Fair;" and wave your bonnet in the air, as I wanted to do, that one of my sex had painted it. Aye&#8212;wave your hat if you are a man, and give as hearty an hurra, as if that masterly performance had not been done by Mistress Bonheur. Be magnanimous for once; and don't pull up your shirt-collar, and coldly whisper over it, "Quite good&#8212;for a woman." I tell you it would make a reputation for any coat among you. There are few masculine pencils equal to the production of a horse like that superb fellow in the foreground. The very sight of him makes my blood leap like the sound of a trumpet. I can scarce keep my restless hands from his magnetic sides, or my cheek from his arching neck. Look at his flashing eye, and dilated nostrils!&#8212;ye gods! for a gallop with him till both our breaths gave out! That adorable creature&#8212;a spirited horse&#8212;is second only to a shapely, manly man; and so the fair artist seems to think; for she has done full justice to the muscles and sinews of their stalwart riders. So much vitality has she infused into this picture, that one actually feels stronger after looking at it&#8212;broader chested&#8212;breathes freer, as if he had actually ridden through the green lanes of England to this rural fair. I envy the man who now owns it; and, as I turned away, I hoped that the artist, though a woman, received a liberal equivalent for the treasure she has transferred to his hands.</p>
+                
+                <p>One of the greatest curiosities I have seen lately has been "The Aquaria,"&#8212;for some time past a pet amusement in England&#8212;now first introduced to the American public. Almost every house among us has had its pretty globe of goldfish. Imagine your globe a glass square, with a floor of shells, mimic rocks, and salt or fresh water plants&#8212;as yon desire a salt or fresh water aquarium, with fresh or salt water fish, darting about, or beautifully poised in water, so limpid, that every motion of their gauzy fins is clearly discernable. It is not only a pretty but an instructive sight to watch their habits and instincts&#8212;to see how naturally they adapt themselves to their artificial homes. I can imagine nothing pleasanter for an invalid, whose wishes must be circumscribed by his chamber walls, than the suggestive care of these little pets; no more attractive illustration for the teacher, of God's wonders in the deep, than the perfect finish of these little, finny creatures, and their beautiful adaptation to the purposes of their creation. I could wish that all who love to make home attractive to childhood's curious, asking eye, would make place for an aquarium in it. In the same place I saw&#8212;what was to me a pretty parlor novelty for any season&#8212;little gardens under glass; the tiny ferns and mosses beneath sparkling with the moisture that was constantly dropping like dew-drops from their vivid-green leaves. I consider every beautiful thing of this sort, introduced into our homes, as a counter charm for those harmful <hi rend="italic">outside</hi> influences, which no wise parent can afford either to despise or ignore.</p>
+                
+                <p>But I had not meant to moralize. Let me tell you of something else I saw the other day. I was sitting in a Broadway omnibus, with two other lady passengers, when the coach was hailed by a policeman, followed by a shouting crowd. The object of attraction was a criminal, hand-cuffed, and foot-cuffed&#8212;if that last is an admissable expression, who was, to our female consternation, bundled into the omnibus beside us! Whether this thing is allowable by law seems to me to be a question open to debate. His ashen face, blood-stained linen, and flashing eyes, might well have made us beat a precipitate retreat, had we felt inclined to venture past him to get out, which we did not. There he sat, looking nervously this way and that, as if conscious of our fascinated eyes&#8212;plucking, as well as he could, at his handcuffs, and looking wistfully at the door, and defiantly at us, who, I can answer for one, only compassionated him the more, that he had forfeited his own self-respect. Close beside him, bolt upright, sat the rubicund policeman&#8212;to whom a fallen man was an every-day affair, looking as stolid and contented as if he had charge of a leg of mutton for dinner&#8212;as if the degraded man beside him had not hell raging in his heart, as it was legibly written on a face that must some time have smiled back to a mother's loving kiss. Presently, putting his hand in his pocket, he drew out a quid of tobacco, and, after generously padding his own cheek, he jerked a piece sideways, without word, or comment, or even a turn of his head, into the hand-cuffed man's mouth; then folded his official hands quietly as before, with the consciousness of one who has squared accounts with his brother man! The revulsion was too much for me, as I witnessed the peaceful look that stole gradually over the criminal's face, and I laughed outright. In heaven's name, thought I, for what is <hi rend="italic">not</hi> tobacco a masculine panacea;&#8212;that it should be a "soothing syrup" for shame like that!&#8212;that over such a slender bridge good fellowship should cross between a prisoner and his keeper! It was a new phase of human nature. I pulled the strap&#8212;I was not afraid of the caged tiger now; and trudged off with my sixpence worth of fun.</p>
+                
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

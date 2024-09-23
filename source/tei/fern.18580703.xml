@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580703">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Word for the Children</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Word for the Children</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-07-03">03 July 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-07-16" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580703.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580703.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580703.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580703.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580703.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580703.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580703.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580703.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A Word for the Children</head>
+                
+                
+                
+                <p>There is not a day of my life in which I am not vexed at the injustice done to children. A Sunday or two since, I went to hear Mr. Beecher preach, that live apostle, who can galvanize the deadest soul that ever Satan paralyzed. In the pew direct-ly in front of me sat a fine little lad, about twelve years old, unobtrusively taking notes of the sermon. By my side sat a man&#8212;gentleman, I sup-pose, he called himself&#8212;his coat, pants, boots, and linen were all right as far as I am any judge, and dress seems to be the test now-a-days&#8212;who occu-pied himself in leaning over the front of the pew, and reading what the boy was writing&#8212; evidently to the discomfiture of the latter. Now I would like to ask why that child's penciled notes should not have been as safe from curious eyes as if he had been an adult?? and what right that grown-up man had to bother and annoy him, by imperti-nently peeping over his shoulder? and of what use it is to preach good manners to children, while nobody thinks it worth the while to practise the same toward them? The other day I was sitting in a car, and a nice, well-behaved boy of ten years took his seat and paid his fare. Directly after in came the conductor, and, without a word of com-ment, coolly took him by the shoulder and stood him on his feet, and then motioned s a lady to his vacant seat. Why not <hi rend="italic">ask</hi> the child, at least? I have often been struck with the ready civility of boys in this respect, in public conveyances&#8212;but that is no reason why they should be imposed upon; the lady who took the seat might possibly have thanked a <hi rend="italic">gentleman</hi> for yielding it to her, but she evidently did not think that good manners re-quired she should thank the boy. Again&#8212;what right has a gentleman to take  a blushing little girl of twelve or thirteen and seat her on his knee, when he happens to want her place! I have seen timid, bashful girls suffering cricifixion at the smiles called forth by this free and easy act; and sometimes actually turning away their faces to conceal tears of mortification; for  there are little female children unspoiled even by the present bold system of childhood annihilation&#8212;little violets who seek the shale, and do not care to be handled and pulled about by every passer-by. Again, why will parents, or those who have the charge of chil-dren make such hypocrites of them by saying, Go kiss such and such a person? A kiss is a holy thing, or should be, and not to be lightly bestowed. At any rate, it should never be compulsorily given. Chil-dren have their likes and dislikes, and often much more rationally grounded than those of grown people, though they may not be able to syllable them. I never shall forget a snuffy old lady whom I used to be obliged, when a child, to kiss. I am not at all sure that my unconquerable aversion to every form of tobacco&#8212;and even the "Fanny Fern Tobacco" fails to mollify me!&#8212;does not date from these repulsive and compulsory kisses. With what a lingering horror I approached her, and with what a shiver of disgust I retreated to scrub my lips with my pinafore, and shake my locks lest peradventurea particle of snuff had lodged there. How I wondered what she would do in Heaven without that snuff-box, for she was a "church mem-ber," and my notions of Heaven could by no stretch of liberality admit such such a nuisance; and how I in-wardly vowed that if i ever grew to be a woman, and if I ever was married, and if I ever had a lit-tle girl, all of which were <gap> reason="stain obscuring text" extent="one word"</gap> certainties in my childish future, I would never make her kiss a per-son unless she chose to do it, never&#8212;never&#8212;which article of my pinafore creed I do here publicly en-dorse with my matronly hand.</p>
+                <p>Again, what more abominable tyranny than to force a child to eat turnip, or cabbage, or fat meat, or anything else for which they have an unconquerable and unexplainable disgust? It is in-famous. I have seen a child actually shudder and turn pale at being obliged to swallow such things. Pray, why should not their wishes in this respect be regarded as much as those of their seniors? Not that a child should eat everything which it craves indiscriminately, but it should never, in my opinion, be forced to swallow what is unpalata-ble, except in the cae of medicine, about which parents tell such fibs&#8212;that it "tastes good" and all that&#8212;when they should say honestly, "It is very bad indeed, but you know you <hi rend="italic">must</hi>take it, and the sooner it is over, the better; not be brave and swallow it." I do protest too against forcing big boys to wear long curls down their backs after they are well into jackets, for the gratification of mamma's pridesm who "can't bear to cut them off," ever tnough her boy skulks out of sight of every "fellow" he meets, for fear of being called a "girl-boy;" or making a boy of that age wear an apron, which the "fellows" are quite as apt to twit him about, or anything else which makes him look odd or ridiculous. There is no computing the sufferings of children in these respects. I dare say many have who read this will say "But they should be taught not to mind such things," &c. ; that's all very well to say, but suppose you try it yourself;&#8212;suppose you were compelled to walk into church on Sunday with a collar that covered your cheeks, and you great-grandfather's coat and vest on; to hear the suppressed titters, and be an object or remark every times you stirred, and you a man who hated noteriety, and felt like knocking down every body who stared at you? How would that suit? Nothing like bringing a case home to your-self. Just sit down and recall your own child-hood, and remember the big lumps in your little throat that seemed like to choke you, and the big tears of shame that came rolling down on your jacket, from some such cause, and don't go through the world striding with your grown-up boots on little children. They are not all angels, I know; some of them are malicious, and ugly, and selfish and disagreeable; and whose fault is it&#8212;answer me that? Not, one time in ten, the child's. You may be sure of it. God made it right, but there were bunglers who undertook the charge which an angel might shrink from.</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

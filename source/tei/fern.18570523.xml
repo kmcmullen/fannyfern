@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570523" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Male Criticism on Ladies' Books</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Male Criticism on Ladies' Books</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-05-23">23 May 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-06-17" who="#km">proofed</change>
+            <change when="2014-09-24" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570523.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570523.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570523.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570523.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570523.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570523.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570523.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570523.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">MALE CRITICISM ON LADIES' BOOKS.</head>
+                
+                <epigraph><p>Courtship and marriage, servants and children, these are the great objects of a woman's thoughts, and they necessarily form the staple topics of their writings and their conversation. We have no right to expect anything else in a woman's book.&#8212;N.Y. Times.</p></epigraph>
+                
+                
+                <p>Is it in feminine novels <hi rend="italic">only</hi> that courtship, marriage, servants, and children are the staple? Is not this true of all novels?&#8212;of Dickens, of Thackeray, of Bulwer and a host of others? Is it peculiar to feminine pens, most astute and liberal of critics? Would a novel be a novel if it did not treat of courtship and marriage? and if it could be so recognized, would it find readers? When I see such a narrow, snarling criticism as the above, I always say to myself, the writer is some unhappy man, who has come up without the refining influence of mother, or sister, or reputable female friends; who has divided his migratory life between boarding-houses, restaurants, and the outskirts of editorial sanctums; and who knows as much about reviewing a woman's book, as I do about navigating a ship, or engineering an omnibus from the South Ferry, through Broadway, to Union Park. I think I see him writing that paragraph in a fit of spleen&#8212;of <hi rend="italic">male</hi> spleen&#8212;in his small boarding-house upper chamber, by the cheerful light of a solitary candle, flickering alternately on cobwebbed walls, dusty wash-stand, begrimed bowl and pitcher, refuse cigar stumps, boot-jacks, old hats, buttonless coats, muddy trousers, and all the wretched accompaniments of solitary, selfish male existence, not to speak of his own puckered, unkissable face; perhaps, in addition his boots hurt, his cravat-bow persists in slipping under his ear for want of a pin, and a wife to pin it, (poor wretch!) or he has been refused by some pretty girl, as he deserved to be, (narrow-minded old vinegar-cruet!) or snubbed by some lady authoress; or, more trying than all to the male constitution, has had a weak cup of coffee for that morning's breakfast.</p>
+                
+                <p>But seriously&#8212;we have had quite enough of this shallow criticism (?) on lady-books. Whether the book which called forth the remark above quoted, was a good book or a bad one, I know not: I should be inclined to think the <hi rend="italic">former</hi> from the dispraise of such a pen. Whether ladies can write novels or not, is a question I do not intend to discuss; but that some of them have no difficulty in finding either publishers or readers, is a matter of history; and that gentlemen often write over feminine signatures would seem also to argue that feminine literature is, after all, in good odor with the reading public. Granting that lady-novels are not all that they should be&#8212;is such shallow, unfair, wholesome, sneering criticism (?) the way to reform them? Would it not be better and more manly to point out a better way kindly, justly, <hi rend="italic">and, above all, respectfully?</hi> or&#8212;what would be a much harder task for such critics&#8212;write a better book!</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

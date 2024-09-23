@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560802.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Is It So? And If So, Why So?</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Is It So? And If So, Why So?</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1856-08-02">2 August 1856</date>
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                <biblStruct xml:id="issue">
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#km" when="2018-06-16">created file; copied text from fern.18560802.01</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560802.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560802.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560802.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560802.04.jpg"/>
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560802.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560802.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560802.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560802.08.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            
+            <div type="column">
+                <head type="main">IS IT SO? AND IF SO, WHY SO?</head>
+                
+                <p>My friend Parton, in his recent book, called "Humorous Poetry of the English Language," says, that he could find no Humorous Poetry by Women, worthy a place in his collection; and his mind seems to be quite exercised in the Preface, upon this question: Can women write Humorous Poetry, or&#8212;can they not?</p>
+                
+                <p>I charge him no fee for my opinion, which is as follows:</p>
+                
+                <p>1st. That women have not written humorous verses for the reason, that Poetry, with them, is the outlet, only, for the holiest, strongest, and deepest feelings of their nature; they approach it, as the priests of old approached the sacred ark, with bowed heads and clean hands.</p>
+                
+                <p>2ndly. That in making this remark, I endorse the utility of Humorous Poetry in general, and this exhaustless fountain of fun, collected by my friend Parton, in particular; on the principle, that whatever shortens our faces, lengthens our days.</p>
+                
+                <p>3rdly&#8212;lastly, concludingly, and conclusively, I would venture to add, that it may be lucky for the male sex, that our sex never felt inclined to try their hand at Humorous Poetry.</p>
+                
+                <byline>FANNY FERN.</byline>
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </body>
+    </text>
+</TEI>

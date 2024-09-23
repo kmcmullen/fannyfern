@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570815.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Hot Day</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Hot Day</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-08-15">15 August 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-09" who="#km">proofed</change>
+            <change when="2023-09-26" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570815.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570815.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570815.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570815.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570815.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570815.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570815.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570815.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+               
+                    <head type="main">A HOT DAY.</head>
+                
+              
+                    <p>Sissing fry-pans, and collapsed flapjacks, what a hot day! Not a breath of air stirring, and mine almost gone. Fans enough, but no nerve to wield 'em. Food enough, but no strength to chew it. Chairs hot; sofa hotter; bed <choice><sic>hotest</sic><corr>hottest</corr></choice>. Sun on the back stoop; sun on the front stoop; and hot neighbors on both sides. Kittens mewing; red-nosed babies crying, poor little Hot-ten-tots! dogs dragging about with protruding tongues and inquiring tails; cockerels feebly essaying to crow. Everything sticky, and flabby, and limpsy. Can't read; can't sew; can't write; can't talk; can't walk; can't even sleep; hate everybody who passes through the room to make it hotter.</p>
+                
+                <p>Now, just see that fly. If I have knocked her off my nose once, I have done it forty times; nothing will serve her but the bridge of my nose. I say <hi rend="italic">her</hi>, because I am sure it is a female, on account of its extraordinary and spiteful persistence.</p>
+                
+                <p>"Will I have anything to drink?" No. Wine heats me; lemonade sours me; water perspires me. "Will I have the blinds closed?" No. "Will I have 'em open?" No. "What <hi rend="italic">will</hi> I have?" Well&#8212;if there's an old maid to be had, for Heaven's sake, walk her through this room to cool it. "What will I have for dinner?" Now, isn't that the last drop in my brimming cup? Dinner, indeed! Soup hot; fish hot; beef hot; mutton hot; chicken hot;&#8212;ugh! Hot potatoes; hot squash; hot peas; hot pudding; hot children;&#8212;ugh! Tell that butcher to make his will, or get out of my kitchen. "Lady down stairs wishes to see me?" In the name of Adam and Eve, take all my dresses off the pegs, and show her&#8212;but don't believe I'd be so mad as to get into them for anybody living.</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

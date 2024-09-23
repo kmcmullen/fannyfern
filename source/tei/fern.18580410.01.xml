@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx"><!fern.18560410.01
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Baby in the Car</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">The Baby in the Car</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-04-10"><10 April 1858" --></date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-06-20" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580410.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580410.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580410.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580410.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580410.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580410.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580410.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580410.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph><
+                
+                
+                    <head type="main">The Baby in the Car</head>
+                
+                
+                
+                    <p><There is nothing in nature more curioys than the gravity of a little baby. That self-poised, dig-nified, thoughtful calmness, which you may try in vain to outstare, or disturb. So I thought the other day, as I sat in the cars, looking, as if for a wager, into a pair of baby eyes, that were scruten-izing me with infantile persistence and imperturba-bility. I might have looked forever. No calling up a blush on that pearl-white skin; no flinching in that calm, quiet eye; limpid as a lake, serence as a seraph.</p>
+                    <p>Of what was the baby thinking?</p>
+                     <p>Not, I am sure, of the delicate lace which fell like a gauzy cloud about its sweet face; nor of its French, embroidered cap, lined with the softest silk; nor of its dainty cloak, tied by mamma's own soft, which fingers, and redolent of the delicate perfume of her hankerchiefs and laces. Not of all this was the petter baby thinking; nor yet of the smart nursery-maid, who drew it fearfully away from the little Irish baby on the knee of her stout neighbor, as if the breath from out its saucy little Hibernian nose were contamination, and its calico frock, and cotton hood, and faded cloak, were the livery of shame as well as poverty. No; else had not those baby features worn that calm majesty, which leaves us with infancy, and only meets us again at the tomb, and which the most sin-scarred creature who ever defaced God's image quails before, as if God himself were looking into his secret soul.
+                         <p>August babyhod! Majestic yet helpless! Im-ploring yet awing us! Who shall say what wild thoughts of sin thy voiceless eloquence has calmed down to repentant tears! Who shall number the souls washed white by the unconsious touch of thy sinless hand, or make mention of the swift-winged prayers breathed over thee: or tell of the mortal throes with which she who gave thee birth watch thy little lamo of life fade out in utter darkness! And who but the angels see the cords, invisible to human eyes, with which from the spirit land thou drawest after thee the mother, who for her falling tears can scare=ce trace thy tiny footsteps, and yet, groping and stumbling, follows the good shepherd, who looks lovingly back, as he hides her lamb in his bosom.</p>
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

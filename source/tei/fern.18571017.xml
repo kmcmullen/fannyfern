@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571017">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lady Doctors</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Lady Doctors</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-10-17">17 October 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-10" who="#km">proofed</change>
+            <change when="2023-10-09" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571017.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571017.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571017.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571017.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571017.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571017.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571017.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571017.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">LADY DOCTORS.</head>
+                
+                    <p>I have been called to an account by a friend whom I both love and respect, for an article in "Fresh Leaves" on "Lady Doctors." My friend charges me in this article with a want of sympathy for this class, and with throwing obstacles in the way of their success. It appears to me that he has not rightly read it; and lest others may labor under the same misapprehension, I will take this occasion to repeat, <hi rend="italic">what I there said,</hi> "that I do rejoice for various reasons, that this class are succeeding in obtaining a foothold in the community;" nor do I think this is inconsistent with the playful expression of my individual preference for a male physician, which I still most adhesively cling to.</p>
+                
+                <p>I am certainly as indignant as my censor could be, at the alleged unmanly, cowardly treatment some medical ladies have lately received at the hands of the male students in a Philadelphia hospital, who committed indecencies during the lectures, for the purpose of forcing these ladies to leave. There are jealous, mean, base men to be found in all professions and employments, ready to brow-beat and frighten those women who presume to earn an honest and honorable subsistence in the same path as themselves. It is not alone women who aspire to the medical profession, who have suffered such wrong. Literary women have and do suffer it every day. Some of the most savage and vindictive personal attacks upon myself, have come from men (?) whose articles have been rejected at hands which have solicited and generously remunerated mine. That is nothing new. What I would say is this: that these lady students suffered <choice><sic>themselvas</sic><corr>themselves</corr></choice> to be frightened from their purpose by such cowardly assailants, seems to me the strongest proof that they lacked the very nerve and courage to which they laid claim, to qualify them for their profession. If God has so constituted woman that she shrinks in dismay from these her pioneer troubles, and makes at the outset a hasty retreat, let her not attempt to force her way with a dissecting knife. If, on the contrary, strong in her womanly purity (as these insulted women were), she can calmly and bravely ignore such disgraceful libels upon manhood, and with her eye on the goal&#8212;how distant soever&#8212;disregard the mud-bespattered path through which she must pass to reach it&#8212;if, above all, the flesh be equal to the spirit, in God's name let her earn and receive her diploma.</p>
+                
+                <p>"If"&#8212;aye, there's the rub, I think&#8212;and of course my opinion will go only for what it is wroth on this subject;&#8212;I think&#8212;and I won't fib for anybody&#8212;that there are <hi rend="italic">physical</hi> impediments in the way of a woman's practice of medicine, which are insurmountable. I believe it is conceded that  a female doctor must of necessity forego the blessed names of wife and mother. Poor thing! but let that pass. Suppose she weds a mortar and pestle&#8212;suppose she be a single woman&#8212;I can't see that this changes her sex, or exempts her from its ails and aches, which, when under the influence of, I will persist, render her unfit, by their effects upon the nervous system, to cope successfully and continuously with responsible medical emergencies; and this is true of "healthy women," so called, who, by the way, are as scarce as angels' visits.</p>
+                
+                <p>Granted she has the knowledge; how can she, at such feminine physical disadvantages, reduce that knowledge to instantaneous practice, when the quivering sufferer's groans and shrieks would appal the stoutest heart? and this&#8212;not for once, not for twice in a life-time (which suffices to make a heroine of a woman), but daily, monthly, yearly; breakfastless, dinnerless, supperless, if need be, and her bill disputed at that.</p>
+                
+                <p>Then is her diploma to assure her a safe passport in her <hi rend="italic">night visits</hi>, through lonely, deserted streets? Can she exchange, night after night, if necessary, a warm bed for a cold stable, and the possible tackling of a refractory horse to a gig, at a moment's nocturnal notice (please give me credit for supposing her practice sufficiently remunerative for this luxury). Will her India-rubbers always be in the right place? or her shawl? Will her lancets, and forceps, and nippers and things, be in <hi rend="italic">harrowing</hi> order? Will her boot-lacings be free from knots at this critical moment, and will her petticoat-strings stand the strain? Heaven help her, what will she do with all that rebellious, tangled mass of hair? and where's her rainy-night bonnet? If I get my ears boxed for it, I must ask these questions.</p>
+                
+                <p>One argument for Lady Doctors is, that women feel a delicacy about consulting with a male physician upon their states of body<choice><sic> </sic><corr>.</corr></choice> Fudge&#8212;I don't believe in such delicacy. I take it for granted that your doctor is a gentleman, and that you are not a fool; those points satisfactorily settled, you may say whatever you like to him, and the less you mince your words, the more belief he will have in your "delicacy," if he knows anything. No, I do not believe in Lady Doctors, though I am heartily glad, for their energetic sakes, that there are those who can, and do. The amount of it is, that when <hi rend="italic">I</hi> am sick, petting is as necessary for me as physicking, and female petting does not suit my complaint!</p>
+                    
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

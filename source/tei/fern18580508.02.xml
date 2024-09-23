@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx">fern.18580508.02
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Crystal Palace Memorandum</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Crystal Palace Memorandum</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-05-08">08 May 1858 --></date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-06-27" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580508.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580508.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580508.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580508.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580508.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580508.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580508.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580508.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A Crystal Palace Memorandum</head>
+                
+               
+                
+                <p>To a country lady "who desires to know the spring fashions" I would say, that if her neck be very thin and long, she must by all means wear a dress cut low in the shoulders. If she be very short and dumpy, she must affect a dignified strut, and wear a swiveling hoop and tiers of flounces. If her complexion be sallow, I would decidedly recommend pea green, and if her shoulders be high, a tight-fitting sacque for streer wear, and a bonnet hung very low on the back of her head. If, on the contrary, her complexion is on the peony order, bright crimson or orange would be the thing, and <hi rend="italic">light</hi>colored gaiter boots if her feet be large, and her ankles thick; light gloves, also, if she has hands to match her feet, and the shortest man she can find for a lover, if she be on the bar-ber pole pattern, and vice versa.</p>
+                <p>And lest she should think I am joking, allow me to inform her, with one hand on the Concordance, that I am in serious earnest; that after the most critical research into feminine apparelings gene-rally, and after a protracted promenade and stare at the late Crystal Palace "fete," I am satisfied, if she follows the above directions, that she will not fail, when she comes to Gotham, to look as the stunning Gothamites look.</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

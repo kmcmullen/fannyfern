@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571003">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trip to the Caatskills. Number Four</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Trip to the Caatskills. Number Four</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-10-03">3 October 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>     
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-04-08" who="#km">proofed</change>
+            <change when="2023-10-03" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571003.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571003.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571003.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571003.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571003.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571003.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571003.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571003.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">TRIP TO THE CAATSKILLS.</head>
+                
+                <head type="sub">NUMBER FOUR.</head>
+                
+                <p>A lack of competition is said to affect progress. That the traveler to the Caatskills has no choice but "The Mountain House," should not, it seems to me, act as an extinguisher to enterprise upon its well patronized landlord. I might make many suggestions as to improvements, by which I am sure he would, in the end, be no loser. It needs no great stretch for the imagination to fancy the carriage which conveys victims to "The Falls," a relic of the Inquisition. I did not know till I had tried it, how many evolutions a comfortably-fleshed woman could perform in a minute, between the roof and floor of such a ve-higgle! (Result&#8212;a villainous headache&#8212;and the black and blues.) I noticed a small book-shelf in the very pleasant ladies' parlor. "Praise God Barebones," I think, must have made the selection of the volumes. But it is pleasanter to commend than to find fault. I could forgive many short-comings for the privilege of feasting on the wholesome light bread, which to a saleratus-consuming,&#8212;saleratus-consumed New Yorker, was glory enough to nibble at. Blessings, too, on the skillful fingers which stirred up those appetizing omelettes, and sublime orange-puddings. What an amusement it is, to be sure, to watch a man when he gets hold of the dish he fancies! what fun to bother him with innumerable questions while he is trying to eat it in undisturbed rapture&#8212;meanwhile wishing you at the North Pole. How cynical the creatures are, the last interminable half hour <hi rend="italic">before</hi>  meals, and how sweetly amiable, and lazy, <hi rend="italic">after</hi>. Then is your time to try men's soles; to insist upon their taking a walk with you, when they can scarce waddle,&#8212;when visions of curling Havana smoke invite them to two-legged piazza-chairs, digestion, and meditation. <hi rend="italic">Then</hi> is your time to be suddenly seized with an unpostponable longing for a brisk game of ten-pins, to test the sincerity of all their disinterested speeches. My dears,&#8212;the man who continues amiable while you thus stroke his inclinations the wrong way, may safely be trusted in any matrimonial crisis. I endorse him.</p>
+                
+                <p>With regard to the Falls it may be a delusion, but I think it is rather a damper to sentiment to fee a man to turn on the water for them! and I know it is a damper to the slippers to go down into the ravine beneath&#8212;which, joking aside, is very beautiful, and a great place for a bear to hug you in. Instead of which, I met a young parson whom I knew by token of his very black coat, and very white neck-tie; and who actually pulled from his sacerdotal pocket a profane handkerchief which I had carelessly dropped, presenting it with as much gravity as if he had been giving me "the right hand of fellowship." Heaven help him&#8212;so young&#8212;so well made&#8212;and so solemn!&#8212;I felt immensely like a frolic. And speaking of frolics&#8212;oh, the mountains I had to leave unclimbed&#8212;the "campings out" foregone&#8212;and all because I was forordained to petticoats&#8212;hampering, bush-catching petticoats!&#8212;all beause I hadn't courage to put on trousers, (in which, by the way, I have made several unsatisfactory private rehearsal attempts to unsex myself but nature was too much for me,) and wade knee-deep in moss to see what man alone, by privilege of his untrammeled apparel, may feast his eyes upon. It is a <hi rend="italic">crying</hi> shame. Ten-pins, too&#8212;who can get a "ten-strike" in petticoats? See what I would do at it in a jacket and unmentionables&#8212;though I really think nature had no eye to this game when she modeled a woman's hand and wrist. Now I dare say there are strait-laced people who will be shocked at the idea of a woman playing ten-pins. Well&#8212;let them be shocked. I vote for it for two reasons: first, for the exercise, when dripping grass and lowering skies deny it to us elsewhere; secondly, because it is always a pleasant sight to see husbands sharing this, or any other innocent recreation, with their wives and daughters, instead of herding selfishly in male flocks. I like this feature of domesticity in pleasure-seeking in our friends, the Germans. I like the Germans. Their joy is infectious. A sprinkling of such spirits would do much towards infusing a little life into the solemn business way in which Americans too often pursue, but seldom overtake, pleasure. Yes&#8212;it is a lovely sight to see them with their families! and oh, how much more honorable and just, to a pain-staking economical wife and mother, than the expensive meal, shared at a restaurant with some male companion, while she sits solitary&#8212;to whom a proposal even for a simple walk would be happiness, as an evidence of that watchful care which is so endearing to a wife's heart.</p>
+                
+                <p>Not the least among our enjoyments were our evenings at the Caatskills. When warm enough, promenading on the ample piazza with pleasant friends; when the out-door temperature forbade this, seated in the parlors, listening to merry voices, looking on young and happy faces, or&#8212;what is never less beautiful, upon those who, having reached life's summit, did not, for that reason, churlishly refuse to cast back approving, sympathizing glances upon the young loiterers, who were still gleefully gathering flowers by the way.</p>
+                
+                <p>Then, too, we had music&#8212;<hi rend="italic">heart</hi> music,&#8212;from our German friend, Ferdinand Ulrich; whose artistic fingers often, also, gave harmonious expressions upon the piano to our <hi rend="italic">sunrise</hi> thoughts, before we had left our rooms. Happy they, whose full souls can lighten their secret burdens by the low musical plaint, understood only by those who have themselves loved and suffered! Of how many tried and aching hearts has music been the eloquent voice? The ruffled brow grows smooth beneath its influence; the angry feeling,&#8212;calm as a wayward child, at a mother's loving kiss. Joy, like a white robed angel, glides softly in, and on the billows of earthly sorrow she lays her gentle finger, whispering&#8212;"Peace&#8212;be still!"</p>
+                
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

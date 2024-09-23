@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571212">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Child-Actors</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Child-Actors</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-12-12">12 December 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-24" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571212.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571212.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571212.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571212.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571212.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571212.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571212.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571212.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">CHILD-ACTORS.</head>
+                
+                
+                
+                    <p>The very thought of such makes me sigh; and the cleverer they are at their parts, the more it distresses me. To see little boys, who should be deep in the mysteries of humming-tops and marbles, strutting their little limbs upon the stage in grown-up attire; pulling up their precocious shirt-collars, and talking about "us men;" uttering threadbare, vulgar, broad witticisms upon "the women;" what a horrible perversion of childhood&#8212;what a hot-house forcing of nature! And the little girls, aping the disgusting, bedizened, heartless woman of fashion; of whose existence it were time enough they should know, when they make their debut in the character of matron. Then the trading off these little girls by coarse speculators; the market value of bright eyes&#8212;rosy cheeks&#8212;polished shoulders, and slender ankles; oh, who that has been a parent can witness an exhibition of child-actors, and not find his or her thoughts straying from the performance, and piercing those children's probable future?&#8212;thnking of the irreparable physical wrong done them by late hours, excitement, intense brain stimulation, when their heads should be quietly resting on the dreamless pillow of childhood. Oh, it is a pitiful sight. </p>
+                <p>Perhaps you reply to me&#8212;But they are poor, and they make money by it. Is money to be weighed in the balance with a premature decay of the bodily and mental powers? Can you render those little girls an equivalent for the delicate bloom of childish innocence which your coarse touch has brushed away? Can you repay them for thus rudely stripping off the enfolding leaf, which encloses so much beauty and sweetness, till what time it can bear the garish light and heat, which nature is slowly and silently collecting her forces to sustain? Perhaps you say to me,&#8212;Why, these children are the support of their parents! I know of no parent worthy the name who would not endure any amount of suffering rather than so outrage childhood.</p>
+                <p>Infant prodigies of all kinds, I regard with pitying horror; from the bird, whose eyes are put out to make its song more marvelous, to the big-headed, narrow-chested boy, whose ambitious parents are spurring him on to the undertaker. I see in their perspective only an idiotic middle age, or an early grave. Evverything in the natural world rebukes this unwisdom&#8212;everyhting but <hi rend="italic">childhood</hi> bides its time to expand in blessed healthful unconsciousness; then we see the perfect fruit&#8212;the perfect blossom. How much more necessary is this to the susceptible organization of childhood; why plant it in the noisy highway, to be handled, and jostled, and gazed at, and trampled under foot? Why not spread the broad leaf of sheltering love over the little bud in some quiet corner, till by its own sweetness it shall unconsciously announce to an admring world its perfected existence?</p>
+                <p>I remember well, some years since, seeing a little violinist step before the midnight foot-lights, with her stiff silken robe and jeweled arms, to amuse an audience who, had they hearts, would have wept to see the pallid, prematurely-old face, the shrunken limbs, and listless air of thsi wreck of juvenile precocity. Her sprightliest air was like a funeral march to my pained ear. I could scarcely see her for the tears that came between. Oh, I would have taken the cumbrous wreath from that little forehead&#8212;the stiff dress from those angular limbs, and drawing over them the loose, white night-robe in which childhood looks so lovely, bade her say her little prayer&#8212;then kissed her weary lids to slumber.</p>
+                <p>An actor's life is weary enough&#8212;dangerous enough&#8212;when nature had pronounced such men and women. I know that there are noble examples of those, who have, self-sustained, passed through the fire unscathed, but for His sake who blessed little children, toss them not down in their sweet helplessness before the immolating Juggernaut!</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

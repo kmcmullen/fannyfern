@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570919">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trip to the Caatskills. Number Two</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Trip to the Caatskills. Number Two</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-09-19">19 September 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-04-08" who="#km">proofed</change>
+            <change when="2023-09-26" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570919.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570919.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570919.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570919.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570919.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570919.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570919.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570919.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">TRIP TO THE CAATSKILLS.</head>
+                
+                <head type="sub">NUMBER TWO.</head>
+                
+                    <p>In an article in a late weekly, I was shocked at a flippant and unfeeling allusion to "the yellow invalids one meets at watering-places." Surely, the sight of such, wandering forth with feeble step and faded eyes, taking their last look at this beautiful earth, side by side with the rosy cheek and bounding pulse of health, should excite in us only feelings of tenderest love and compassion. Some such I met; but I would not, if I could, that their pale faces should have been banished from our merry circle. It was no damper on my enjoyment to gaze at their drooping eyelids, and listlessly crossed hands. I would but have yielded them the cosiest corner on the sofa, or the most comfortable arm-chair, or the sunniest nook on the piazza, or tempted their failing appetite with the daintiest bit at the table. I would like to have taken their transparent hands in my healthy palm, and given them a kindly grasp, by which they would recognize me in that better land, which every day dawns clearer on my sight. It is well that we should have such in our midst; and surely none whose hearts are drawn by yearning, but invisible cords, to the dear ones who <hi rend="italic">once</hi> made sunlight in our homes, can fail to recognize, and respond to, the tacit claims of the stranger-invalid upon our tenderest sympathies.</p>
+                
+                    <p>And while upon this subject, I would speak a word, which, it seems to me, needs to be spoken&#8212;upon a courteous recognition of the lonely, unobtrusive traveler, who, for the time, makes one of the same family under a hotel roof. It is easy for all to pay court to the distinguished, the handsome, or the agreeable; to seek an introduction to such, or manufacture a pretext for speaking. It is for the unattractive I would plead, and the aged&#8212;for those who have nothing to recommend them to notice, save that they are unnoticed. It seems to me that one need study no book of etiquette to find out, that a passing salutation to such, a kind inquiry after their health, and offer of a flower&#8212;when one has been rambling where their weary feet may not go&#8212;is the true politeness. One feels like spurning the civility received at the hands of those who see not in these disregarded ones the lineaments of the same Father. It gives me pleasure to say that I have witnessed some noble examples of courtesy to such, extended with a graceful ease, which would seem less to confer a favor than to receive one by their acceptance.</p>
+                
+                <milestone unit="line" rend="short"/>
+                
+                <p>Sunday at the Caatskills! "There is no church here," said one. "No church?" What human hand could span an arch like yonder blue vault? What pillars could it frame beautiful as those shapely trees? What carpet weave equal to that dew-bespangled moss? What stained windows design to surpass those interlacing branches, with their shifting sun-rays? What choir more perfect than those untutored birds, singing for very joy that God is so good, and His earth so fair?</p>
+                
+                <p>"Service in the public parlor at ten;" so the landlord informed us. Heaven grant, said I, that the preacher may utter no discord amid all this harmony of Nature. Heaven grant he may not try to whip us into Heaven through fear of hell. Heaven grant he may not paint to us a tyrant in place of our smiling Father. Heaven grant he may not frown upon the innocent pleasures of childhood and youth, or falsely teach them that God is pleased with a crouching step and a long-drawn face. So, with many misgivings, I took my seat among the worshipers&#8212;young and old, sick and well, grave and gay&#8212;with creeds as various as their places of birth, or the lineaments of their faces, and some, thank God&#8212;with no creeds at all. How shall the preacher say a fitting word to all these?</p>
+                
+                <p>I am happy to say that, in my opinion, he did it; that not one word would I have erased or changed; that I could conceive of no one present who could object to the sincere, fair, and loving exposition of gospel truth which, like another "Sermon on the Mount," will, I trust, long be remembered.</p>
+                
+                <p>I have now an added reason for liking Philadelphia and its people, since having listened, on that lovely Sabbath morning, to Rev. Dr. Brainerd. Since having made, also, at the Caatskills, the acquaintance of other agreeable Philadelphians. One of the alloys of travel is the pain one experiences in saying Farewell, in this world of change, to those who brighten our pathway but for a brief day. Could we always live thus, our eyes say, as we give and take the parting grasp; and yet, after all, if our chief aim is enjoyment, how far are we above the animals? No, no, let us accept our lot. <hi rend="italic">His</hi> crown was thorns, why should ours be of roses?</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

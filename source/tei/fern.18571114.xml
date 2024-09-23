@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571114">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Panics&#8212;Male and Female</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Panics&#8212;Male and Female</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-11-14">14 November 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-06" who="#km">proofed</change>
+            <change when="2023-10-22" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571114.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571114.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571114.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571114.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571114.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571114.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571114.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571114.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">PANICS&#8212;MALE AND FEMALE.</head>
+                
+                
+                
+                    <p>While money is scarce, advice is plentiful.</p>
+                
+                <p>In one of our daily papers, "An Old Man," who says he has "gone through three panics," recently put forth a column of advice to all sorts of people, and among the rest, of course, to those wretched scape-goats, "The Ladies."</p>
+                
+                <p>If having gone through three panics is to be considered a qualification for a mentor, I, who have gone through twice that number, may venture to lay claim to the title; or, if that be disputed, perhaps the "old man" will allow me the title of <hi rend="italic">tor</hi>-mentor, which will suit me equally well. But to the point. It is astonishing what weak arguments men use when trying to convince ladies&#8212;why can't they talk sense, while they are about it? For instance: speaking of crinolines, the "old man" says:&#8212;</p>
+                
+                <q>"I am an old man, and to me it is at once mournful and shocking to hear the vulgar, coarse jokes current among young gentlemen, founded upon this monstrous and extravagant fashion in dress. In the days when young ladies dressed and deported themselves modestly and tastefully these things were not so."</q>
+                
+                <p>Now, with all due submission to an "old man," I would ask&#8212;would any style of dress, how modest soever in its dimensions or make, deter that man who is <hi rend="italic">capable of making a coarse joke about a woman</hi> from uttering it, if he felt inclined? Before hoops came in vogue, and the dresses of ladies swayed artistically to their figures, and the tell-tale wind revealed curves which fasion now conceals, were there less "coarse jokes" about hips, legs, and ankles, than shock the old man in these crinoline days? Not a bit of it! I have often known ladies whom the heat of summer then obliged to wear thin dresses, refrain from taking the necessary walk because they had not courage to encounter the impertinent gaze of these very "coarse jokers." Indeed, I am not at all sure that, in view of this very fact, the <hi rend="italic">gentlemen</hi> may not have to thank themselves for the obstinate and persistent entrenchment of the ladies in these same abused crinolines&#8212;which I acknowledge on every other account to be sufficiently inconvenient both to their wearers and the public. From a muddy fountain, one cannot look for a pure stream; but is the flower past which it flows to blame, for the impure sediment it casts upon its leaves? There are those who pass for gentlemen, from the range of whose libidinous eye and unbridled tongue not even Diana herself would be safe. The honored wife, in the near prospect of maternity, if she venture out for the fresh air which is so essential&#8212;how modestly soever she may comport herself&#8212;may not escape their <hi rend="italic">gentlemanly</hi> jokes; though there are "heathen," so called, who consider her presence so sacred, that they never pass her without the most respectful homage. As I said before, a man who is capable of making a coarse joke about a woman <hi rend="italic">will</hi> make it even about Diana herself&#8212;everybody knows that. Let the "old man" charge the blame where it belongs.</p>
+                
+                <p>But while he is on the subject of inconveniences in public places: Do ladies suffer none from the other sex? Do not men smoke, and persist in smoking, everywhere, with the most unblushing license, in women's disgusted faces? Do they not spit eternally and unceasingly upon the car and ferry boat floors, and upon ladies' robes; which, though not always costly, are at least tidy&#8212;for let woman have what other faults she may, thank goodness she is a <hi rend="italic">clean animal!</hi> Are they not often obliged to stop in the ferry-houses to remove from their dresses, with their handkerchiefs, these disgusting effects of tobacco chewing and smoking? Do not men even, while the "gentlemen's cabin" is quite empty, occupy the "ladies' cabin," to the exclusion of many delicate women and children, who stand outside exposed to the chill air? Perhaps you say <hi rend="italic">gentlemen</hi> do not do these things. I answer, then, that by that rule, it is a long day since I have seen one!</p>
+                
+                <p>Once in a great while, a refreshing specimen of old-fashioned chivalry turns up. I was seated in a city-car the other day, with a majority of men-passengers; by-and-by, ladies began to crowd in, and look about for seats. "Plenty of room, bless your hearts," remarked an old man, who was himself standing. "I have no doubt these gentlemen will be <hi rend="italic">delighted</hi> to give up their seats to you (gentlemen alluded to commenced diligently reading their newspapers, many of which, by-the-way, were upside-down). Old gentleman, nothing daunted, "Pass on, ladies; good gracious! these gentlemen of course won't think of letting you stand, while <hi rend="italic">they</hi> are sitting!" "Ah! thank you, gentlemen," said the exultant old man, as one after another were shamed out of their roosts. "I was very sure you were too gallant to let the ladies stand." Not that I would have taken their seats, under such circumstances, had I dropped down and been carried off on a shutter, but I was glad that those women felt a call to&#8212;because as far as I have observed, this dogged resolution, "not to get up for ladies," <hi rend="italic">has been adopted by those men who were the very last to need any public bolstering up on the score of inattention to their own personal convenience!</hi></p>
+                
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

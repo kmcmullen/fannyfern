@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580904"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Notes of a Summer Tour. Number IV.</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Notes of a Summer Tour. Number IV.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-09-25">"25 September 1858"</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-08-12" who="#lf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580925.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580925.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580925.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580925.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580925.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580925.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580925.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580925.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head><
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">Notes of a Summer Tour. Number IV.</head>
+                
+              <head type="Notes of a Summer Tour">
+                
+                  <p>II liked Quebec much better than montreal. Of its splendid site it in unncessary to speak, every body having either seen it or read of it, and yet how tame seem all descriptions, when, standing upon the ramparts, one tries to take  in at a glace the splendid panorams before him. Every inch of ground is historical, and imagination runs riot as you look at the spot where the gallant Burr bore off from the enemy the dead body of the brave Montgomery, or gaze at the monuments erected to Walfe and Montcalm. The sentinels, pacing up and down with their measured tread, aid in keeping up the illusion; and as the wind whistles past, you start involuntarily, as if expecting  shower of bullets past your ears. And speaking of bullets, the little urchins who lie perdu on the battle-field, watching for unwary travelers, have an inexhaustale stock of them, which they assure you, with precociously grave faces, funny to see, were <hi rend="italic">actually</hi> found there," with their own dirty little paws; also they exhibit some shining little pebbles, baptised by them "diamonds," all of which we of course pocketed and paid for, as it there were no humuh in the little speculators; bigger boys than they have told worse fibs in the same line of business&#8212;poor little Barnums!.</p>
+                  <p>The most unimagininative person could easily fancy himself in a foreign counry in Quebec. The motley population&#8212;the long, black-robed priests, sercing as a foil to the scarlet coats of the officers, and the white uniform worn by the band; the loose-trowsered, rolling sailors; the Frenchy, peasant-looking country people, driving into mar-ket with their produce in the most ancient of lumber-ing-looking vehicles, with bright red raspberries, in shining little birch-bark baskets. The healthy-looking female Quebec-ites, with their fanciful dark straw hat, with a fall of black lace about their rosy faces, winderfully enhacing the bright-ness of bright eyes, and making even dull ones, if any such there are there, look coquettish under this pretty head-dress, so much more comfortable than our little miuikin bonnets, and worn alike by mothers and daughters. Their dresses almost even with their ankles, nd little or no crin-oline, but such healthy, rosy faces, such luxuriant locks, and the universal little band of black velvet round the throat, of which the French women are so fond. I am sure I did not see an ugly woman in Quebecm not one that, to my eye, was not sense-bly and prettily habited, and such little fat loves of children, chattering French with their nurses. The people were as picturesque as the place, and nobody scruitinzed you as they do in New York, fixing a stony stare upon you (I speak of New York women), till they have found out everything you have on, how it is made and trimmed, and then comment upon the same to their next elbow neighbor. Every healthy and contented-looking female soul of them seemed to have business of their own, and to mind it. Now and then, to be sure, and office or a private would take a look in passing, and sometimes we heard them say "An-glice," and that is where they did not hit it, at least with the ladies of the party, spite of light hair and eyes. A gentleman at the hotle where we staid, said, "Those ladies are English," looking at myself and daughter. English! when we talk-ed and laughed, ate and drank, got up and sat down, without ever once looking into a book of etiquette to see if it was <gap>reason="fold in paper"extent="one word"</gap> </p>
+                  <p>A drive which I shall long remember, we took to a little French village just out of Quebec. I had always thought&#8212;shade of Napoleon, forgive me&#8212;that the peasant French were an inthrifity, unneat people. My delight was unbound at their tows of neat little white-washed cottages, standing sociably and cosily together, with long strips of farms extending back; not and unsightly object about them; clean, white muslin window-curtains, with pretty pots of bright, flowering plants at the casements; rosy little children, with their bright red stockings&#8212;how I <hi rend="italic">like</hi> to see a little child in red stockings&#8212;and clean white aprons, and shint hair, sitting on the door-step with the family Towser, or running after the carriage, with bunches of flowers for "the English ladies," as they presisted in calling us, keeping ip with our horses with a pertinacity which would have drawn out the pennies were we less favorably inclined; and gay little bouquets they gave us, too&#8212;roses just in bloom, (for their summers are late and fleeting,) and pretty pinks and geranium leaves. In the fields, women and girls were raking hay, with broad straw hats, whcih they pushed back from their brown faces, as they leaned on their rakes to look as we passedm unconscious of how pretty they looked, helping their stout, healthy0looking brothers, who, with strong, white teeth, and curly hair, laughed merrily as they tossed the hay about. And yet this, like all pictures, had its shadow, for <hi rend="italic">I</hi> saw, thought thei did not, the pale procession of half-paid sewing girls coming up Nassau and Chatham streets, in New York, at that very moment, home to some sifled attic, or perhaps some more noisome place, of which those Canadians, in their pure country seclusion, could not even dream. How I wished they were all in those sweet hayfields, breathing that pure, untainted air. Oh, it was a delicious picture; I could have looked at it forever, and at every turn in the road some lovely view enchanted us&#8212;some new blending of sea and sky, wood and valley, and each perfect of its kind; and so we came at last to the famous falls of "Montmorenci," where we were to have twenty-five cents' worth of a min-iature Niagara, with root-beer and spongecake "to suit," for an additional fee; and truly they might have been more extortionate as far as the Falls were concerned, were it not such a damper to sen-timent to pay for one's ecstacy by the shilling. Beautiful were the Fall's, tumbling, dashing and foaming down into their rocky bed beneath, where were patches of velvet moss, of as vivid a green as your foot even sank in while wandering in the cool, fragrant woods. Of course we were pointed to the remains of the "suspension bridge," which, about four years ago, broke so treacherously over the Falls, precipitating a while family to instant death in the boiling torrent below. </p>    
+                  <p>The lady visitors at Saratoga get themselves up most stunningly, to walk through the streets to the springs, with their white embroidered petti-coats peeping from beneath their rainbow-colored silk morning-dresses, and black lace vails thrown Spanish fashion over their heads, making unhand-some faces, if only refined, look picturesque. This annual wave of folly, said I, must send its ripples farther than the circumference of this village. I had hardly made the remark, before two barrel-shaped country lasses passed, with tawdry, cheap imitations in delaine, of the Saratoga silk morn-ing-dresses, and with coarse black vails thrown round their sunburnt faces. It was a capital bur-lesque, though, I assure you, the maidens them-selves were fat from regarding it in that light.</p>
+                  <p>The private cottages on the grounds of the United States Hotel, for families and partires who choose to live by themselves, are nice little cozy affairs. This is a much pleasanter, and, to my mind, a much more civilized arrangement than living at the public hotel ; but, as the execrable organ-grinder wouldn't stop plating for sixpence, so the landlord, knowing well the value of peace and quietness, charges accordingly.</p>
+                  <p>From Saratoga we went the usual route to Lake george, performing the last seventeen miles or so by stage-coach. That's nice, thought I,&#8212;a change of conveyance wonderfully eases the limbs&#8212;i.e., if they are not past easing. I was hasty ;&#8212;a heavy rain set in, and came driving first into the windows, through which, at the risk of dislocating our elbows, we spread our umbrellas for spouts. Then the roof began to leak, and gentlemen shrugged the shoulders of their linen traaveling coats, and whispered, "Rheumatism ;" and lading benevolently offered the corners of their traveling cloaks and shawls to the victims ; and temporary plugs were made for the roof, of "The New York Times," which we found "would not hold water;" and night came on, and the rain grew more per-sistent, and we got accustomed to sitting in a pud-dle ; and the wheels sank in the mud, and the old coach "tetered"&#8212;as the children say&#8212;now this side, not that, and the most inveterate joker of the party had long been du,b ; when the coach-man, who had been jogging on in a helpless, des-pairing way, gave his whip the professional crack, which sent our noses up to the roof for a last final rub, and the wet, draggled, muddy, hungry, dead-and-alive crew were dragged out piece-meal over the wheels of the coach, on to the piazza of the "Fort William Henry Hotel," where were a swarm of colored waiters, where was a band of music on the piazza, where was a sumptuous parlor of in-terminable length&#8212;mirror, tete-tate, and piano. But, unfortunately, none of all those could we eat or drink. Woman wants but little here below, but I'll tell all you landlords what she does want. After sitting in a puddle for eighteen miles, beside enduring a shower-bath at the same time through the roof of the coach, a <hi rend="italic">hot</hi> cup of tea it <hi rend="italic">might</hi> not be unreasonable for her to expect. It is very well for men to "pooh!"&#8212;they can afford to be phil-isophical&#8212;they who run to the bar-room and get "set up," as they call it, on their arrival, or console themselves for cold tea, sour berries, and tough beefsteak, with the infallible cigar.</p>
+                  <p>The question is how their philosophy would hold out if there were <hi rend="italic">no</hi> cigars to be had, and <hi rend="italic">no</hi> bar-room, and they were shaking in an ague of cold? I hate a fussy woman who is always dig-ging down to the bottom of hotel salt-cellars, and microscopically inspecting potatoes; but I will say, that when every thread of a woman's raiment is dripping, it takes a mare angelic being than I am to go shivering to bed on a cup of cold tea, past an army of darkies who are too vexed with their employer to bribe.</p>
+                  <p>The next morning it still rained, and as there was no inducement in doors to remain, or break-fast being worse than our tea the night before, we made our escape into the little steamer "Minne-haha" to see Lake George, and lovely it was, spite of fog and mist and tain, as we glided awat between its green shores, and past its fairy islands, startling out the little birds from their leafy nests into short, swift circles over our heads, then back again, where never perhaps, since the creation, man's foot had trod.</p>
+                  <head type="main">Natural Punishment for Children.</head>
+                  <p>When a boy leaves his playthingsscattered about, he should be deprived of them for a few days, until he learns that everything <hi rend="italic">has a consequence</hi>&#8212;that carelessness is natueally followed by depri-vation. So, when children make a litter, they should be made to clean it up ; and thus, in every respect, they should be made to "balance their own books," until they learn self-control and self-discipline.</p>
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

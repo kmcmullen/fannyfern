@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570926">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trip to the Caatskills. Number Three</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Trip to the Caatskills. Number Three</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-09-26">26 September 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-04-08" who="#km">proofed</change>
+            <change when="2023-10-03" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570926.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570926.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570926.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570926.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570926.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570926.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570926.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570926.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">TRIP TO THE CAATSKILLS.</head>
+                
+                <head type="sub">NUMBER THREE.</head>
+                
+                    <p>It was very pleasant to see little children at the Caatskills; but they were all too few. Children are generally supposed to be bad travelers: this is a mistake. They have often more self-denial, fortitude, and endurance, than half your grown people. I can answer at least for one little girl under my charge from whom no amount of burning sun,&#8212;hunger, or fatigue&#8212;extorted a syllable of complaint;&#8212;in fact I once saw her endure a car-collision with the same commendable philosophy, while men old enough to be her father, were frantic with affright. Render unto children their due, is on the fly-leaf of <hi rend="italic">my</hi> Bible.</p>
+                
+                <p>Yes, it is good for them to go out of cities. A city child is a cruel, wicked, shapeless, one-sided abortion. 'Tis a pale shoot of a plant, struggling bravely for its little day of life in some rayless corner, all unblest by the warm sunshine which God intended to give to it color, strength, and fragrance. What wonder that the blight falls on it? Do you say, pshaw? Do you suppose a child, for instance, could appreciate the scenery at the Caatskills? I ask you, do all the <hi rend="italic">adults</hi> who flock there to gaze, appreciate it? Do you not hear the words "divine,"&#8212;"enchanting,"&#8212;"beautiful,"&#8212;"magnificent,"&#8212;applied by them, as often to costume as to clouds? Give me a child's appreciation of such a scene before that of two-thirds of the adult gazers. Its thought may be half-fledged, and given with lisping utterance, but it <hi rend="italic">is</hi> a thought. The eyes while speaking, may suddenly change their look of wondering awe, for one of elfish fun; what matter! The feeling was sincere, though fleeting&#8212;genuine, though fragmentary. By-and-bye that little child, leaving its sports, will come back again to my side as I sit upon the rocks; and any gray-haired philosopher who can, may answer the question with which she seals my lips; any poet who can, may coin a phrase which&#8212;more fitly than her's, symbols nature's beauty. Now she's off to play again&#8212;leaving the deep question unanswered, but not for that reason to be forgotten&#8212;no more than the rock, or mountain or river, which called it forth, and which is hung up like a cabinet picture in that childish memory, to be clouded over, it may be, by the dust and discolorations of after years, but never destroyed&#8212;waiting quietly that master touch, which obliterating all else, as if trivial or unworthy, restores only to the fading eye of age, in freshened beauty, the glowing pictures of childhood.</p>
+                
+                <p>The great charm of the Caatskills, is its constant variety; look where you may, you shall never see twice the same effect, of light and shade. Again, and again, I said to myself&#8212;how amid such prodigal, changeful beauty, shall the artist choose? Life were all too short for the decision. Ever the busy finger of Omnipotence, silently showing us wonder upon wonder. "Silently," did I say? Ah, no;&#8212;ever writing, on cloud and valley, rock, mountain, and river&#8212;"all these as a scroll shall be rolled away, but My Word shall never pass away."</p>
+                
+                <p>I have not spoken of the lovely rides in the vicinity of the Caatskills, of which we were not slow to avail ourselves. Turn which way we would, all was beauty. And yet, not all&#8212;I must not forget among these magnificent mountains the hateful, bare, desolate, treeless, vineless, old-fashioned school-house, resembling a covered pound for stray calves. What a sight it was, to be sure, to see the weary children swarm out into the warm sunshine, shouting for very joy that they <hi rend="italic">might</hi> shout, and trying their poor cramped limbs to see if they had not actually lost the use of them in those inquisitorially devised seats. Alas! what an alphabet might a teacher who was a <hi rend="italic">child-lover</hi> have deciphered, <hi rend="italic">outside</hi> those purgatorial walls, on trees, and flowers, and mountains; the teaching of which would have needed no quickening ferule, cramped no restless limbs, overtasked and diseased no forming brain. What streams of knowledge, wating only the divining rod of the lover of God, and his representatives&#8212;little children&#8212;to freshen and to beautify wheresoever they should flow!</p>
+                
+                <p>Yes&#8212;it was good to see those children kicking their reprieved heels in the air&#8212;I only wish they could have kicked over that desolate old school-house. <hi rend="italic">They</hi> didn't know why I nodded at them such a merry good day; they never will know, poor victims, how royally well I sympathized with their somersets on the grass&#8212;they thought, perhaps, that I knew the "school-marm;"&#8212;heaven forbid&#8212;I would rather know the incendiary who should set fire to her school-house!</p>
+                
+                <p>In one neighborhood&#8212;which is so small that an undertaker must be sorely puzzled to find subjects&#8212;I noticed a hideous picture of a coffin stuck on the front of a small dwelling-house, with a repulsive ostentation that out-did even New York. This, to an invalid visitng the Caatskills for health, (and there are many such,) must be an inspiriting sight!</p>
+                
+                <p>This summer-travel, after all, is a most excellent thing. It is well for people from different parts of the country to rub off their local angles by collision. It is well for those of opposite temperaments and habits of thought, to look each other mentally in the face. It is well for the indefatigable mother and housekeeper to remain ignorant, for one blessed month, of the inevitable&#8212;"what shall we have for dinner?" It is well for the man of business whose thoughts are narrowed down to stocks and stores, to look out on the broad hills, and let the little bird's song stir memories of days when heaven was nearer to him than it has ever been since. It is well for the ossified old bachelor to air his selfishness in the genial atmosphere of woman's smile. It is well for the overtasked clergyman, and his equally overtasked (though not equally salaried) wife, to have a brief breathing spell from vestries and verjuice. It is well for their daughter, who has been tied up to the parish pillory of&#8212;"you must not do this," and "you must not do that," and "you must not do the other," till she begins to think that God did not know what he was about when he made her, to bestow so many powers, and tastes, and faculties, which must be forever folded up in a napkin, for fear of offending "Mrs. Grundy." <hi rend="italic">It is well for the Editor, that he may look in the faces of the women whose books he has reviewed, and condemned, too, without reading a blessed word of them! !</hi> It is well for everybody&#8212;even the exclusives who hesitate, through fear of plebeian contamination, to sit down in the common parlor; because, were all the world wise&#8212;which heaven forbid&#8212;there would be nothing to laugh at!</p>
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

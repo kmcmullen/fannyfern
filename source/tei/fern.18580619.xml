@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580619">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Leaf for Paul Pry</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Leaf for Paul Pry</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-06-19">19 June 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-06-19" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580619.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580619.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580619.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580619.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580619.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580619.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580619.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580619.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A LEAF FOR PAUL PRY.</head>
+                
+                
+                
+                <p>There may be some authoresses who like to be stared at: I am not going to contest that point; there may be some who are gratified, when they enter a ferry-boat or car, to have somebody nudge everybody in the ribs, and whisper loud enough to be heard from Maine to California&#8212;Look! that's Dolly Daffodil, the authoress. There may be some who like, when they sit down in an omnibus, to have a lady (?) or gentleman (?) opposite make the same remark, with the following additions: Light hair, hasn't she?&#8212;wavy?&#8212;tall?&#8212;dressed in black?&#8212;wonder what's her fancy for always wearing black?&#8212;how do you like her mantilla?&#8212;funny that she always wears a straw bonnet&#8212;and various other edifying remarks of the same nature. This may be very civil. I don't wish to say it is not. There may be some authoresses who like, when they go to church, to have the people in the next pew dislocate their necks in the attempt to ascertain what Dolly Daffodil looks like; whether she holds her hymn-book upside down, or down side up, or is guilty of the heteredox-ity of not following the hymn at all, as laid down in the programme. It is a great help to devotion to be told in church, within an inch of your nose, that you are fine-looking, or the contrary; and it may be pleasant for some authoresses, after services are over, to have the people in the pew so absorbed taking an inventory of their chin, eyes, nose, and dress, that they quite forget to let them go home to dinner. I don't wish to find fault with these little Sunday diversions&#8212;not at all. It may be very pleasant for them at the opera to have a gentleman turn round, at a whisper from his neighbor, with a <hi rend="italic">very</hi> audible "you don't say so?"&#8212;and resting his arm on the back of the seat before them, take a double-barreled stare straight into their faces, and then remark with regard to the gentleman who accompanies them&#8212;"husband, I suppose?" and then to see his wiseacre informant nod an oracular assent; when said gentleman is only a friend of your husband's. It may be fun for Dolly Daffodil to sit behind a couple who fancy they have discovered Dolly Daffodil, the authoress, on the opposite side of the house, in the person of a lady dressed within an inch of her life. It may be fun to hear them, after exhausting the bogus authoress through an opera-glass, wonder how her husband likes to see her dressed so extravagantly, and how long her publishers can afford to supply such a wardrobe as <hi rend="italic">that</hi>; and how funny it is, after all, that books will buy diamonds. It may be funny for Dolly Daffodil's tall daughter, who happens to have hair like her mother's, to be mistaken for Dolly Daffodil, and ogled and commented upon, till the poor thing is as red as a pulpit-cushion. I don't wish to say it isn't, this is a free country, a <hi rend="italic">very</hi> free country. It may be agreeable for some authoresses to stand like a prize ox, or a trotting horse, or a milliner's lay-figure, to have their physical points discussed; to hear, time after time, the dimensions of their hips, ankles, shoulders, and waist. They may think New York is the central point of good manners, and good breeding in these respects; I don't deny it. New York, herself, may think that, because an authoress <gap reason="paper wrinkled" extent="one word"/> pucker up her mouth to call the <hi rend="italic">leg</hi> of a table the <hi rend="italic">limb</hi> of a table, that it therefore follows she may not have modesty enough to object to being stared out of countenance, or informed that she is an authoress at every street-corner; and it may be an indelible mark of a lady, or a gentleman, to do this in those loud, <hi rend="italic">musical</hi> tones which this population has ac<gap reason="paper folder over" extent="four words"/> their Knickerbocker cradles, to out-yell the deafening din of omnibusses. I don't say it isn't. I don't complain&#8212;not at all. As the big blacksmith said, when his wife whipped him&#8212;"It does her a great deal of good, and, after all, it don't hurt me any."</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

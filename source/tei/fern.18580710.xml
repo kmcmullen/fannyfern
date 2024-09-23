@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580710">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Law More Nice Than Just</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Law More Nice Than Just</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-07-10">10 July 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-07-14" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580710.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580710.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580710.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580710.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580710.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580710.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580710.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580710.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>      
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A LAW MORE NICE THAN JUST.</head>
+                
+                
+                
+                <p>Here I have been sitting twiddling the morning paper between my fingers this half hour, reflecting upon the following paragraph in it: "Emma Wilson was arrested yesterday for wearing man's apparel." Now, why this should be an actionable offense is past my finding out, or where's the harm in it, I am as much at a loss to see. Think of the old maids (and weep) who have to stay at home evening after evening, when, if they provided themselves with a coat, pants and hat, they might go abroad, instead of sitting there with their noses flattened against the window-pane, looking vainly for "the Coming Man." Think of the married women who stay at home after their day's toil is done, waiting wearily for their thoughtless, truant husbands, when they might be taking the much needed independent walk in trowsers, which custom forbids to petticoats. And this, I fancy, may be the secret of this famous law&#8212;who knows? It <hi rend="italic">wouldn't</hi> be pleasant for some of them to be surprised by a touch on the shoulder from some dapper young fellow, whose familiar treble voice belied his corduroys. That's it, now. What a fool I was not to think of it&#8212;not to remember that men who make the laws, make them to meet all these little emergencies.</p>
+                <p>Everybody knows what an everlasting drizzle of rain we have had lately, but nobody but a woman, and a woman who lives on fresh air and out-door exercise, knows the <choice><sic>thaldom</sic><corr>thraldom</corr></choice> of taking her daily walk through a three weeks' rain, with skirts to hold up, and umbrella to hold down, and puddles to skip over, and gutters to walk round, and all the time in a fright <choice><sic>les</sic><corr>lest</corr></choice>, in an unguarded moment, her calves should become visible to some one of those rainy-day philanthropists who are interested in the public study of female anatomy.</p>
+                <p>One evening, after a long rainy day of scribbling, when my nerves were in double-twisted knots, and I felt as if myriads of little ants were leisurely traveling over me, and all for want of the walk which is my daily salvation, I stood at the window, looking at the slanting, persistent rain, and took my resolve. <hi rend="italic">"I'll do it,"</hi> said I, audibly, planitng my slipper upon the carpet. "Do what?" asked Mr. Fern, looking up from a big book. "Put on a suit of your clothes and take a tramp with you," was the answer. "You dare not," was the rejoinder; "you are a little coward, only saucy on paper." It was the work of a moment, with such a challenge, to fly up stairs and overhaul my philosopher's wardrobe. Of course we had fun. Tailors must be a stingy set, I remarked, to be so sparing of their cloth, as I struggled into a pair of their handiwork, undeterred by the vociferous laughter of the wretch who had solemnly vowed to "cherish me" through all my tribulations. "Upon my word, everything seems to be narrow where it ought to be broad, and the waist of this coat might be made for a hogshead; and ugh! this shirt collar is cutting my ears off, and you have not a decent cravat in the whole lot, and your vests are frights, and what am I to do with my hair?" Still no reply from Mr. Fern who my <gap reason="paper folder over" extent="four to five words"/> lating, between his fits of laughter, "Oh, my! by Jove!&#8212;oh! by Jupiter!"</p>
+                <p>Was that to hinder me? Of course not. Strings and pins, woman's never-failing resort, soon brought broadcloth and kerseymere to terms. I parted my hair on one side, rolled it under, and then secured it with hair-pins; chose the best fitting coat, and capping the climax with one of those soft, cosy hats, looked in the glass, where I beheld the very fac-simile of a certain musical gentleman, whose photograph hangs this minute in Brady's entry.</p>
+                <p>Well, Mr. Fern seized his hat, and out we went together. "Fanny," said he, "you must not take my arm; you are a fellow." "True," said I, "I forgot; "and you must not help me over the puddles, as you did just now, and do, for mercy's sake stop laughing. There, there goes your hat&#8212;I mean <hi rend="italic">my</hi> hat; confound the wind! and down comes my hair; lucky 'tis dark, isn't it?" But oh, the delicious freedom of that walk, after we were well started! No skirts to hold up, or to draggle their wet folds against my ankles; no stifling vail flapping in my face, and blinding my eyes; no umbrella to turn inside out, but instead, the cool rain driving slap into my face, and the resurrectionized blood coursing through my veins, and tingling in my cheeks. To be sure, Mr. Fern occasionally loitered behind, and leaned up against the side of a house to enjoy a little private "guffaw," and I could now and then hear a gasping "Oh, Fanny!" "oh, my!" but none of these things moved me, and if I don't have a nicely-fitting suit of my own to wear rainy evenings it is because&#8212;well, there <hi rend="italic">are</hi> difficulties in the way. Who's the best tailor?</p>
+                <p>Now, if any male or female Miss Nancy who reads this feels shocked, let 'em! Any woman who likes, may stay at home during a three weeks' rain, till her skin looks like parchment, and her eyes like those of a dead fish, or she may go out and get a consumption dragging round wet petticoats; I won't&#8212;I positively declare I won't. I shall begin <hi rend="italic">evenings</hi> when <hi rend="italic">that</hi> suit is made, and take private walking lessons with Mr. Fern, and they who choose may crook their backs at home for fashion, and then send for the doctor to straighten them; I prefer to patronize my shoe-maker and tailor. I've as good a right to presever the healthy body God gave me, as if I were not a woman.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

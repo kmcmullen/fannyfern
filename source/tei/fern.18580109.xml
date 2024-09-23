@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580109">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Holiday Presents</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Holiday Presents</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-01-09">9 January 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-02-26" who="#km">proofed</change>
+            <change when="2023-10-28" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580109.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580109.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580109.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580109.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580109.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580109.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580109.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580109.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">HOLIDAY PRESENTS.</head>
+                
+                
+                
+                    <p>What shall we give? is the point to those who have the wherewithal to warrant the consideration of the question always so troublesome to answer. There are plenty of things for ladies, as everybody knows, but oh, the tormet of finding a suitable <hi rend="italic">male</hi> present. There are cigar cases, to be sure, in every form of elaboration and adornment&#8212;if one liked to encourage the anti-kissable habit of smoking; and there are purses, too; but unfortunately they are too suggestive, just now, of melancholy reflections; and there is the unfailing resource of a pair of slippers, or a guard-chain, or a dressing-gown, considered safe and proper even by the most virulent old maid (who, after all, only needs a coat-sleeve around her neck a few thawing moments to make her human); and having enumerated all these, I will leave it to anybody who has ever benefited her shoemaker hunting for male presents, if I have not exhausted the list. Of course we all know that the men&#8212;<hi rend="italic">spiritual</hi> creatures&#8212;would prefer to anything else a basket of champagne, or a dozen or two of ale, or a keg of pickled oysters, for all of which we indignantly refer them to the nearest restaurant; but still the great question remains unanswered, What present can we give a gentleman?</p>
+                
+                <p><hi rend="italic">Mittens</hi> they don't seem to fancy, and gloves and neck-ties need measuring and fitting, which of course makes us faint to think of; night-caps, they all look like frights in&#8212;what's to be done? unless the recipient is a minister, in which case there are any quantity of sacerdotal souvenirs, which his parish-ridden wife hasn't blood enough to object to.</p>
+                
+                <p>There are books, to be sure; but if the male recipient be a bachelor, who migrates from one lodging-house to another every time his coffee is weak, or the beef over or under-done, he will be apt to consider their freight an unmitigated nuisance, in which case the final destination of your book will be the street-stall of an itinerant book-vender, or the paper trunk of Sally the chambermaid, to whose owner he has given it, in economical recognition of little services not put down in the bill. Or he may keep the guard-chain (which possibly you may prefer to give him) until after he is married. Some day his wife, rummaging among his old traps, will hold it up between her thumb and finger with "What's this thing, Tom?" Tom will reply, as he stops sharpening his razor&#8212;"That&#8212;ha, ha, by Jove&#8212;it's a chain a woman gave me who was once desperately in love with me; give it to Bobby to play horse with;" whereupon Tom and his wife laugh heartily, winding up with an appetizing kiss.</p>
+                
+                <p>But the little children&#8212;Santa Claus forever bless 'em&#8212;you can't make a mistake there. All is fish that comes to their all-embracing net. Dolls, rocking-horses, marbles, balls, tops, kites, arks; it is a lovely way of finding out how brightly black, blue and hazel eyes can shine. No questioning your motive, or the probable cost of your gift; no invidious comparisons with your possible presents in other quarters; they are satisfied and ecstatically happy for the time; that your gift goes to everlasting smash before next day is the inevitable result of pinafores, and none of your adult business.</p>
+                
+                <p>Lastly. Neglect whom ever else you may, but don't forget your servants. With a child's longing, they who are, many of them, far from childhood's home, long to be thought of, at a time when love is lavish of its outward tokens. It may be little you can give, but <hi rend="italic">give something</hi>&#8212;the humblest heart craves remembrance&#8212;notice&#8212;independent of the value of your gift to those who have (the majority of them) slender enough means, even with few or no artificial wants.</p>
+                
+                <p>And as to your wife&#8212;"Lives there a man with soul so dead, who never to himself hath said," I wish there was anything half pretty enough, or good enough for my faithful, true wife? If there is such a wretch, may he always arrive at the ferry just as the boat is out of jumping distance; may every omnibus he hails be full; may his umbrella turn inside out when he tries to hold it right side up; may bank hours be over when he wants a check cashed; may some lady acquaintance insist upon stopping to talk with him, every time he lights his cigar in the street; may his baby cry persistently and uproariously all Sunday forenoon, while he is at home trying to post his books, and his wife gone to meeting; may he lose his pocket-handkerchief, or leave it at home, some cold January day, when he has "water on the nose" (that witticism is my daughter's, not mine); may he always have girl-babies when he wants boys, and may they all be twins, and arrive punctually once a year.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

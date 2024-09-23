@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570822.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Shut Up Your Mouth</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Shut Up Your Mouth</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-08-22">22 August 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-09" who="#km">proofed</change>
+            <change when="2023-09-17" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570822.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570822.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570822.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570822.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570822.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570822.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570822.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570822.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">"SHUT UP YOUR MOUTH."</head>
+                
+                    <p>This angry sentence from a woman's lips to a little child&#8212;to her own child! How disgusting&#8212;how shocking&#8212;you exclaim. Ah, it is very well for you and me, with calm nerves and pulses, to sit in judgement on the speaker. It is very well for us, who need take no thought for the morrow, to weigh that harrassed, uncultivated woman's words in our nicely adjusted balance.</p>
+                
+                <p>Since early day-light she has been toiling&#8212;toiling&#8212;in that gloomy cellar, to earn a few pence at her washtub; with aching shoulders and back, she stoops and scrubs, hour after hour, surrounded by children of all sorts and sizes, clamorous with childhood's needs for food, and drink, and fresh air, and cleanliness; none of which they have, or but in very scant portions. All the more reason why she must scrub and stoop, scrub and stoop without even stopping to hear their cries; not for one hour&#8212;not for two&#8212;not for half-a-dozen&#8212;but day by day, week by week, with, perhaps, the aggravation of a drunken or improvident husband to render her toil still more hopeless and endless. Now, suppose among the little weary group at her side, who hang ever upon her skirts, a quarrel arises, and little fists are clenched, for hunger is a sad brutifier, and a noisy appeal is made to the poor mother, who is ready to drop with fatigue and hopelessness, who can feel only one thing that, let what will come, her <hi rend="italic">work</hi> must have no interruption&#8212;or they would quite starve. No time to reason; no time to argue; no time to see justice done. An angry word&#8212;a hasty blow&#8212;and cowering childhood is frightened into silence. </p>
+                
+                <p>Now, is it for you and me, full fed, well clothed, with our fingers within reach of the bell-wire, to sit in judgment on this toiling, unenlightened, tried woman? God forbid!</p>
+                
+                <p>No. When I hear from her mouth such an unwomanly threat, I try to judge her as I know her Maker will; balancing against her short-comings, her trials and temptations. "Short-comings," did I say? My tears should blot out the word. What record of heroism can you show me greater than that of her who is ever weaving a web, which&#8212;toil she early, toil she late&#8212;fate so remorselessly unravels?</p>
+                    
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571024">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Word on the Other Side</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Word on the Other Side</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-10-24">24 October 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-23" who="#km">proofed</change>
+            <change when="2023-10-22" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571024.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571024.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571024.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571024.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571024.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571024.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571024.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571024.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A WORD ON THE OTHER SIDE.</head>
+                
+                
+                
+                    <p>Heaven give our sex patience to read such trash as the following: "If irritation should occur, a woman must expect to hear from her husband a strength and vehemence of language far more than the occasion requires."</p>
+                
+                <p>Now, with my arms a-kimbo, I ask, <hi rend="italic">why</hi> a woman should "expect" it? Is it because her husband claims to be her intellectual superior? Is it because he is his wife's natural protector? Is it because an unblest marriage lot is more tolerable to her susceptible organization and monotonous life, than to his hardier nature releived by out-door occupations? Is it because the thousand diversions which society winks at and excuses in his case, are stamped in hers as guilty and unhallowed? Is it because maternity has never gasped out in his hearing its sacred agaony? Is it because no future wife is to mourn in that man's imitative boy his father's low standard of a husband's duty?</p>
+                
+                <p>Oh, away with such one-sided moralizing; that the law provides no escape from a brutal husband, who is breaking his wife's heart, unless he also attempts breaking her head, should be, and, I thank God, is, by every magnanimous and honorable man&#8212;and, alas, they are all to few&#8212;a wife's strongest defence. I have no patience with those who would reduce woman to a mere machine, to be twitched this way and twitched that, and jarred, and unharmonized at the dogged will of a stupid brute. (This does not sound pretty, I know; but when a woman is irritated, men "must expect to hear a strength and vehemence of language far more than the occasion requires!") I have no patience with those who preach one code of morality for the wife, and another for the husband. If the marriage vow allows him to absent himself from his home under cover of the darkness, scorning to give account of himself, it also allows it in her. There is no sex designated in the fifth commandment. "<hi rend="italic">Thou</hi> shalt not," and "<hi rend="italic">thou</hi>," and "<hi rend="italic">thou!</hi>" There is no excuse that I have ever yet heard offered for a man's violation of it, that should not answer equally for his wife. What is right for him is just as right for her. It is right for neither. The weakness of their cause who plead for license in this sin, was never better shown than in a defence lately set up in this city, viz., that "without houses of infamy our wives and daughters would not be safe."</p>
+                
+                <p>Oh, most shallow reasoner, <hi rend="italic">how safe</hi> are our "wives and daughters" with them? Let our medical men, versed in the secrets of family histories, answer! Let weeping wives who mourn over little graves tell you.</p>
+                
+                <p>But while women submit to have their wifely honor insulted, and their lives jeopardized by the legalized or un-legalized brutality of husbands, just so long they will have to suffer it, and I was going to say, just so long they <hi rend="italic">ought</hi>. Let not those women who have too little self-respect to take their lives in their hands, and say to a dissolute husband, this you can never give, and this you shall not therefore take away&#8212;whine about "their lot." "But the children?" Aye&#8212;the children&#8212;shame that the law should come between them and a good mother! Still&#8212;better let her leave them, than remain to bring into the world their puny brothers and sisters. Does she shrink from the toil of self support? What toil, let me ask, could be more hopeless, more endless, <hi rend="italic">more degrading</hi> than that from which she turns away?</p>
+                
+                <p>There are all phasese of misery. A case has recently come under my notice, of a wife rendered feeble by the frequently recurring cares and pains of maternity, whose husband penuriously refuses to obtain medical advice or household help, when her tottering step and trembling hands tell more eloquently than words of mine could do, her total unfitness for family duties. And this when he has a good business&#8212;when, as a mere matter of policy, it were dollars in his short-sighted pocket to hoard well her strength, who, in the pitying language of Him who will most surely avenge her cause, "hath done what she could."</p>
+                
+                <p>Now I ask <hi rend="italic">you</hi>, and <hi rend="italic">you</hi>, and <hi rend="italic">you</hi>, if this woman should lay down her life on the altar of that man's selfishness? I ask you if he is not her murderer, as truly, but not as mercifully, as if our most righteous, woman-protecting law saw him place the glittering knife at her throat? I ask you if she has not as God-given a right to her life, as he has to his? I ask you if through fear of the world, she should stay there to die? I ask you if that world could be sterner, its eye colder, its heart flintier, its voice harsher, than that from which she turns&#8212;all honor to her self-sacrificing nature, <hi rend="italic">sorrowing</hi> away?</p>
+                
+                <p>Perhaps you ask, would I have a woman, for every trifling cause, "leave her husband and family?" Most emphatically, <hi rend="italic">No</hi>. But there are aggravated cases for which the law provides no remedy&#8212;from which it affords no protection; and that hundreds of suffering women bear their chains because they have no courage to face a scandal-loving world, to whom it matters not a pin that their every nerve is quivering with suppressed agony, is no proof to the contrary of what I assert. What I say is this: in such cases, let a woman who <hi rend="italic">has the self-sustaining power</hi> quietly take her fate in her own hands, and right herself. Of course she will be misjudged and abused. <hi rend="italic">It is for her to choose whether she can better bear this at hands from which she has a rightful claim for love and protection, or from a nine-days-wonder-loving public.</hi> These are bold words; but they are needed words&#8212;words whose full import I have well considered, and from the responsibility of which I do not shrink.</p>
+                
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

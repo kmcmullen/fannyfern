@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570516.02" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Soliloquy of a Literary Housekeeper</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Soliloquy of a Literary Housekeeper</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-05-16">16 May 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-06-17" who="#km">proofed</change>
+            <change when="2018-06-12" who="#km">created file; copied text from fern.18570516.01</change>           
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570516.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570516.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570516.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570516.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570516.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570516.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570516.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570516.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+                        
+            <div type="column">
+                <head type="main">SOLILOQUY OF A LITERARY HOUSEKEEPER.</head>
+                
+                <p>"Spring cleaning!" oh misery! ceilings to be whitewashed, walls to be cleaned, paint to be scoured, carpets to be taken up, shaken and put down again&#8212;scrubbing women, painters, and whitewashers, all engaged for months a-head, or beginning on your house to secure the job, and then running off a day to somebody-else's to secure another; yes&#8212;spring cleaning to be done; closets, bags and baskets to be disembowelled; furs and woolens to be packed away; children's last summer clothes to inspected; (not a garment that will fit&#8212;all grown up like Jack's bean-stalk;) spring cleaning sure enough! I might spring my feet off and not get all that done. When is that book of mine to get written I'd like to know? It's Ma'am, will you have this? and Ma'am, will you have that? and Ma'am, will you have the other thing? May I be kissed if I hadn't more time to write when I lived in an attic on salt and potatoes and scrubbed the floor myself. Must I turn my house topsy-turvy, and inside out, once a year, because my grand-mother did, and send my MSS. flying to the four winds for this traditionary "spring cleaning?" Spring fiddlestick! Must I buy up all Broadway to be made into dresses, because all New York women go fashion-mad? What's the use of having a house, if you can't do as you like in it? What is the use of being an authoress, if you can't indulge in the luxury of a shabby bonnet, or a comfortable old dress? What's the use of dressing when your cook can outshine you? What is the use of dragging brocade and velvet through ferry-boats, and omnibuses, to serve as mats for market-baskets and dirty boots? "There goes Lily Larkspur, the authoress in that everlasting old black silk." Well,&#8212;what's the use of being well off, if you can't wear old clothes? If I was poor as I was once, I couldn't afford it. Do you suppose I'm going to wrinkle up my face, scowling at unhappy little boys for treading on a five-hundred-dollar silk? or fret myself into a ferver because some <hi rend="italic">gentleman</hi> throws a cigar stump on its lustrous trailing folds? no&#8212;no, life is too short for that, and much too earnest. Give me good health&#8212;the morning for writing, and no interruptions&#8212;plenty of fresh air afterwards and an old gown to enjoy it in, and you may mince along in your peacock dry-goods, till your soul is as shrivelled as your body.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

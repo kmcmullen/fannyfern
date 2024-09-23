@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570509.01" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Parent and Child; or, Which Shall Rule</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Parent and Child; or, Which Shall Rule</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-05-09">9 May 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2018-06-17" who="#km">proofed</change>
+            <change when="2018-06-12" who="#km">removed text of "A Picture" column and moved it to separate file (fern.18570509.02); edited XML id</change>
+            <change when="2014-09-20" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570509.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570509.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570509.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570509.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570509.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570509.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570509.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570509.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                <head type="main">PARENT AND CHILD;</head>
+                
+                <head type="sub">OR,<lb/><lb/>WHICH SHALL RULE.</head> 
+                
+
+                    <p>"Give me two cents, I say, or I'll kick you!"</p>
+                
+                <p>I turned to look at the threatener. It was a little fellow about as tall as my sun-shade, stamping defiance at a fine, matronly-looking woman, who must have been his mother, so like were her large black eyes to the gleaming orbs of the boy. "Give me two cents, I say, or I'll kick you," he repeated, tugging fiercely at her silk dress to find the pocket, while every feature in his handsome face was distorted with passion. Surely she will not do it, said I to myself, anxiously awaiting the issue, as I apparently examined some ribbons in a shop-window; surely she will not be so mad, so foolish, so untrue to herself, so untrue to her child, so <unclear reason="blurry" cert="high" resp="#km">belie</unclear> the beautiful picture of healthy maternity, so God-impressed in that finely developed form, and animated face. Oh, if I might speak to her, and beg her not to do it, thought I, as she put her hand in her pocket, and the fierce look died away on the boy's face, and was succeeded by one of triumph; if I might tell her that she is fostering the noisome weeds that will surely choke the flowers&#8212;sowing the wind to reap the whirlwind.</p> 
+                    
+                    <p>"But the boy is so passionate; it is less trouble to grant his request than to deny him." Granting this were so; who gave you a right to weigh your own ease in the balance with your child's soul? Who gave you a right to educate him for a convict's cell, or the gallows? But, thoughtless&#8212;weakly indulgent&#8212;cruel-kind mother, it is not easier, as you selfishly, short-sightedly reason, to grant his request than to deny it; not easier for him&#8212;not easier for you. The appetite for rule grows by what it feeds on. Is he less dominering now than he was yesterday? Will he be less so to-morrow than he is to-day? Certainly not.</p>
+                
+                <p>"But I have not time to contest every inch of ground with him." Take time then&#8212;make time; neglect everything else, but neglect not that. With every child comes this turning point: <hi rend="italic">Which shall be the victor&#8212;my mother or I?</hi> and it must be met. She is no true mother who dodges or evades it. True&#8212;there will be a fierce struggle at first, but be firm as a rock&#8212;recede not one inch&#8212;there may be two&#8212;three&#8212;or even more, but the battle once won, as won it shall be if you are a faithful mother, it is won for this world, aye&#8212;perhaps for another.</p>
+                
+                <p>"But I am not at liberty to control him thus; when parents do not pull together in the harness, the reins of government will slacken; when I would restrain and correct him, his father interferes: children are quick-witted, and my boy sees his advantage. What can I do, unsustained and single-handed?" True&#8212;true&#8212;God help the child, then. Better for him had he never been born&#8212;better for you both; for so surely as the beard grows upon that little chin, so surely shall he bring your grey hairs with sorrow to the grave; and so surely shall he curse you for your very indulgence, before he is placed in the dishonored one that your parental hands are digging for him.</p>
+                
+                <p>These things need not be&#8212;ought not to be. Oh! if parents had but a firm hand to govern, and yet a ready ear for childish sympathy; if they would agree&#8212;whatever they might say in private&#8212;never to differ in presence of their children, as to their government; if the dissension-breeding "Joseph's coat" were banished from every hearth-stone; if there were less weak indulgence and less asceticism; if the bow were neither entirely relaxed, nor strained so tightly that it broke; if there were less out-door dissipation, and more home-pleasures; if parents would not forget that they were once children, not, on the other hand, forget that their children will be one day parents; if there were less form of Godliness, and more Godliness, (for children are Argus-eyed; it is not what you preach, but what you practice,) we should then have no beardless skeptics, no dissolute sons, no run-away marriages, no icy barriers between those rocked in the same cradle&#8212;nursed at the same breast.</p>
+                                   
+                    <byline>FANNY FERN</byline>                
+               
+            </div>
+          
+            
+        </body>
+        
+    </text>
+</TEI>

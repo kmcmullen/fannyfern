@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.19580911">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Notes of a Summer Tour. Number II.</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Notes of a Summer Tour. Number II.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-09-11">11 September 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-08-17" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580911.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580911.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580911.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580911.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580911.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580911.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580911.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580911.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">NOTES OF A SUMMER TOUR.</head>
+                
+                    <head type="sub">NUMBER II.</head>
+                
+                    <p>Lake George is a little gem, though we saw it only through a vail of mist, the sun absolutely refusing to brighten it up for one brief moment. "Such a pity. It must be surpassingly lovely on a fine day," we all kept saying to one another, as we anxiously watched the gray clouds. Everybody seemed to be in good spirits, however, and some ladies, more romantic than wise, took their stations on the upper deck, spite of the slanting rain and mist, giving their gentlemen friends contant employment in tucking shawls round their feet and shoulders, till they looked like bandaged mummies. After a while they came down, and I saw certain mysterious-looking flasks drawn from the afore-mentioned gentlemen's pock-ets, and held to their blue lips, by which token I concluded that brandy sometimes does for a woman what sentiment will not.</p>
+                    <p>And now again the old lumbering stage-coach is in requisition for a seven-mile jog, and trot, and plough through the mud, and we pack in, like layers of herring, and there is plenty of joking and laughing, for many of the party are young and merry, and it was blessed to listen to their ringing laughter, and look upon their bright eyes. Many a good thing was said, though had it not been half as good, we were all prepared to laugh upon the slightest provocation, for our legs and arms were bundled up in such a way, as rendered "dignity" quite out of the question, and gravity an impossibility. At last we arrived (I declare I believe they called the thing a "hotel") at the foot of Lake Champlain, where we were to dine. "Be advised by me," said one of the lady passengers to me, "and don't go in to dinner. I did it once, and since, when I stop here, I bring my own sandwiches." It is sometimes fun to sit down to a two-pronged-fork dinner, and the rest of us were in the humor for whatsoever the gods sent, so in we went. The staple commodities of the table were soft huckleberries and fried fish. Two girls&#8212;daughters, I suppose, of our host&#8212;waited upon table; that is to say, they rotated in a certain ghostly fashion, with their arms hanging by their sides, and their eyes fixed upon the floor, and were about as much use as two statues on castors, as it was impossible to catch either their eyes or attention. "What on earth is a fellow to call them?" asked one hungry man. "Waiter!"&#8212;that didn't appeal to them. "Girl!" it was no use. "You, there!" in a tone of impatience. The rock of Gibralter couldn't have stood it better.</p>
+                    <p>Now if this was a preconcerted bashfulness, it worked admirably, for we could get nothing that was not immediately before us, unless some philanthropic fellow-sufferer, in pity, sent a pie spinning, a la Ravel, down the table. Well, at any rate we had our money's worth of fun, and could bear it much better than if the parlor had been resplendent with mirrors, sofas, tete-a-tetes, and "grand pianos," which so often pave the way for a terrible disappointment as to everything else. We expected little, and got less; but those imperturbable, ghostly girls cost me, many a time and oft during the rest of my journey, a button or a hook and eye, as the picture came up before me.</p>
+                    <p><gap reason="paper folder over" extent="two words"/> Lake George. It is to Lake Champlain what a pretty, little, simpering, pink-and-white doll of a girl is to a magnificent woman, the royal sweep of whose robe about her faultless limbs as she moves, sets all the pulses wild. In mercy to us the clouds parted, and the bright sun broke through at last. You should have seen it then&#8212;the queenly Lake Champlain&#8212;with the bold, dark islands that seemed to float upon its silvery smoothness, with the heavy rain-clouds gathering up their forces, and gliding majestically away in the distance, leaving a sky as soft and blue as ever arched over Eden. On one side the broad, green, cultivated fields, stretched away fair in the sunlight; on the other, pile upon pile, were the huge, dark mountains, up whose steep sides the soft mist was wreathing itself in a thousand fantastic, graceful shapes. It was a moment such as all of us have sometimes known, when pleasure is so intense as to become almost pain; when language fails; when the eye fills, and there seems more "Bible" between the blue covers of sea and sky than you ever looked upon, or listened to, before, and everywhere you turned, a voice&#8212;"the still small voice"&#8212;seemed saying, All this I made for <hi rend="italic">you</hi>&#8212;for <hi rend="italic">you</hi>. Now you might thunder the "terrors of the law" in my ears ten months, and it would not move me; but I feel like the veriest wretch alive, when I so intensely enjoy that for which my daily life is so paultry a return.</p>
+                    <p>The boat in which we performed this trip was a Yankee boat, called "The America," and it was enough to rouse one's patriotism to go through it; the shining neatness of its decks and cabins; its efficient and well-mannered stewardess, always on hand, yet never in the way, understanding, as if by intuition, what everybody wanted; the nice, hot, orderly supper, with waiters that had ears, and knew how to use their feet. I was glad it was named "The America." I was as proud of the beautiful boat as if I had laid her keel. But all pleasures must have an end; and our destination being Montreal, we were soon to leave thrifty, go-ahead Yankee-land and all its peculiarities behind. As we passed the pretty town of Burlington, the residence of the poet, "Saxe," we all waved him our most cordial good wishes, which we trust the winds bore him safely.</p>
+                    <p>Upon leaving the boat for the cars, which were to take us to Montreal&#8212;Imprimis, a hideous, cavernous looking depot, with one poor, miserable lamp to help us break our necks by&#8212;a great talk of "custom-house officers <choice><sic>examing</sic><corr>examining</corr></choice> trunks," and "smuggling," etc. <!-- original text uses "&c." rather than "etc." I don't know how to type this in html--> What a jabbering of French when we took our seat in the cars! and what exorbitant fares for traveling through such a gloomy, God-forsaken, pine-stump, log-cabin looking country! Sleep came to my relief on a safe shoulder, after I had relieved myself by the above speech. At last we reached the funny, foreign, forlorn, cushionless ferry-boat that was to land us in Montreal, and as true as preaching, in got that woman with the <hi rend="italic">seven babies</hi>, who had traveled with us all day, calm as an oyster in its shell, though the whole seven were screeching alternately and eternally, poor little toads, and still <hi rend="italic">continued</hi> screeching, with some real or imaginary pain under their aprons. I did hope the poor things were going to bed somewhere; but no, there they sat, bolt upright in the ferry-boat, all in a row&#8212;those miserable seven&#8212;with their mouths wide open, sending forth the discordent-est cries, and that prolific female never even perspired! but sat with her fat hands folded over her belt, calmly accepting her conjugal destiny! And this is Montreal, said I, as they stood me up on the pier with the trunks, and half deafened with the French jabber about me, I essayed to climb up into a thing (a cross between a New York omnibus and a "Black Maria,") that was waiting to convey us to the hotel. And this is Montreal. Well, I shouldn't care if it was Sodom and Gomorrah, if there's only a bed in it. When I mention that our destination was "The Donegana House," every traveler will understand that to be but another name for sumptuous fare and the most assiduous attention at the hands of the handsome landlord and his well-disciplined corps of servants.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

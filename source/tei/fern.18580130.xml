@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580130">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aunt Maggie</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Aunt Maggie</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-01-30">30 January 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-11-05" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580130.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580130.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580130.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580130.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580130.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580130.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580130.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580130.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">AUNT MAGGIE.</head>
+                
+                
+                
+                    <p>Maggie More&#8212;that was her name&#8212;people who knew her well called her Aunt Maggie; this did not displease her; she was a sociable little body, quite willing to befriend anybody who felt the need of an aunt, or whom the world had used hardly. Maggie was not rich, as we use the word, but she was rich in good health, in good temper, and a certain faculty of making the best of everything that happened. The little shop she kept would have made a Broadway store-keeper laugh. Well, let him laugh; he could afford to do it, if he never made a dishonest penny oftener than Aunt Maggie. <hi rend="italic">She</hi> never told a poor soul who had scraped a few shillings together to buy a calico dress, that "it would wash," (meaning that it would wash <hi rend="italic">out</hi>.) <hi rend="italic">Her</hi> yard-stick never had a way of slipping, so that six yards and a half measured, when you got it home, but six yards. She never gave crossed sixpences and shillings to children who were sent to buy tape and needles; and so, as I told you, Aunt Maggie did not get rich as fast as they who do such things; but Maggie had read in a Book which the people I speak of seldom open, because when they do, it is sure to prick their consciences&#8212;Aunt Maggie had read in that Book, that "they who make haste to be rich shall not be innocent," and she believed it. She had not yet outgrown the Bible; it did not lay on her little deal table merely to gather dust, or that the minister might see it when he called once a year. She did not think that, though the Bible was well enough for those who lived at the time it was written, it could teach her nothing at this day; she did not think it a proof of courage or of a superior understanding, to make light of its blessed teachings. No, no, Aunt Maggie knew better; she had seen too many in her lifetime, who had talked that way when everything went well with them, sink down in despair when the waves of trouble dashed over them, and she had seen too many whom that blessed Book had buoyed up through billows of trouble that rolled mountain-high, not to cling to the Bible. No, no; Aunt Maggie was an old woman, but she was not yet old enough to let go her Heavenly Father's hand, and try to walk alone. She knew how surely she should stumble and fall if she did.</p>
+                <p>Nor did Aunt Maggie's religion consist merely of going to church; when she read on its pages, "Visit the fatherless and widows in their affliction," she did it.</p>
+                <p>"What is the matter, Aunt Maggie?" asked a bronzed sea captain, who had rolled into her little shop to buy a new watch-ribbon. "This is the first time I ever saw you look as if there was a squall a-head. Got any watch-ribbons, Aunt Maggie?&#8212;none of your flimsy things for an old sea-dog like me. Give us soemthing that will stand a twitch or two&#8212;that's it&#8212;take your pay&#8212;(throwing her his purse)&#8212;and mind you take enough&#8212;there's nobody else wants it now"&#8212;and the old captain drew a long sigh.</p>
+                <p>"The Lord does," answered Aunt Maggie, folding her arms on the counter, and looking earnestly in the captain's face.</p>
+                <p>"What do you mean by that, hey? Has some Bible Society run a-foul of you? Want a church built to shut out everybody who don't believe as you do eh, Aunt Maggie?" and the old captain stowed away a bit of tobacco in his cheek with a knowing look.</p>
+                <p>It's just here," said Aunt Maggie&#8212;"the poor ye have always with you; that was said a great many thousand years ago, but it is just as true now."</p>
+                <p>"I don't know who should know, Aunt, better than you," said the captain; "you who are always helping them. Go on."</p>
+                <p>Well, there's a poor young creature who lies dead a stone's throw from here, an English girl, whose husband brought her to this country, and then left her to take care of herself. I was with her all last night, and this morning she laid her little babe in my arms, and I promised to care for it when she was gone. Poor thing, she had her senses but a few minutes to tell me anything. Her parents, it seems, disinherited her for marrying her husband. She would not tell their name. She had pawned, one by one, every article in her possession for money; and now there's the babe. God helping me, she shall be taken care of as I promised, but you know it's little I have&#8212;and the mother must have decent burial."</p>
+                <p>"English&#8212;did you say she was?" asked the captain.</p>
+                <p>"Aye&#8212;English," said Aunt Maggie&#8212;"fair haired and blue eyed&#8212;the pride of some home. Oh, how little they, who must have loved her once, think how cold and desolate she lies now. It is well," said Aunt Maggie, "that <hi rend="italic">God</hi> can forgive&#8212;when earthly parents turn away."</p>
+                <p>"You don't know what it is, Aunt Maggie," said the captain, striding across the floor, "to have the child you loved better than your heart's blood, leave your arms for a stranger's whom she had known mayhap but a day."</p>
+                <p>"It must be bitter," said Aunt Maggie, "and yet, year after year, we turn our backs upon Him who has done more for us than any earthly parent can. If He still feeds us, cares for us, forgives us, what are <hi rend="italic">we</hi> to&#8212;&#8212;"</p>
+                <p>"True&#8212;True," said the old captain, dashing his hand across his eyes; "this girl is English, you say?"</p>
+                <p>"Yes; and as you are English, too, I thought mayhap you'd like to help a country woman; I am going to see to the babe now," said Aunt Maggie, "mayhap you'd like to see it, too?"</p>
+                <p>"Aye&#8212;aye," replied the captain.</p>
+                <p>On they went, to the end of the long street&#8212;past grog-shops, and pawn-shops, and mock-auction-shops, and second-hand furniture-shops, and rickety old tenement houses, where ragged clothes flapped and broken windows were stuffed with paper, where dogs barked and parrots screamed; for many of these poor people, who can scarcely keep themselves, keep these pets,&#8212;past young girls, homeless and shameless alas!&#8212;past young men, old, not in years, but in sin&#8212;past little children, who only knew God's blessed name to blaspheme it. At last Aunt Maggie turned down an alley, dark, narrow, and dingy, and entering one of the low doors began to ascend the creaky stairs that seemed swarming with children of all sorts and sizes, dwarfed in the cradle by disease and neglect. When Aunt Maggie reached the top <choice><sic>flght</sic><corr>flight</corr></choice>, she stopped before a door, through which came the faint wailing of a little babe and the low lullaby of a woman's voice. Upon the bed opposite the door lay the dead woman, with a sheet thrown over her face.</p>
+                <p>"Would you like to see her?" asked Aunt Maggie, turning to the captain. "'Tis a sweet face."</p>
+                <p>"Yes&#8212;no," answered the captain, turning away, and then advancing again toward the bed&#8212;</p>
+                <p>"Mary&#8212;Mary!" he cried, as the pale up-turned face lay uncovered before him: "<hi rend="italic">my</hi> Mary <hi rend="italic">here!</hi>" and he threw his arms around the neck of the dead girl, and trembled like the strong tree before the tempest blast.</p>
+                <p>"<hi rend="italic">His</hi> Mary!" murmured Aunt Maggie, taking the motherless babe from the old woman's arms; "<hi rend="italic">his</hi> Mary&#8212;then this is his grandchild. Didn't I say that the Lord would provide for the helpless."</p>
+                <p>Yes, "<hi rend="italic">his</hi> Mary!" Death hides all faults. We only remember the goodness of those upon whose marble faces our tears fall fast; and so the old captain took his little grandchild to his heart, and Aunt Maggie left her little shop and became its nurse. And not till many years after, when the little babe had grown to be a tall girl, did Aunt Maggie tell her the story that I have been telling you.</p>
+                
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

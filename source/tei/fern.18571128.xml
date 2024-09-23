@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571128">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">International Copyright</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">International Copyright</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-11-28">28 November 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-22" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571128.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571128.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571128.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571128.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571128.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571128.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571128.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571128.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">INTERNATIONAL COPYRIGHT.</head>
+                
+                
+                
+                    <p>Two of my books translated into German. It's all very well to talk about the "compliment," and "the honor," and all that sort of thing&#8212;that sounds very well&#8212;but I'm not going, in these "Panic" times, to thank anybody for putting their forefinger and thumb into my pocket, and helping themselves, because they make me a graceful bow while they are doing it. Why don't they do the handsome thing by us authors? Yes&#8212;why don't we have an international copyright law? I'm getting interested in the subject. Fudge for the "tariff"&#8212;fudge for "filibustering"&#8212;and "squatter-sovereignty"&#8212;and "sub-treasury"&#8212;and "fishing grounds"&#8212;and "currency," and such trash&#8212;why don't those Congress fellows leave off tossing straws, and right us scribblers?</p>
+                <p>I have no doubt now that Buchanan takes his three meals a day, and digests them, too, all the same, as if those foreigners hadn't their cribbling paws in our literary pockets, year in and year out. It is the unprincipled principle of the thing&#8212;it is the cool impudence of it&#8212;it is the idea that what's yours <hi rend="italic">isn't</hi> yours. That a rasping nutmeg-grater can be secured by a patent, and a rasping book can't.</p>
+                <p>I won't stand it.</p>
+                <p>I'll take a hat, and go round and collect the "ayes" and "no-es." I'll draw up a petition, and get more signatures to it than I ever had enemies, and that's pledging myself for considerable. I'll go to Washington&#8212;I'll bother Buchanan within an inch of his bachelor life&#8212;I'll be a perfect incubus&#8212;I'll waylay him in the Capitol&#8212;I'll waylay him in the White-house, and I'll beset him in his "Kitchen Cabinet," as they call it. The widow who wearied out the judge shall be a fool to me. I'll not only "continually come," but I'll never go. I'll be a standing rebuke and an everlasting reproach to those pussy-cat male authors, who sit still to have their literary faces slapped. I solemnly declare that, from this day, I will never shake hands with another man who will not swear on his cigar-case to make Washington too hot for any President who won't bestir himself in this matter. And you needn't think that it is all because I take a number-one-view of this matter. I'm prospectively considering future female-authors "long since unborn," who will profit by it, and hand my honored name down to their blessed grandfathers and grandmothers.</p>
+                <p>But softly&#8212;women never get anything by clamoring for it&#8212;I'll be jumble&#8212;I'll be wily&#8212;I'll turn petticoat diplomatist&#8212;I'll get acquanited with all the "Members"&#8212;(It will hurt me to do it,) but I'll even smile sweetly at the South! I'll shake velvet hands, and exchange velvet words with every point of the compass. "Hard Shells" and "Soft Shells" shall be alike to me. "Democrats" and "Republicans," "Know-Nothings" and "foreigners"&#8212;I'll embrace them all in my india-rubber affections.</p>
+                <p>If anything <hi rend="italic">could</hi> tie my tongue on this subject, I'll tell you what it would be&#8212;it is a short word, but full of meaning:</p>
+                <p>Dickens!</p>
+                <p>Think how abominably and inextricably we Americans are in his debt; not to mention other good literary fellows, male and female. Think how many hearth-stones he has gladdened, how many sinking hearts he has cheered;&#8212;how the universal voice of humanity sends everyday, across the sea after him, the heart-felt God bless you! Shame that he has had from us nothing more substantial!</p>
+                <p>It is all very well to say&#8212;Oh, he is well enough off pecuniarily; authors shouldn't be mercenary. Just as well might you refuse to pay your landlord his rent, because he owned other houses than the one he allowed you to live in. Justice&#8212;my friends&#8212;justice; and three cheers for Lord Napier, who is pledged for us authors. Does his lordship want statistics? I am ready to toss into his lap eleven English editions of Fern books, and not a pound to show for it,&#8212;though I should like very well to give his countrymen a pound! If he has the feelings of a husband, of a father, of a lord, and of what is more, a <hi rend="italic">man</hi>&#8212;let him use his British pocket-handkerchief at this filching of Fern Leaves from "the Mayflower."</p>
+                <p>I ask the noble lord to consider the pens I've worn out, the ink I've consumed, the foolscap I've wasted, and the tears that have blistered it&#8212;and I ask him&#8212;Lord Napier,&#8212;whose title I snap my republican fingers at, and whose lovely little boys I should like to kiss&#8212;if he can look me&#8212;Fanny&#8212;in the eye, without winking, and say that've not fairly earned for myself, and my descendants, that quit-claim from future pen and ink&#8212;which John Bull ought to sign with a bag of sovereigns, this day, A. D. 1857? and, what's more, I should like, wiht Mr. Fern's permission, or without it, as the case may be, to hold him&#8212;Lord Napier&#8212;by the official button till he sees that I get it.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

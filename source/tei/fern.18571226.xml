@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18571226">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Is Not Woman Capable of It?</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Is Not Woman Capable of It?</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-12-26">26 December 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2024-02-26" who="#km">proofed</change>
+            <change when="2023-10-30" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18571226.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18571226.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18571226.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18571226.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18571226.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18571226.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18571226.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18571226.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">IS NOT WOMAN CAPABLE OF IT?</head>
+                
+              
+                
+                    <p>Charles Read, the popular novelist, says that "woman is incapable of a long-protracted mental struggle."</p>
+                
+                <p>Who refuses to accept the divorce which her husband's "State-prison" uniform holds out to her, and keeps his children and her heart warm for him, until what time, with her arm round his neck, she can defy the scornful finger of that society he has outraged?</p>
+                
+                <p>Who toils patiently on, though a husband who has deserted her, and does nothing toward her support, is allowed by law to return whenever he is short of funds, and appropriate her earnings?</p>
+                
+                <p>Who goes to the police court with bruised flesh, to beg off the husband who has broken his cane over her back, with the husband-comforthing plea <hi rend="italic">"that he was not himself" when he did it.</hi></p>
+                
+                <p>Who keeps a tavern, all but the sign, for the diplomatic husband, who, when he has a public or private axe to grind, is lavish of the hospitality which he expects the mother of his numerous children to see punctiliously carried out, under penalty of his Jove-like displeasure, and who reads the harrassed woman a lecture on "the necessity of economy," when the bills consequent upon this outlay come flocking in? </p>
+                
+                <p>Who eats, uncomplainingly, mutton chops at home with the children, while their father dines at his club-house up-town, and otherwise luxuriates?</p>
+                
+                <p>Who forces a smile when he perpetrates the very common, very delicate, and very agreeable joke of asking some lady, in her presence, if she will agree to be Mrs. Smith No. 2?</p>
+                
+                <p>Who only sighs a little at the ghost of past happiness, when he nearly breaks his conjugal neck trying to pick up some lady's pocket-handkerchief, while <hi rend="italic">her</hi> married hands unassisted put on the heavy cloak or shawl?</p>
+                
+                <p>Who, when she has kept awake with the baby all night, replenishes his cup of coffee for the third time, before she has had time to swallow a mouthful? And who, just as she is at last ready to begin her long-needed, but not cold, breakfast, is requested to tell her husband, as he buttons his overcoat comfortably over his, whether the coal, wood, butter, sugar, tea, flour, potatoes, are "out" and what is to be the programme for that day's dinner?</p>
+                
+                <p>And who, after all this, patiently answers the incredible question of "how she spent the dollar he gave her yesterday?" which was expected to find Tommy's shoes, Susan's geography, James's grammar, Mary's aprons, the baby's bibs, and a new sugar bowl and milk pitcher, which Biddy, bad luck to her, had broken?</p>
+                
+                <p>And lastly, if woman is incapable of long-protracted mental struggles, who are these female sculptors and artists, and astronomers and authoresses, who are, every day and hour, refuting this audacious assertion of Mr. Read's?&#8212;who, if he knows anything, must know that woman's forte is in long-protracted struggles with pain, bodily and mental&#8212;with discouragements, disappointments and misery, which men either drown in wine and dissipation, or end with a pistol shot.</p>
+                
+                <p>And Mr. Read, <hi rend='italic'>is</hi> it true, as they say, that although woman <hi rend="italic">is</hi> such a mental goose, you stole your "Never too late to Mend" from the "Claudia" of Madame George Sand, and your "White Lies," now publishing in the London Journal, word for word, line for line, from Madame Emile de Girardin's last famous work, "La Joie Fait Peur?"</p>
+                
+                <p>And why is it, Mr. Read, that those men who are always depreciating the quality of woman's brain, are always the first to pilfer its products, and pass them off for their own?</p>
+                
+                <p>Please step up to the captain's office and settle <hi rend="italic">that</hi>, Mr. Read.</p>
+             
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

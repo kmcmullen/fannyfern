@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580501">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Boarding-Houses</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Boarding-Houses</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-05-01">01 May 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-06-25" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18580501.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18580501.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18580501.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18580501.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18580501.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18580501.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18580501.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18580501.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">BOARDING-HOUSES.</head>
+                
+                
+                
+                    <p>Somebody wants me to write an article on the "perils of young women in boarding-houses, and the traps and snares which are there laid for them."</p>
+                    <p>As to "traps and snares," they are not confined to boarding-houses, and not always laid by men; I have known them sprung by very demure-looking young women, who, after all their pains, only caught&#8212;themselves. A girl who has a proclivity for evil will follow it, even under the most favorable surroundings for goodness. She will always be her own worst enemy; and a good girl will have an anti-trap instinct, which is her best defense.</p>
+                    <p>As to boarding-house life, I detest it every way; its public feeding, its scandal, its heterogeneousness, its tyrannical edicts against babies and young children, its stifling atmosphere of roast, and boil, and stew, and tobacco-smoke, its punctual delivery of your letters and parcels&#8212;<hi rend="italic">on the entry table</hi>&#8212;its way of sweeping your room at most inconvenient hours, and dusting it with one summary whisk from a long-handled, feather-tailed switch; its convenient deafness to the jerk of your bell-wire; its homeopathic coffee and pie; its towels, thread-bare in quality, and niggardly in quantity; its parlor showy and shabby, with its inevitable centre-table, with its perennial annuals, its hump-backed rocking-chair, and distorted pictures, and&#8212;apoplectic bills.</p>
+                    <p>The necessity it entails of always wearing a mask; of fearing to speak, lest you should tread on the toes of your neighbor's pet hobby, and thereby deprive yourself of the convenient bridge over which the salt and pepper must necessarily travel to your plate, waiters being stupid and scarce; the bore of talking when you feel taciturn, or having your neighbor provokingly insist upon it that you must be ill; the bore of laughing when you feel sad, and hearing thread-bare topics re-discussed, and stale jokes resurrectionized; the misery of never being able to have the first unfolding of your own morning-paper, or of having it incontinently disappear, in company with some unprincipled boarder, bound on a day-break journey, and that day sure to be aggravatingly dull and rainy; the necessity of always turning your keys upon boxes and trunks, and the certainty of losing or misplacing them when you are in a double-twisted, insane hurry; your contracted, closetless space; your inevitable city window prospect of back sheds, with ghostly garments hanging on groaning clothes-lines; of distracted bachelors at upper chamber windows, vainly essaying to sew on missing buttons, and muttering inaudible oaths at their clumsy, needle-pricked fingers.</p>
+                    <p>Now, if you needs must board, go to the biggest and best hotel you can find, where everybody is too much occupied to interfere with your personal business; where waiters are plenty, and it is not high treason to ask for salt with your meat. If your finances forbid this, then, in mercy to yourself, rent a shanty where no third person is a fixtrue in your family, where you can sneeze when your nose has a call that way, and where your hopes and fears, joys and sorrows will not be leisurely dissected by the cool fingers of malignity, and where that nightmare, Paul Pry-ism, is not always astride of your heart and brain.</p>
+                    <p>That's my opinion of boarding-houses, and may the gods have mercy on the <hi rend="italic">bored.</hi></p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

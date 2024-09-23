@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570822.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">What Shall We Name the Baby?</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">What Shall We Name the Baby?</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-08-22">22 August 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2023-10-10" who="#km">proofed</change>
+            <change when="2023-09-17" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570822.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570822.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570822.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570822.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570822.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570822.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570822.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570822.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+               
+                    <head type="main">WHAT SHALL WE NAME THE BABY?</head>
+                
+             
+                
+                    <p>Mary? Not so, my little ones; have you forgotten the head-stone in the church-yard, with that name upon it, and the little sister who lies beneath it? The new babe is welcome, but call her not Mary; there can be but one Mary. <hi rend="italic">Her</hi> spirit-voice still calls me "Mother." Little feet, all unheard by you, trip softly round me. A little hand, which you see not, gently clasps mine. A little shining head bends low with yours for a mother's goodnight blessing. No, no&#8212;call not the new babe "Mary." Even a little sister may not wear the robes she wore, or efface the print of the fairy foot in the useless little shoe; the idle needle must rust in the doll's frock, where the busy fingers left it. The half-formed word must not be finished, even by a sister's fingers, in the little blotted copy-book; for between the new-born babe and me stands ever the shadowy form of the first-born. No, no, my little ones, not <hi rend="italic">"Mary,"</hi>&#8212;take not away her birthright.</p>
+                
+                <p>"Now there are three of you?" Nay, my little ones, now there are <hi rend="italic">four;</hi> three here&#8212;one with God.</p>
+                    
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>
