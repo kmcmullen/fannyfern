@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">TEST TITLE HERE AGAIN AGAIN AGAIN AGAIN</title>
+                <title type="main">One Sort of Fool</title>
                 <title type="sub">a machine-readable transcription</title>              
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
@@ -26,7 +26,7 @@
                 <biblStruct xml:id="column">
                     <analytic>
                         <author ref="#ff">Fanny Fern</author>
-                        <title level="a"><!-- insert column title here. --></title>
+                        <title level="a">One Sort of Fool</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
@@ -34,11 +34,11 @@
                         <imprint>
                             <date xml:id="issue_date" when="1858-10-30">30 October 1858</date>                    
                         </imprint>
-                        <biblScope type="pp">4</biblScope><!-- change page number, as necessary -->
-                        <biblScope type="column">3</biblScope><!-- change column number, as necessary --> 
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Fresh Fern Leaves</title><!-- if the "Fresh Fern Leaves" series title no longer appears, delete the <series> tag -->
+                        <title level="s">Fresh Fern Leaves</title><
                     </series>
                 </biblStruct>
                 
@@ -59,11 +59,11 @@
         
         
         <revisionDesc>
-            <change when="2015-08-28" who="#km">transcribed, encoded</change><!-- change date and initials here, as necessary -->
+            <change when="2024-10-02" who="#lf">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
-    <facsimile corresp="#issue"><!-- change all image names here -->
+    <facsimile corresp="#issue">
         <surface xml:id="pp1">
             <graphic url="fern18581030.01.jpg"/>
         </surface>
@@ -95,19 +95,19 @@
         <body>
           
             <div type="column">
-                <head type="column">FRESH FERN LEAVES.</head><!-- remove this heading, if it no longer appears in the column -->
+                <head type="column">FRESH FERN LEAVES.</head>
                 
                 <epigraph>
                     <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
-                </epigraph><!-- remove this copyright notice, if it no longer appears in the column -->
+                </epigraph>
                 
                 
-                    <head type="main"><!-- Insert title of column here. --></head>
+                    <head type="main">One Type of Fool</head>
                 
-                <!-- If there is a sub-head, insert it here, with <head type="sub"> -->
+            
                 
-                    <p><!-- Enter text of column here. --></p>
-                    
+                <p>How I like a fool&#8212;a genuine fool, who is ob-viously unconscious of the fact. Life is too dull at best; a fool has his mission, and where's the harm of laughing, invulnerable as he is in his pan-oply of self-conceit? The fool I am thinking of this moment, however, is of the feminine gender&#8212;one who loomed upon my astounded vision in the cabin of a ferry-boat, gorgeous as a shivered rain-bow, or a bed of variegated tulips, or a garden of staring sunflowers, which challenge notice, flaunt-ingly forbidding quiet passers-by to go abstract-edly on the winding way of their varioys duties and avocations. Thus challeneged, I of course surveyed my challenger. Heavens! what an ar-ray of millinery and mantau-making was spread over that human lay-figure. What a vapid, inane face that gay connet framed ; what big feet those cream-colored gaiters betrayed! What a sweep of flounce, and ruffle, and ribbon and lace. What an all-over consciousness of "go-to-meetin'" fixin's. in every lineament and limb! What a <hi rend="italic">haven't I done it now?</hi> in every defying glace? It was as-tounding. I was mentally knocked over and stul-tifed. And as if this were not enough, the wo-man actually had the sacreligious presumption to perpetuate herself in a child which she led by the hand, a little four-year-older, bedizened in orange and black, and green and blue, and pink and pur-ple, effectually stifling all the graces of childhood, if such a mother had bequeathed any. A little tottling bunch of brillian drygoods, happily put-ting an end to its existence, however, with double handsful of sugar candy, which the mamma was supplying without stint or limit. Disgusted steady-going business men gazed and sighed like a pair of bellows, as they inwardly said to them-selves, in the language of the eminent philoso-pher, Pop Weazel, "That's the way the money goes." Young men tittered, and old matrons wondered how her kitcken closets and cupboards, her pickle and preserve jars, looked at home. Meanwhile the child, unobserved, strayed from the maternal side to take a survey of the cabin, look-ing curiously round, much as you have seen an organ grinder's monkey. "George Washington!" We all started patriotically at the sound of this honored name, shouted from the lungs that would not have dsgraced an omnibus driver; only to collapse again, smothering with laughter, as George Washington's mamma seized him by the belf, splitting her pea-green glove in the opera-tion, and deposited him right end up with care upon the seat by her side, well pleased with her maternal prowess, and putting only a favorable con-struction upon the grinning faces around her. </p>
+                    <p>There's a great deal of human nature in ferry-boats, but be advised by me, and don't, if you can help it, get into one early, when the inveterate expectorators are abroad, and before the ladies, "God bless 'em," (as the men say when they shut them out after dinner,) have done us the favor to clean the cabin floors with their sweeping silks and brocades, Don't get into one early in the morning, when fingers are performing the office of combs, and quill toothpicks are rife. One is apt to be dainty at the belt at sunrise.</p>
                                    
                     <byline>FANNY FERN.</byline>                
                
