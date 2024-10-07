@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581113.01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Leaf Not From the "Books of the Opera"</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Leaf Not From the "Books of the Opera"</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-11-13">13 November 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-10-01" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18581113.01.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18581113.01.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18581113.01.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18581113.01.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18581113.01.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18581113.01.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18581113.01.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18581113.01.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">A LEAF NOT FROM THE "BOOKS OF THE OPERA"</head>
+                
+                
+                <p>You might as well set me down for a heathen, for I don't like the opera, and what is more, I don't believe half the people who say that they do, else why do they laugh and whisper through the perfomance, and twist their moustaches into horny shapes, and settle their bracelets, and arrange their shawls and make eyes, and do anything but what they profess to come there for&#8212;viz., to listen to the music. It is all a sham; they go there because it is a good place to show off&#8212;because there are handsome men and pretty women there&#8212;because it is the fashion. Shall I like a thing merely because 'tis the fashion? Shall I sit in a vapor bath in one torturing posture from seven o'clock till twelve, at the mercy of the cramp, for fashion? It is all very well for gentlemen who run out between the acts, and come in wiping their satisfied lips so provokingly, to ask, "Why not stand up in these intervals?" It is not so agreeable to have a dozen impertinent lorgnettes leveled at you, to hear your name handed from mouth to mouth, and your genealogy, from Adam down, discussed in your hearing by your well-bred neighbors. Some people diligently study the "book of the opera" to find out what all the deafening racket is about. I never touch one. If the music is good for anything, I take it, it will tell its own story, and if it is not, it is bad enough to be forced to listen to it, without boring yourself to read what it is <hi rend="italic">intended</hi> to do. I have been to the opera when the music appealed to me; when my heart stood still, lest I should lose a note; when I was dying to throw my arms round somebody's neck&#8212;(not <hi rend="italic">anybody's</hi>) and cry for sheer ecstacy. That's what I call music; but that's only a delicious parenthesis I occasionally get there at the cost of a seven hours' sit. But a slam-bang crash, an ear-splitting squeal; eyes turned inside out; mouth twisted under the ears; fat, red-faced prima-donnas <hi rend="italic">trying to get out of their gowns at the top</hi> I will none of it, especially when it takes till day-light to get from Fourteenth street back to my pillow in Brooklyn.</p>
+                <p>Spite of that, I maintain that I love music. I can't sing a note&#8212;more's the pity. I can't prate about "Verdi," and "Rossini" and "Bellini," and all the other <hi rend="italic">ninnys</hi>, but I like a baby's laugh; I like a brook's ripple; I like the shivering leaf-music in the tall tree-tops in the woods; I like the spirit-voices in the starry midnight; but I <hi rend="italic">don't</hi> want my ears deafened, and my eyes put out, and my enthusiasm bottled up to be uncorked to the order of the Acadamy of Music in Fourteenth street, <hi rend="italic">whether or no</hi>. In short, I don't like the opera one time in ten. There&#8212;now you have it.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

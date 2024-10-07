@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx"><!-- insert unique ID, in form "fern.18560726" -->
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581023"><!-- insert unique ID, in form "fern.18560726" -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main"><!-- insert column title here --></title>
+                <title type="main">What the Sun Shines Upon in New York</title>
                 <title type="sub">a machine-readable transcription</title>              
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="jh">Jordan Harper</persName><!-- if you are not Jordan Harper, change this -->
+                    <persName xml:id="jh">Jordan Harper</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -26,19 +26,19 @@
                 <biblStruct xml:id="column">
                     <analytic>
                         <author ref="#ff">Fanny Fern</author>
-                        <title level="a"><!-- insert column title here. --></title>
+                        <title level="a">What the Sun Shines Upon in New York</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor ref="#rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="<!-- insert date here, in form "1856-07-26" -->"><!-- insert date here, in the form "26 July 1856" --></date>                    
+                            <date xml:id="issue_date" when="1858-10-23">23 October 1858</date>                    
                         </imprint>
-                        <biblScope type="pp">4</biblScope><!-- change page number, as necessary -->
-                        <biblScope type="column">3</biblScope><!-- change column number, as necessary --> 
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
                     </monogr>
                     <series>
-                        <title level="s">Fresh Fern Leaves</title><!-- if the "Fresh Fern Leaves" series title no longer appears, delete the <series> tag -->
+                        <title level="s">Fresh Fern Leaves</title>
                     </series>
                 </biblStruct>
                 
@@ -59,34 +59,34 @@
         
         
         <revisionDesc>
-            <change when="2015-08-28" who="#km">transcribed, encoded</change><!-- change date and initials here, as necessary -->
+            <change when="2024-10-05" who="#jh">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
-    <facsimile corresp="#issue"><!-- change all image names here -->
+    <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18560726.01.jpg"/>
+            <graphic url="fern18581023.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18560726.02.jpg"/>
+            <graphic url="fern18581023.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18560726.03.jpg"/>
+            <graphic url="fern18581023.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18560726.04.jpg"/> 
+            <graphic url="fern18581023.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18560726.05.jpg"/>
+            <graphic url="fern18581023.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18560726.06.jpg"/>
+            <graphic url="fern18581023.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18560726.07.jpg"/>
+            <graphic url="fern18581023.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18560726.08.jpg"/>
+            <graphic url="fern18581023.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -95,18 +95,20 @@
         <body>
           
             <div type="column">
-                <head type="column">FRESH FERN LEAVES.</head><!-- remove this heading, if it no longer appears in the column -->
+                <head type="column">FRESH FERN LEAVES.</head>
                 
                 <epigraph>
                     <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
-                </epigraph><!-- remove this copyright notice, if it no longer appears in the column -->
+                </epigraph>
                 
                 
-                    <head type="main"><!-- Insert title of column here. --></head>
+                    <head type="main">WHAT THE SUN SHINES UPON IN NEW YORK.</head>
                 
-                <!-- If there is a sub-head, insert it here, with <head type="sub"> -->
                 
-                    <p><!-- Enter text of column here. --></p>
+                
+                <p>One is occasionally an eye-witness to scenes in New York which momentarily paralyze one's faith in humanity, I had almost said in God. One lovely afternoon of last week I determined to try the drive by the "new Hudson River road to Fort Lee," which by the way I rapturously commend, <hi rend="italics">en passant</hi>, to every New Yorker, and stranger within our gates, who is fond of beautiful scenery. On the way we alighted, and entered one of the numerous rural gardens, to enjoy from thence a fine view of the river. Immediately our attention was arrested by loud voices; among which we distinguished that of a woman, now in loud angry tones, then soft and pleading as if deprecating personal violence. "Pay up then," vociferated a coarse, masculine voice, as a stout man appeared, grasping a young girl of eighteen or twenty by the wrist, dressed in a soiled tawdry bonnet and silk gown, and forcibly ejected her from the piazza of a refreshment room into the garden. She was a woman and young, and without understanding her offense, his brutality roused me; but my blood froze in my veins, when gathering up her form to its full <choice><sic>hight</sic><corr>height</corr></choice>, raising her small hand in the air, and flashing her dark eye, she cursed him as only a woman <hi rend="italic">can</hi> curse who is lost for this world and the next. And men stood by and heard it, who had mothers and sisters&#8212;and laughed&#8212;and jeered&#8212; and maddened her already excited blood, <hi rend="italic">for sport</hi>, to fiercer words of unwomanly strife! A young man of her own age, who appeared to have accompanied her there, and seemed terrified at the turn of affairs, stepped to her side; but she sprang upon him like a panther, then bounded past him&#8212;then seized a garden stool, and hurling it at his head with blistering curses, ran through the garden to the river. For the first time I found voice to say&#8212;Great God&#8212;she will drown herself! and before the words were out of my mouth&#8212;a leap&#8212;a splash&#8212;and she had disappeared. A boat was near, into which two men jumped, and succeeded with her companion in catching hold of her dress, after she had twice sunk. Pale&#8212;gasping&#8212;in her tawdry, dripping finery, she was dragged on shore. One of the men turning to her companion said, "another twenty-five cents due for fishing her out." Then two or three men, I suppose, they <hi rend="italic">called</hi> themselves men&#8212;took her under the arm-pits with her face downward, and two went behind and seized her by the heels, her drapery falling back from her knees, while other men of the same stamp, walked behind gazing at her exposed limbs. Then they laid her upon a garden bench with her white face upturned to the fair sky, and stood over the gasping, sobbing creature, with less feeling than they would gaze upon a maimed horse or dog; her dress torn from her neck, revealing to their beastly gaze, youth and beauty which God never made for this desecration.</p>
+                <p>Oh! could I by a word have summoned the advocates of <hi rend="italic">Free Love</hi> to that spot&#8212;then, and there, would I have given them my dumb, eloquent answer, to their nauseous, hell-begotten doctrines. I would have summoned thither those women who have lately stood up in public as champions of their sex's "rights," (heaven defend us from their polluted&#8212;polluting tongues) and bade them look upon what they must know to be the inevitable end of promiscuous "affinity." I would have summoned there, those men of position in the community, who sit in their carpeted, well-stocked libraries, and in full view of their household gods&#8212;within sound of the innocent prattle of their own children&#8212;by their own <hi rend="italic">yet</hi> undesecrated hearthstones&#8212;write fine-spun theories upon Free-Love, claiming for its brazen female advocates the title of "modest" women! I would have summoned thither the editors of those respectable daily journals, who publish in their columns the sophistical effusions of such men, and bade them, one and all, look upon that young, gasping girl, and the coarse men who stood by and jeered at her.</p>
+                <p>As I turned soul-sick away, I saw a woman standing at a little distance with an infant in her arms, her face white with fear. As she gave a last glance at the girl, she pressed her babe convulsively to her breast and covered its innocent face with kisses. The action was suggestive. Alas, just so must that lost young girl's mother <hi rend="italic">once</hi> have kissed <hi rend="italic"> her</hi>!</p>
                     
                                    
                     <byline>FANNY FERN.</byline>                
