@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581120.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Sitting for my Portrait</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Sitting for my Portrait</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-11-20">20 November 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope> 
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-10-08" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18581120.02.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18581120.02.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18581120.02.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18581120.02.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18581120.02.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18581120.02.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18581120.02.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18581120.02.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">SITTING FOR MY PORTRAIT.</head>
+                
+                
+                
+                    <p>The other day I was riding in an omnibus, when it got too full by one little girl, whom I offered to take on my lap, as the mother had her arms full of parcels. She sat for a moment on my knee with her finger in her mouth, and head turned shily away. Then she made up her little mind to look round in my face, and see whether or no she would continue to stay with me. I declare that I awaited that scrutiny as bashfully as ever a timid lover did his maiden's answer. I actually felt the blood rushing up to my cheeks, as the clear blue eyes looked searchingly into mine, as if God himself were asking, "Lovest thou me?"</p>
+                    <p>Then the little thing turned her head away again, but not till she had given me a warm, bright smile, by which I knew that her heart knew no fear of me. I did not speak, because we understood each other; I waited as one waits near a bush upon which a little humming bird has alighted&#8212;fearful lest a breath should disturb it. By-and-bay she gave a careless glance out the omnibus window, and says&#8212;by way of encouraging me&#8212;"There's horses out there."</p>
+                    <p>"Yes," said I.</p>
+                    <p>She waited a few minutes longer&#8212;then finding me still apparently bashful&#8212;she says&#8212;</p>
+                    <p>"There's shops out there."</p>
+                    <p>"Yes," said I again.</p>
+                <p>Then she waited another while&#8212;and then turning her cunning little face full upon me as if determined to <hi rend="italic">make</hi> me speak, she says&#8212;</p>
+                <p>"<hi rend="italic">Ain't</hi> there many <hi rend="italic">peoples</hi> out there?"</p>
+                    <p>Now you may laugh&#8212;but that child's favorable verdict after looking at me so intently&#8212;gave me more pleasure than I know how to tell you;&#8212;had she jumped down off my lap&#8212;I shouldn't have dared to face my looking-glass that day, lest some hateful passion, born of the world's strife, had written its satanic "Get thee behind me," on my Cain-branded brow.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>
