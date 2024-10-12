@@ -22,7 +22,7 @@
             <sourceDesc>
                 <biblStruct xml:id="column">
                     <analytic>
-                        <author ref="#ff">Fanny Fern</author>
+                        <author xml:id="ff">Fanny Fern</author>
                         <title level="a">Tabitha Trot's Soliloquy Over Her Tea.</title>
                     </analytic>
                     <monogr>

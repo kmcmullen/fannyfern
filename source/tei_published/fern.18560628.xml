@@ -20,7 +20,7 @@
          <sourceDesc>
             <biblStruct xml:id="column">
                <analytic>
-                  <author ref="#ff">Fanny Fern</author>
+                  <author xml:id="ff">Fanny Fern</author>
                   <title level="a">A Story for Old Husbands with Young Wives</title>
                </analytic>
                <monogr>

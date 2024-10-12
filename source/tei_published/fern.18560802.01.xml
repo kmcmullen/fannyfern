@@ -20,7 +20,7 @@
          <sourceDesc>
             <biblStruct xml:id="column">
                <analytic>
-                  <author ref="#ff">Fanny Fern</author>
+                  <author xml:id="ff">Fanny Fern</author>
                   <title level="a">A Premonitory Squib Before Independence; Is It So? And If So, Why So?</title>
                </analytic>
                <monogr>

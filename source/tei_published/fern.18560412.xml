@@ -21,7 +21,7 @@
          <sourceDesc>
             <biblStruct xml:id="column">
                <analytic>
-                  <author ref="#ff">Fanny Fern</author>
+                  <author xml:id="ff">Fanny Fern</author>
                   <title level="a">Peeps From Under A Parasol.&#8212;No. 2.</title>
                </analytic>
                <monogr>

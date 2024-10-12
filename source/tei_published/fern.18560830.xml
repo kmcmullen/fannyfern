@@ -20,7 +20,7 @@
          <sourceDesc>
             <biblStruct xml:id="column">
                <analytic>
-                  <author ref="#ff">Fanny Fern</author>
+                  <author xml:id="ff">Fanny Fern</author>
                   <title level="a">Fair Play; or, Both Sides of the Story</title>
                </analytic>
                <monogr>
