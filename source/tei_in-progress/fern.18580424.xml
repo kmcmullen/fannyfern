@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx"><fern.18580424
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18480424">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,10 +11,11 @@
                 <respStmt>
                     <resp>transcription and encoding</resp>
                     <persName xml:id="lf">Lisa Fruehling</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <date>2023</date>
+                <date>2024</date>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                         <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
@@ -32,7 +33,7 @@
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="1858-04-24" 24 April 1858"</date>                    
+                            <date xml:id="issue_date" when="1858-04-24">24 April 1858</date>
                         </imprint>
                         <biblScope type="pp">4</biblScope>
                         <biblScope type="column">3</biblScope>
@@ -59,11 +60,12 @@
         
         
         <revisionDesc>
-            <change when="2015-08-28" who="#lf">transcribed, encoded</change><!-- change date and initials here, as necessary -->
+            <change when="2024-10-12" who="#km">proofed</change>
+            <change when="2024-07" who="#lf">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
-    <facsimile corresp="#issue"><!-- change all image names here -->
+    <facsimile corresp="#issue">
         <surface xml:id="pp1">
             <graphic url="fern.18580424.01.jpg"/>
         </surface>
@@ -102,15 +104,20 @@
                 </epigraph>
                 
                 
-                    <head type="main"><Misplacing the Switch</head>
+                    <head type="main">Misplacing the Switch</head>
                 
                
                 
                     <p>A toast recently given runs thus: "Our parents; the only tenders who never misplaced a switch."</p>
+                
                 <p>Now you may laugh at that&#8212;so did I&#8212;but where could you find a greater fib? Many a time and oft have parents laid the switch on their chil-dren's backs, when they should have applied it to their own; many a time has the lask which should have descended upon the back of the favorite, fall-en upon his much abused brother's. There is no-thing in creation which parents so often misplace as the switch, and it need not of necessity be a birchen rod or ferule; there are switch which cut deeper than either, of which many a ruined man and wooman can tell you.</p>
+                
                 <p>I knew two children&#8212;one blundering, but hon-est, sincere, self-reliant, speaking the plain truth on all occasions without qualification, making his requests as best he might when refused. The other, willy, diplomatic, Chesterfieldian, ever with a soft word on the tip of his tongue, to pave the way for the much desired boon, whch was never refused, so winning, so courteous, so apparently respectful was the seeker. Follow these two chil-dren, See the latter in the play-ground, coasting to his young associates what he has got from the "old gentleman" or the "old lady"&#8212;boasting what he will yet get&#8212;boasting that he knows how to do it; rehearsing to them the disgusting panto-mime of the caress, the respectful, diferential atti-tude which he uses on such occasions. Follow the other to his little room at the top of the house; see him sitting in gloomy silence, too proud to weep, too proud to complain, brooding over the injustice done him&#8212;not hating the fraternal owner of "the coat of many colors," no thanks to those who gave them both birth, but looking into the far, dim future with that wistful longing which comes of unloved, precocious childhood ; sitting there&#8212;with his own hand turning the poisoned ar-row round and round in the festering wound,inca-pable of extracting it, and yet knowing no balm to assuage its intolerable anguish.</p>
+                
                 <p>Follow out their histories. See the Chester-fieldian favorite sent to college, contracting long livery-stable, hotel, and tailors' bills, with a perfect reliance upon his diplomatic abilities to "set it all right with the old gentleman ;" thanking him with his thunm and finger to his nose, for his unparalleled generosity to a son so unworthy; allud-ing delicately to his pride in him as a father, and trusting some day to make a proper return for all his goodness, etc., etc. See the "stupid boy" who is summarily set down to be wanting in cleverness, accepting in silency this verdict, and the conse-quent disposal of his time in some uncongenial, distasteful employment, will at last wearied out by the silent drop that descends mercilessly and unre-mittingly, hour by hour, on his tortured soul, he rushes  from the home which has been a home only in name, and wanders forth, with the gnawing pain in his heart for silent company. Merciful God! what is to keep him? His blood is young and warm, his heart throbbing wildly in his breat for what every human thing yearns for, and need never be ashamed of yearning for&#8212;sympathy&#8212;love!</p>
+                
                 <p>Years pass on. The college boy returns with more knowledge of horses, wine and women, than of Greek, Latin and mathematics&#8212;returns to re-cieve the congratulations of partial friends that he has passed off for pure gold the glittering brass of his showy superficiality. The truant's name is never mentioned, or if so, with the hope, not that he may be kept from evil, but "that he may not disgrace us." Meanwhile the wanderer lies lan-guishing on a bed of sickness in a foreign country. Woman's heart is the same in all lands, when pity knocks at it, else had he closed his eyes in sunny Italy. Pity he had not&#8212;pity he returned to be asked, with cold tones and averted eyes, why he did not stay there. Pity that he could not smother that unconquerable longing which approaching death brings, to look out last upon our native land. Pity that errors bron of a neglected childhood and forsaken youth should have been held up to him by the pharisical hands which goaded him into them, even at the tomb's portal. Pity that sinful man may not be merciful as a holy, pitying God.</p>
+                
                 <p>I ask you, and you, and you, who have woven the "coat of many colors" for someone in your household&#8212;you who, by your partiality and short-sightedness, are fostering the rank weeds, and trampling under foot the humble flowers&#8212;you who are bringing up children whose hearts shall one day be colder to each others than the dead in their graves&#8212;you upon whom shall be visited&#8212;alas! too late&#8212;every scalding tear of agony and disappointment from out young eyes, which should have beamed only with hope and gladness;&#8212;I ask every parents who is doing this, if he or she is willing that his or her child shall grow up by these means to lose his faith his faith in man, and sadder still, in God?</p>
                     <byline>FANNY FERN.</byline>                
                
