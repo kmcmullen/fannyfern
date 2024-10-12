@@ -25,7 +25,7 @@
                </analytic>
                <monogr>
                   <title xml:id="paper" level="j">The New-York Ledger</title>
-                  <editor ref="#rb">Robert Bonner</editor>
+                  <editor xml:id="rb">Robert Bonner</editor>
                   <imprint>
                      <date xml:id="issue_date" when="1856-09-13">13 September 1856</date>
                   </imprint>
