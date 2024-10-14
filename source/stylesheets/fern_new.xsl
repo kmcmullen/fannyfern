@@ -277,7 +277,7 @@
             <xsl:attribute name="class">xmlDownload</xsl:attribute>
        <xsl:element name="a">
            <xsl:attribute name="href">
-               <xsl:value-of select="(concat('https://github.com/kmcmullen/fannyfern/tree/main/source/tei_published', $href, '.xml'))"/>
+               <xsl:value-of select="(concat('https://github.com/kmcmullen/fannyfern/tree/main/source/tei_published/', $href, '.xml'))"/>
            </xsl:attribute>
            <xsl:attribute name="download">
                <xsl:value-of select="$href"/>.xml</xsl:attribute>
