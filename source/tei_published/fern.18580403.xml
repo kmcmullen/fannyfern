@@ -49,7 +49,8 @@
                         <imprint>
                             <date sameAs="#issue_date"/>                  
                         </imprint>              
-                    </monogr>                   
+                    </monogr>
+                    <note type="editorial_images" target="https://digital.library.villanova.edu/Item/vudl:468850">Images of original issue courtesy of Digital Library @ Villanova University</note>
                 </biblStruct>                        
             </sourceDesc>
         </fileDesc>
