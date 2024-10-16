@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx"><!fern.18560410.01
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581120.02">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">The Baby in the Car</title>
+                <title type="main">Sitting for my Portrait</title>
                 <title type="sub">a machine-readable transcription</title>              
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="lf">Lisa Fruehling</persName>
+                    <persName xml:id="np">Noelle Pinneo</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -25,17 +25,17 @@
             <sourceDesc>
                 <biblStruct xml:id="column">
                     <analytic>
-                        <author ref="#ff">Fanny Fern</author>
-                        <title level="a">The Baby in the Car</title>
+                        <author xml:id="ff">Fanny Fern</author>
+                        <title level="a">Sitting for my Portrait</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
-                        <editor ref="#rb">Robert Bonner</editor>
+                        <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="1858-04-10"><10 April 1858" --></date>                    
+                            <date xml:id="issue_date" when="1858-11-20">20 November 1858</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
-                        <biblScope type="column">3</biblScope>
+                        <biblScope type="column">3</biblScope> 
                     </monogr>
                     <series>
                         <title level="s">Fresh Fern Leaves</title>
@@ -59,34 +59,34 @@
         
         
         <revisionDesc>
-            <change when="2024-06-20" who="#lf">transcribed, encoded</change>
+            <change when="2024-10-08" who="#np">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18580410.01.jpg"/>
+            <graphic url="fern18581120.02.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18580410.02.jpg"/>
+            <graphic url="fern18581120.02.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18580410.03.jpg"/>
+            <graphic url="fern18581120.02.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18580410.04.jpg"/> 
+            <graphic url="fern18581120.02.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18580410.05.jpg"/>
+            <graphic url="fern18581120.02.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18580410.06.jpg"/>
+            <graphic url="fern18581120.02.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18580410.07.jpg"/>
+            <graphic url="fern18581120.02.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18580410.08.jpg"/>
+            <graphic url="fern18581120.02.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -99,17 +99,24 @@
                 
                 <epigraph>
                     <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
-                </epigraph><
+                </epigraph>
                 
                 
-                    <head type="main">The Baby in the Car</head>
+                    <head type="main">SITTING FOR MY PORTRAIT.</head>
                 
                 
                 
-                    <p><There is nothing in nature more curioys than the gravity of a little baby. That self-poised, dig-nified, thoughtful calmness, which you may try in vain to outstare, or disturb. So I thought the other day, as I sat in the cars, looking, as if for a wager, into a pair of baby eyes, that were scruten-izing me with infantile persistence and imperturba-bility. I might have looked forever. No calling up a blush on that pearl-white skin; no flinching in that calm, quiet eye; limpid as a lake, serence as a seraph.</p>
-                    <p>Of what was the baby thinking?</p>
-                     <p>Not, I am sure, of the delicate lace which fell like a gauzy cloud about its sweet face; nor of its French, embroidered cap, lined with the softest silk; nor of its dainty cloak, tied by mamma's own soft, which fingers, and redolent of the delicate perfume of her hankerchiefs and laces. Not of all this was the petter baby thinking; nor yet of the smart nursery-maid, who drew it fearfully away from the little Irish baby on the knee of her stout neighbor, as if the breath from out its saucy little Hibernian nose were contamination, and its calico frock, and cotton hood, and faded cloak, were the livery of shame as well as poverty. No; else had not those baby features worn that calm majesty, which leaves us with infancy, and only meets us again at the tomb, and which the most sin-scarred creature who ever defaced God's image quails before, as if God himself were looking into his secret soul.
-                         <p>August babyhod! Majestic yet helpless! Im-ploring yet awing us! Who shall say what wild thoughts of sin thy voiceless eloquence has calmed down to repentant tears! Who shall number the souls washed white by the unconsious touch of thy sinless hand, or make mention of the swift-winged prayers breathed over thee: or tell of the mortal throes with which she who gave thee birth watch thy little lamo of life fade out in utter darkness! And who but the angels see the cords, invisible to human eyes, with which from the spirit land thou drawest after thee the mother, who for her falling tears can scare=ce trace thy tiny footsteps, and yet, groping and stumbling, follows the good shepherd, who looks lovingly back, as he hides her lamb in his bosom.</p>
+                    <p>The other day I was riding in an omnibus, when it got too full by one little girl, whom I offered to take on my lap, as the mother had her arms full of parcels. She sat for a moment on my knee with her finger in her mouth, and head turned shily away. Then she made up her little mind to look round in my face, and see whether or no she would continue to stay with me. I declare that I awaited that scrutiny as bashfully as ever a timid lover did his maiden's answer. I actually felt the blood rushing up to my cheeks, as the clear blue eyes looked searchingly into mine, as if God himself were asking, "Lovest thou me?"</p>
+                    <p>Then the little thing turned her head away again, but not till she had given me a warm, bright smile, by which I knew that her heart knew no fear of me. I did not speak, because we understood each other; I waited as one waits near a bush upon which a little humming bird has alighted&#8212;fearful lest a breath should disturb it. By-and-bay she gave a careless glance out the omnibus window, and says&#8212;by way of encouraging me&#8212;"There's horses out there."</p>
+                    <p>"Yes," said I.</p>
+                    <p>She waited a few minutes longer&#8212;then finding me still apparently bashful&#8212;she says&#8212;</p>
+                    <p>"There's shops out there."</p>
+                    <p>"Yes," said I again.</p>
+                <p>Then she waited another while&#8212;and then turning her cunning little face full upon me as if determined to <hi rend="italic">make</hi> me speak, she says&#8212;</p>
+                <p>"<hi rend="italic">Ain't</hi> there many <hi rend="italic">peoples</hi> out there?"</p>
+                    <p>Now you may laugh&#8212;but that child's favorable verdict after looking at me so intently&#8212;gave me more pleasure than I know how to tell you;&#8212;had she jumped down off my lap&#8212;I shouldn't have dared to face my looking-glass that day, lest some hateful passion, born of the world's strife, had written its satanic "Get thee behind me," on my Cain-branded brow.</p>
+                    
+                                   
                     <byline>FANNY FERN.</byline>                
                
             </div>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581113">
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581120.01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Did You Ever See Them?</title>
+                <title type="main">A Life Sketch</title>
                 <title type="sub">a machine-readable transcription</title>              
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="lf">Lisa Fruehling</persName>\
+                    <persName xml:id="np">Noelle Pinneo</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -26,16 +26,16 @@
                 <biblStruct xml:id="column">
                     <analytic>
                         <author xml:id="ff">Fanny Fern</author>
-                        <title level="a">Did You Ever See Them?</title>
+                        <title level="a">A Life Sketch</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="<"1858-11-13"">"13 November 1858" --></date>                    
+                            <date xml:id="issue_date" when="1858-11-20">20 November 1858</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
-                        <biblScope type="column">3</biblScope>
+                        <biblScope type="column">3</biblScope> 
                     </monogr>
                     <series>
                         <title level="s">Fresh Fern Leaves</title>
@@ -59,34 +59,34 @@
         
         
         <revisionDesc>
-            <change when="2024-10-03" who="#lf">transcribed, encoded</change>
+            <change when="2024-10-08" who="#np">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18581113.02.01.jpg"/>
+            <graphic url="fern18581120.01.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18581113.02.02.jpg"/>
+            <graphic url="fern18581120.01.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18581113.02.03.jpg"/>
+            <graphic url="fern18581120.01.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18581113.02.04.jpg"/> 
+            <graphic url="fern18581120.01.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18581113.02.05.jpg"/>
+            <graphic url="fern18581120.01.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18581113.02.06.jpg"/>
+            <graphic url="fern18581120.01.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18581113.02.07.jpg"/>
+            <graphic url="fern18581120.01.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18581113.02.08.jpg"/>
+            <graphic url="fern18581120.01.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -102,12 +102,14 @@
                 </epigraph>
                 
                 
-                    <head type="main">Did You Ever See Them?</head>
+                    <head type="main">A LIFE SKETCH.</head>
                 
                 
                 
-                <p>There are people who get up in the morning for the express purpose of making somebody uncom-fortable before the day is out. They generally pitch upon some sunny-faced, happy, singing hu-man lan<gap>reason=smudge on paper"extent=remainder of word</gap>, caroling high above the ditches and marshes of life, soaring in the blue ether of his happiness nearer Go and the angels than he himself knows anything about, and taking prac-ticed aim at some vulnerable point, bring him plump down, with maimed wing, to flutter in the dust. Now what is good enough for such a miscreant? The more you flutter the better he likes it; every writhe of your agonized spirit is delicious music to this vulture; there is one other person in the world as uncomfortable as himself. What right had <hi rend="italic">you</hi> to be happy when <hi rend="italic">his</hi>liver was out of order? It was clearly a piece of impertinent presumption, and so there you lie moan-ing and turning, the sunshine all gone, the chill mist of despondence gathering thick about you, and your persecutor standing by, turning you over now and then with his foot, to see if there is life enough left for a freah attack.</p>
-                <p>You have seen just such I dare say; smooth-faced, plausible wretches, bowing and smirking you into the hottest purgatory. Now an honest enemy I knoq how to meet; but your malicious, mealy-mouthed, Watts-Psalms-and Hymns wretch, who takes your hand with his velvety palm, only to tell you that your hand with his velvety palm, only to tell you that your pulse is wrong, and that your father died at your age&#8212;I wonder if there <hi rend="italic">is</hi> salva-tion for such?</p>
+                    <p>A small, dark, cheerless room, an unshapely bed, upon which lay an unshapely remnant of humanity, whose faded eyes had wandered up and down those barren chamber walls, till every crack and crevice was as familiarly mapped out to the closed, as to the open eye. Everything dark and dingy, colorless and dreary; the propped up, worm-eaten table, and three-legged chair, and fireless hearth, and broken-paned window with its stuffing of rags; the wailing wind that whistled through them,&#8212;passing away! passing away! Mournful memories, the slow, sad procession of lost hopes trailing their tarnished, world begrimed brightness through the accumulated dust of years, palsying the tongue, filming over the eyes that still, while life lingers, roam with unspeakable and restless longings for something to rest upon beside darkness, gloom and decay.</p>
+                    <p>Now and then a neighbor, poor and care-worn as herself, looked in upon the bed-ridden old woman. Short time they had, God knows, in the hurrying scramble for daily bread, to think or care for aught else; none of them knew her history; none knew how little she whose limbs had once been so daintily decked ever dreamed to lie through those weary days, and weeks, and moments, so helpless, so friendless, prisoned in from the blue sky, the sweet flowers, the green earth, biding her time to be carried out by careless hands to lie beneath them.</p>
+                    <p>'Twas weary waiting&#8212;'twas weary listening for some voice that had music in it, 'twas weary looking only upon faces trouble-seamed and care-worn as her own.</p>
+                <p>The door opens gently, and the light streams in through the doorway full upon a young girl, fresh as if just from the hand of God, upon locks like vine tendrils upon the rosy cheek, and eyes of heavenly blue, upon the sweet mouth with its pitying smile&#8212;filling the dingy room with a brightness like one of God's own angels. The old woman raised herself upon her elbow and gazed upon the maiden, as one would gaze upon a flower in the desert,&#8212;upon a star in a rayless night,&#8212;upon the bright winged bird which lights for a brief moment upon the tempest-tost ship. Then&#8212;sinking back upon <choice><sic>ner</sic><corr>her</corr></choice> pillow with a murmur like the home sick <choice><sic>mariher</sic><corr>mariner</corr></choice> in his dreams, she sighs, ah, me! how beautiful is youth!</p>
                     
                                    
                     <byline>FANNY FERN.</byline>                

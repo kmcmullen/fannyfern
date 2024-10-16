@@ -236,7 +236,7 @@
             <p><xsl:value-of select="//sourceDesc/biblStruct/note[@type='editorial_images']"/>: <xsl:element name="a"><xsl:attribute name="href"><xsl:value-of select="//sourceDesc/biblStruct/note/@target"/></xsl:attribute><xsl:attribute name="target">_blank</xsl:attribute><xsl:value-of select="//sourceDesc/biblStruct/note/@target"/></xsl:element></p>
         </xsl:if>
         <h6>To cite this project:</h6>
-        <p class="citation"><xsl:value-of select="//analytic/author"/>, "<xsl:value-of select="//analytic/title[@level='a']"/>,"<xsl:text> </xsl:text><em>Fanny Fern in The New York Ledger,</em> Ed. Kevin McMullen (2023) http://fannyfern.org.</p>
+        <p class="citation"><xsl:value-of select="//analytic/author"/>, "<xsl:value-of select="//analytic/title[@level='a']"/>,"<xsl:text> </xsl:text><em>Fanny Fern in The New York Ledger,</em> Ed. Kevin McMullen (2024) http://fannyfern.org.</p>
         <h6>Contributors to the digital file:</h6>
         <p class="citation">
             <!-- Note: The follow "for-each" was borrowed from the Whitman journalism stylesheet. KM -->
@@ -277,7 +277,7 @@
             <xsl:attribute name="class">xmlDownload</xsl:attribute>
        <xsl:element name="a">
            <xsl:attribute name="href">
-               <xsl:value-of select="(concat('http://fannyfern.org/xml/', $href, '.xml'))"/>
+               <xsl:value-of select="(concat('https://github.com/kmcmullen/fannyfern/tree/main/source/tei_published/', $href, '.xml'))"/>
            </xsl:attribute>
            <xsl:attribute name="download">
                <xsl:value-of select="$href"/>.xml</xsl:attribute>
