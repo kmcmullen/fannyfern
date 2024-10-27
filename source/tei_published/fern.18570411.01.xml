@@ -22,12 +22,12 @@
             <sourceDesc>
                 <biblStruct xml:id="column">
                     <analytic>
-                        <author ref="#ff">Fanny Fern</author>
+                        <author xml:id="ff">Fanny Fern</author>
                         <title level="a">The Cherub in the Omnibus</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
-                        <editor ref="#rb">Robert Bonner</editor>
+                        <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
                             <date xml:id="issue_date" when="1857-04-11">11 April 1857</date>                    
                         </imprint>

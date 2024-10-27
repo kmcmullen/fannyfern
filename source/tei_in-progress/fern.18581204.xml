@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581204">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">How a Great Lord Educated His Son: A Chapter For Boys</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">How a Great Lord Educated His Son: A Chapter For Boys</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1858-12-04">04 December 1858</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-10-12" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18581204.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18581204.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18581204.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18581204.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18581204.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18581204.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18581204.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18581204.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">HOW A GREAT LORD EDUCATED HIS SON.</head>
+                
+                <head type="sub">A CHAPTER FOR BOYS.</head>
+                
+                    <p>Did you ever hear of Lord Chesterfield? I dare say you have, if not, you very likely will, before you are much older. He wrote some letters to a son of his, which have become famous, telling how to eat, and drink, and walk and talk politely; how to dress, how to carve, how to dance, how to write letters; how to enter a room, how to go out of it; how to smile at people whom he disliked; what books to read, what sort of people to visit, and to choose for his friends. Every now and then  I used to hear of this book, and hear some person say, in speaking of another person, "He has very fine manners&#8212;he is quite Chesterfieldian;" which seemed to mean very great praise. Now I have no boys&#8212;more's the pity; but still, I thought, I will read this Lord Chesterfield's book, and see how <hi rend="italic">he</hi> thinks a boy should be brought up, because I have my own notions on that subject, as well as his lordship, although I have had no occasion to practice them; and I think good manners are by no means to be despised, though they are not at all the most important part of a boy's education.</p>
+                <p>Well, there was just the mistake <hi rend="italic">I</hi> think this gentleman made about his son, whom he drilled in these things like a little soldier; it was the outside only that he was most careful about polishing and adorning. It was to get a high place in this short-lived world that he was to make his best bow, wear his hat and coat gracefully, and study Latin, and talk French and Italian. It was to secure the notice of great, and powerful, and fashionable people that he was to cultivate his taste and talents, and improve his person; not to do good, not to benefit in any way his fellow creatures by the great influence all this would give him to do good, but <hi rend="italic">solely to benefit himself</hi>, and to hear it said that he was a perfect gentleman, which, by the way, would have been untrue, had he done all this and done no more, because no man acting from such selfish motives <hi rend="italic">can</hi> be a perfect gentleman, though to careless eyes he may appear so. Then this Lord Chesterfield told his son never to get angry with anybody, not because anger was wrong, and debased the soul of him who indulged it, but because it was not good policy to make an enemy even of the meanest person, who might some day be able either to help or to injure one. Then he advised him to speak very respectfully of God and religious things, because it was considered "respectable" to do so, and because it gave a man influence, not because it is base and ungrateful to receive all the good things God showers down upon us at every moment, while we little Lilliputions are, practically at least, denying His very existence, and doing all we can to blot and deface and mar His image in our souls, and helping others to do the same, not because He who loves and pities us so tenderly waits month after month, year after year, with patience unspeakable, to see us turn to Him with a loving, penitent "Our Father;" not for this, but because it was "respectable" to be religious. It is quite pitiful to read this gentleman's letters to his son, and see, while he appeared to love him so fondly, how entirely he was educating him for this world, with not a thought beyond, for those ages upon ages, which that immortal spirit must travel through in joy or pain, just as he prepared for it here. It is pitiful that he never said one word to the boy about using his talents and influence for lightening the burdens which were so heavily weighing down his less favored fellow mortals, but everything was to begin and end in himself; that <hi rend="italic">he</hi> was to shine in public and private; that <hi rend="italic">he</hi> was to be admired, not for his goodness of heart, but, like the peacock, for his fine plumage&#8212;like the bird, for his sweet voice. </p>
+                <p>Well, the boy was to travel and see the world, and everything in it worth seeing, but by no means to associate with any but "fashionable people," as if he <hi rend="italic">could</hi> see all that was "worth seeing" in such an artificial atmosphere; as if fashionable people were "the world;" as if God's purest, and brightest adn best, did not shine out like diamonds from dirt-heaps; as if <hi rend="italic">that</hi> was the way to read human nature, which the boy was told to study so perfectly that he could play upon the chords of human feeling and human passion, as does a skillful musician upon his favorite instrument. No; as well might he judge of a book by looking at its gilt binding. He was to talk to women, who, his father told him, "were only grown up children." I wonder had he a mother? I wonder had she whispered a prayer over his cradle? I wonder had she never gone without sleep and rest, that his little head might be pillowed softly? I always ask these questions when men speak disrespectfully of women; well, he was to talk to women, and be good friends with, and flatter them, because, foolish and silly as they were, they had, after all, influence in the world, and might "make or mar his fortune;" there, you see it is again <hi rend="italic">the everlasting I</hi>, at the top and bottom of everything.</p>
+                <p>Now you will naturally inquire how this paragon turned out, when he became a man; whether this boy, educated with so much care, and at so much expense, repaid it all;&#8212;you will naturally suppose, that with such advantages of education and society, he overtopped all his fellows. His father's ambition was to see him in Parliament, which answers in England, you know, to our American Congress&#8212;except that there is no head breaking allowed in that honorable body. Our hero had now grown to man's stature; he wore a coat any tailor might be proud of; made a bow equal to a dancing master; and could tell fibs so politely that even his father was delighted. So far, so good. Now he was to put the crown on it all, by making his first speech in Parliament; he who had the Dictionary at his tongue's end, and the rules of etiquette at his finger ends; who had been drilled in rhetoric, and oratory, and diplomacy, and in all the steps considered necessary by his father to make a great public man. Well&#8212;he got up&#8212;and stuttered&#8212;and stammered&#8212;and hemmed&#8212;and ha-ha-d&#8212;and made a most disgraceful failure. Do you suppose he would have done it had his whole soul been on fire with some grand, God-like project for helping his fellow creatures? <hi rend="italic">Never!</hi> But his whole thoughts were centered in himself; what sort of figure he cut&#8212;what impression he should make; what this&#8212;that&#8212;and the other great person was thinking of him. Of course he came down like a collapsed balloon, as all men do, who have no higher standard than the approbation of human beings.</p>
+                <p>Oh, I tell you what it is, you may cram a man's <hi rend="italic">head</hi> as full as you please; if you neglect his <hi rend="italic">heart</hi>, he will be after all like a Dead Sea apple&#8212;and yield you only&#8212;<hi rend="italic">ashes</hi>.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

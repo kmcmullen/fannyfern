@@ -16,7 +16,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct xml:id="column"> <analytic>     <author ref="#ff">Fanny Fern</author>     <title level="a">Getting Up The Wrong Way</title> </analytic> <monogr>     <title xml:id="paper" level="j">The New-York Ledger</title>     <editor ref="#rb">Robert Bonner</editor>     <imprint>         <date xml:id="issue_date" when="1856-02-02">2 February 1856</date>     </imprint>     <biblScope type="pp">[4]</biblScope> </monogr> <series>     <title level="s">Fresh Fern Leaves</title> </series>
+                <biblStruct xml:id="column"> <analytic>     <author xml:id="ff">Fanny Fern</author>     <title level="a">Getting Up The Wrong Way</title> </analytic> <monogr>     <title xml:id="paper" level="j">The New-York Ledger</title>     <editor xml:id="rb">Robert Bonner</editor>     <imprint>         <date xml:id="issue_date" when="1856-02-02">2 February 1856</date>     </imprint>     <biblScope type="pp">[4]</biblScope> </monogr> <series>     <title level="s">Fresh Fern Leaves</title> </series>
                 </biblStruct>
                 <biblStruct xml:id="issue"> <monogr>     <title level="j" sameAs="#paper"/>     <imprint>         <date sameAs="#issue_date"/>     </imprint> </monogr>
                 </biblStruct>

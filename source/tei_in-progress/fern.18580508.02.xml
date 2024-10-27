@@ -25,12 +25,12 @@
             <sourceDesc>
                 <biblStruct xml:id="column">
                     <analytic>
-                        <author ref="#ff">Fanny Fern</author>
+                        <author xml:id="ff">Fanny Fern</author>
                         <title level="a">A Crystal Palace Memorandum</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
-                        <editor ref="#rb">Robert Bonner</editor>
+                        <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
                             <date xml:id="issue_date" when="1858-05-08">08 May 1858 --></date>                    
                         </imprint>

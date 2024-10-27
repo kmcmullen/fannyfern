@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18581113">
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18590319">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Did You Ever See Them?</title>
+                <title type="main">Babies As They Are</title>
                 <title type="sub">a machine-readable transcription</title>              
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="lf">Lisa Fruehling</persName>\
+                    <persName xml:id="jh">Jordan Harper</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -25,21 +25,19 @@
             <sourceDesc>
                 <biblStruct xml:id="column">
                     <analytic>
-                        <author xml:id="ff">Fanny Fern</author>
-                        <title level="a">Did You Ever See Them?</title>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Hint For Shopping Husbands</title>
                     </analytic>
                     <monogr>
                         <title xml:id="paper" level="j">The New-York Ledger</title>
-                        <editor xml:id="rb">Robert Bonner</editor>
+                        <editor ref="#rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="<"1858-11-13"">"13 November 1858" --></date>                    
+                            <date xml:id="issue_date" when="1859-03-19">19 March 1859</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
-                        <biblScope type="column">3</biblScope>
+                        <biblScope type="column">3</biblScope> 
                     </monogr>
-                    <series>
-                        <title level="s">Fresh Fern Leaves</title>
-                    </series>
+                    
                 </biblStruct>
                 
                 <biblStruct xml:id="issue">               
@@ -59,34 +57,34 @@
         
         
         <revisionDesc>
-            <change when="2024-10-03" who="#lf">transcribed, encoded</change>
+            <change when="2024-10-16" who="#jh">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18581113.02.01.jpg"/>
+            <graphic url="fern18590319.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18581113.02.02.jpg"/>
+            <graphic url="fern18590319.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18581113.02.03.jpg"/>
+            <graphic url="fern18590319.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18581113.02.04.jpg"/> 
+            <graphic url="fern18590319.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18581113.02.05.jpg"/>
+            <graphic url="fern18590319.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18581113.02.06.jpg"/>
+            <graphic url="fern18590319.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18581113.02.07.jpg"/>
+            <graphic url="fern18590319.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18581113.02.08.jpg"/>
+            <graphic url="fern18590319.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -95,19 +93,17 @@
         <body>
           
             <div type="column">
-                <head type="column">FRESH FERN LEAVES.</head>
-                
-                <epigraph>
-                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
-                </epigraph>
-                
-                
-                    <head type="main">Did You Ever See Them?</head>
                 
                 
                 
-                <p>There are people who get up in the morning for the express purpose of making somebody uncom-fortable before the day is out. They generally pitch upon some sunny-faced, happy, singing hu-man lan<gap>reason=smudge on paper"extent=remainder of word</gap>, caroling high above the ditches and marshes of life, soaring in the blue ether of his happiness nearer Go and the angels than he himself knows anything about, and taking prac-ticed aim at some vulnerable point, bring him plump down, with maimed wing, to flutter in the dust. Now what is good enough for such a miscreant? The more you flutter the better he likes it; every writhe of your agonized spirit is delicious music to this vulture; there is one other person in the world as uncomfortable as himself. What right had <hi rend="italic">you</hi> to be happy when <hi rend="italic">his</hi>liver was out of order? It was clearly a piece of impertinent presumption, and so there you lie moan-ing and turning, the sunshine all gone, the chill mist of despondence gathering thick about you, and your persecutor standing by, turning you over now and then with his foot, to see if there is life enough left for a freah attack.</p>
-                <p>You have seen just such I dare say; smooth-faced, plausible wretches, bowing and smirking you into the hottest purgatory. Now an honest enemy I knoq how to meet; but your malicious, mealy-mouthed, Watts-Psalms-and Hymns wretch, who takes your hand with his velvety palm, only to tell you that your hand with his velvety palm, only to tell you that your pulse is wrong, and that your father died at your age&#8212;I wonder if there <hi rend="italic">is</hi> salva-tion for such?</p>
+                
+                
+                    <head type="main">A HINT FOR SHOPPING HUSBANDS.</head>
+                
+                
+                
+                <p>I never witnessed an execution; but I saw a man the other day, (married he surely was, for there was a button off his shirt-bosom,) trying to select a lace collar from out a dainty cobweb heap, sufficiently perplexing even to a practised female eye. The clumsy way he poised the gauzy things on his fore-finger, with his head askew, trying to comprehend their respective merits! The long, weary sigh he drew, as the shopman handed him new specimens. The look of relief with which he heard <hi rend="italic">me</hi> inquire for lace collars, saying, as plain as looks could say, Ah, now, thank Heaven, I shall have a woman's view of the subject! The <hi rend="italic">disinterested</hi> manner in which, with this view, he pushed a stool forward for me to sit down, to watch upon which collar my eye fell complacently, all the while turning over <hi rend="italic">his</hi> heap in the same idiotic way. Oh, it was funny! Of course I kept him on the anxious seat a little while, persistently holding my tongue, the better to enjoy his dilemma. Didn't he fidget? Men are such impatient wretches; didn't I know that, too?</p>
+                <p>At length, fearful he might rush out for strychnine, I spake. I descanted upon shape, and texture, and pattern, and upon the probability of their "doing up" well, to all of which my rueful knight listened like a criminal who scents a reprieve. Then I made my selection; then he chose two exactly like mine, before you could wink, and with a sublime gratitude, refused to let the shopman consider the bill that was in his gloved fingers, "till he had made change for the lady." We understood each other, for there are cases in which words are superfluous. No doubt his wife thought his taste in collars was excellent.</p>
                     
                                    
                     <byline>FANNY FERN.</byline>                
