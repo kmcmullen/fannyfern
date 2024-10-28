@@ -10,7 +10,8 @@
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="lf">LisaFruehling</persName>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                    <persName xml:id="jh">Jordan Harper</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -59,8 +60,8 @@
         
         
         <revisionDesc>
-            <change when="2024-07-08" who="#lf">transcribed, encoded</change>
             <change when="2024-10-27" who="#jh">proofed</change>
+            <change when="2024-07-08" who="#lf">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
@@ -103,7 +104,7 @@
                 </epigraph>
                 
                 
-                    <head type="main">OLD MAIDS' HUSBANDS</head>
+                    <head type="main">OLD MAIDS' HUSBANDS.</head>
                 
                 
                 
