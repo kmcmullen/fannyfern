@@ -11,6 +11,7 @@
                 <respStmt>
                     <resp>transcription and encoding</resp>
                     <persName xml:id="jh">Jordan Harper</persName>
+                    <persName xml:id="np">Noelle Pinneo</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -59,12 +60,12 @@
         
         
         <revisionDesc>
-            <change when="2024-09-09" who="#jh">transcribed, encoded</change>
             <change when= "2024-10-27" who="#np">proofed</change>
+            <change when="2024-09-09" who="#jh">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
-    <facsimile corresp="#issue"><!-- change all image names here -->
+    <facsimile corresp="#issue">
         <surface xml:id="pp1">
             <graphic url="fern18580918.01.jpg"/>
         </surface>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx">fern.18580508.01
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580508.01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">fern.18580508.01</title>
+                <title type="main">What Came of a Violet</title>
                 <title type="sub">a machine-readable transcription</title>              
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
@@ -32,7 +32,7 @@
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="1858-05-08 -->">8 May 1858</date>                    
+                            <date xml:id="issue_date" when="1858-05-08">8 May 1858</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
                         <biblScope type="column">3</biblScope>
@@ -59,11 +59,12 @@
         
         
         <revisionDesc>
-            <change when="2015-08-28" who="#km">transcribed, encoded</change><!-- change date and initials here, as necessary -->
+            <change when="2024-06-27" who="#lf">transcribed, encoded</change>
+            <change when="2024-10-27" who="#jh">proofed</change>
         </revisionDesc>
     </teiHeader>
     
-    <facsimile corresp="#issue"><!-- change all image names here -->
+    <facsimile corresp="#issue">
         <surface xml:id="pp1">
             <graphic url="fern18580508.01.01.jpg"/>
         </surface>
@@ -81,7 +82,7 @@
         </surface>
         <surface xml:id="pp6">
             <graphic url="fern18580508.01.06.jpg"/>
-        </surface 
+        </surface> 
         <surface xml:id="pp7">
             <graphic url="fern18580508.01.07.jpg"/>
         </surface>
@@ -102,14 +103,14 @@
                 </epigraph>
                 
                 
-                    <head type="main">What Came of a Violet</head>
+                    <head type="main">WHAT CAME OF A VIOLET.</head>
                 
                 
                 
-                    <p>Before me lies a little violet, the forerunner of spring, with a sweer, faint, delicate perfume like a baby's breath. It should give me joy, and yet my tears are dropping on its purple leaves.</p>
-                <p>Why? Has life been such a holyday to you, that your heart never grew sick at a perfume or a well-remembered song hummed beneath your win-down, or a form, or a face, which was, and yet was not, which mockingly touched a chord that for years you had carefully covered over, every vibra-tion of which was tourture unutterable? Have you never rushed franticly into a crowd&#8212;somewhere, anywhere to be rid of yourself? Did you never laugh and talk so  incessantly and so gaily, that your listeners asked wonderingly and reproachful-ly, "Does she ever <hi rend="italic">think?</hi>" Did you ever walk till your feet tottered beneath you, and still press on, as if urged by som einvisible, irresistible power? Did you never listen to the tick&#8212;tich&#8212; of your watch, night after night, with dilated eyes that would not close, with limbs so weary that you could not change your posture, and lips so parched you could not even cry, God help me, and your brain one vast workshop, where memory was forging racksm and chains, and screws, and trying their strength on every quivering nerve? Did you ne'ver hail the first streak of down, as an angel whom you implored to lay a cool hand on your brow, and bring you peace or oblivion? and did you ne-ver see that day's sun set in clouds, like its prede-cessors, and the stars come forth one by one, with searching eyes, staring into the windows of your soul with a free, bold gaze, that irritated and mad-dened you?</p>
-                                   <p>You never did? Well, then, how can you un-derstand why I shed tears over the violet? Your Maker that it may be a long day beore sor-row brings you such knowledge, and if you have a child, and that child a girl, whose heritage is your intense nature, ask Him to take the cup of life from her lips ere she prays to have it done, ere the fair things of earth shrivel away before her eyes like a scroll.</p>
-                <p>Poor little violet, live out thy little day. I needs must love thee; I know this was not the story nature told thee to tell me, and yet it will never be an old tale which warm hearts beat. and life's pain is more than life's pleasure.</p>                   <p>Blessed is that woman whom a new bonnet or a new dress can satisfy, who can contemplate her dismond rings, and not know a wish ungratified who leaves reflections to her mirror, and is never reminded of her heart save by her corset-lacings.</p>
+                <p>Before me lies a little violet, the forerunner of spring, with a sweet, faint, delicate perfume like a baby's breath. It should give me joy, and yet my tears are dropping on its purple leaves.</p>
+                <p>Why? Has life been such a holyday to you, that your heart never grew sick at a perfume or a well-remembered song hummed beneath your window, or a form, or a face, which was, and yet was not, which mockingly touched a chord that for years you had carefully covered over, every vibration of which was torture unutterable? Have you never rushed franticly into a crowd&#8212;somewhere, anywhere to be rid of yourself? Did you never laugh and talk so incessantly and so gaily, that your listeners asked wonderingly and reproachfully, "Does she ever <hi rend="italic">think?</hi>" Did you ever walk till your feet tottered beneath you, and still press on, as if urged by some invisible, irresistible power? Did you never listen to the tick&#8212;tick&#8212;of your watch, night after night, with dilated eyes that would not close, with limbs so weary that you could not change your posture, and lips so parched you could not even cry, God help me, and your brain one vast workshop, where memory was forging racks and chains, and screws, and trying their strength on every quivering nerve? Did you never hail the first streak of dawn, as an angel whom you implored to lay a cool hand on your brow, and bring you peace or oblivion? and did you never see that day's sun set in clouds, like its predecessors, and the stars come forth one by one, with searching eyes, staring into the windows of your soul with a free, bold gaze, that irritated and maddened you?</p>
+                <p>You never did? Well, then, how can you understand why I shed tears over the violet? Ask your Maker that it may be a long day before sorrow brings you such knowledge, and if you have a child, and that child a girl, whose heritage is your intense nature, ask Him to take the cup of life from her lips ere she prays to have it done, ere the fair things of earth shrivel away before her eyes like a scroll.</p>
+                <p>Poor little violet, live out thy little day. I needs must love thee; I know this was not the story nature told thee to tell me, and yet it will never be an old tale while warm hearts beat. and life's pain is more than life's pleasure.</p>                   <p>Blessed is that woman whom a new bonnet or a new dress can satisfy, who can contemplate her diamond rings, and not know a wish ungratified, who leaves reflections to her mirror, and is never reminded of her heart save by her corset-lacings.</p>
                     <byline>FANNY FERN.</byline>                
                
             </div>
