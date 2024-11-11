@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
 
-<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.xxxxxxxx">fern.18580515
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18580515.01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,7 +10,9 @@
                 <editor xml:id="km">Kevin McMullen</editor>
                 <respStmt>
                     <resp>transcription and encoding</resp>
-                    <persName xml:id="lf">LisaFruehling</persName>
+                    <persName xml:id="lf">Lisa Fruehling</persName>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -32,10 +34,10 @@
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when=" 1858-05-08">8 May 1858<</date>                    
+                            <date xml:id="issue_date" when="1858-05-15">15 May 1858</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
-                        <biblScope type="column">3</biblScope><
+                        <biblScope type="column">3</biblScope>
                     </monogr>
                     <series>
                         <title level="s">Fresh Fern Leaves</title>
@@ -48,7 +50,8 @@
                         <imprint>
                             <date sameAs="#issue_date"/>                  
                         </imprint>              
-                    </monogr>                   
+                    </monogr>  
+                    <note type="editorial_images" target="https://digital.library.villanova.edu/Item/vudl:468910">Images of original issue courtesy of Digital Library @ Villanova University</note>
                 </biblStruct>                        
             </sourceDesc>
         </fileDesc>
@@ -59,34 +62,36 @@
         
         
         <revisionDesc>
+            <change when="2024-11-11" who="#km">proofed</change>
+            <change when="2024-10-27" who="#jh">proofed</change>
             <change when="2024-07-08" who="#lf">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18580508.01.jpg"/>
+            <graphic url="fern18580515.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18580508.02.jpg"/>
+            <graphic url="fern18580515.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18580508.03.jpg"/>
+            <graphic url="fern18580515.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18580508.04.jpg"/> 
+            <graphic url="fern18580515.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18580508.05.jpg"/>
+            <graphic url="fern18580515.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18580508.06.jpg"/>
+            <graphic url="fern18580515.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18580508.07.jpg"/>
+            <graphic url="fern18580515.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18580508.08.jpg"/>
+            <graphic url="fern18580515.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -102,15 +107,18 @@
                 </epigraph>
                 
                 
-                    <head type="main">Old Maids' Husbands</head>
+                    <head type="main">OLD MAIDS' HUSBANDS.</head>
                 
+                <p>Did you ever hear an old maid talk about matrimony, or a girl who was trembling on the brink of old-maidism, and feared to launch away? If there is anything that effectually doubles up a married woman, it is that. What can an old maid know about such things? As well might I write an agricultural and horticultural description of a country by looking on a map. What pitying compassion she has for married men, every one of whom is victimized because he did not select <hi rend="italic">her</hi> to make him "the happiest of men"&#8212;I believe that is the expression of a pair of trousers on its suppliant knees, if not, I stand ready to be corrected&#8212;by anybody but an old maid. With what a languishing sigh she marvels that Mrs. Jones could ever be so criminal as to neglect to sew on an ecstatic shirt-button for such a man as Jones, whom it would be glory enough to hold a shaving-box for while he piled on the soap-suds, which is her particular element. What a shame that Jones cannot stifle his own baby, if he feels like it, by smoking in its face, and leave his boots and coat and vest on the parlor floor, if he takes a fancy to do it.</p>
                 
+                <p>Ah&#8212;had Jones but a different wife! (And here imagine a sigh which, for depth and pro-<hi rend="italic">fun</hi>-dity, none but a sentimental old maid on the anxious seat can heave.) What pleasure to black his boots for him of a morning; to get up in the middle of the night, and cook a tender-loin beefsteak; to prove her devotion by standing on the front door step, with chattering teeth, in a cold north-easter, waiting for the dear coat-tail to come home; to hang up his dear hat for him, to put away his dear cane, to take him up gently with the sugar-tongs, and lay him on the sofa till tea was ready, and then feed him like a sweet little bird, bless his shirt-buttons!</p>
                 
-                <p>Did you ever hear an old maid talk about mat-rimony, or a girl who was trembling on the brink of old-maidism, and feared to launch away? If there is anything that effectually doubles up a married woman, it is that. What can an old maid know about such things? As well might I write an agricultural and horticultural description of a country by looking on a map. What pitying com-passion she has for married men, every one of whom is victimized because he did not select <hi rend="italic">her</hi> to make him "the happiest of men"&#8212;I believe that is the expression of a pair of trousers on its suppliant knees, if not, I stand ready to be corrected&#8212;by anybody but an old maid. With what a languishing sigh she marvels that Mrs. Jones could ever be so criminal as to neglect to sew on an ecstatic shirt-button for such a man as Jones, whom it would be glory enough to hold a shaving-box for while he piled on the soap-suds, which is her particular elemest. What a shame that Jones cannot stifle his own baby, if he feels like it, by smoking in its face, and leave his boots and coat and vest on the parlor floor, if he takes a fancy to do it.</p>
-                <p>Ah&#8212;had Jones but a different wife! (And here imagine a sigh which, for depth and pro-rend="italic">fun</hi>-dity, none but a sentimental old maid on the anxious seat can heave.) What pleasure to black his boots for him of a morning; to get up in the middle of the night, and cook a tender-loin beefsteak; to prove her devotion by standing on the front door step, with chattering teeth, in a cold north-easter, waiting for the dear coat-tail to come home; to hang up his dear hat for him, to put away his dear cane, to take him up gently with the sugar-tongs, and lay him on the sofa till tea was ready, and then feed him like a sweet little bird, bless his shirt-buttons!</p>
-                    <p>How hot his toast should always be; how strong his tea and coffee; how sweet his puddings; how mealy his potatoes; how punctually his clean shirt should be taken out of his drawer for him to put on; how sweetly his handkerchief should be co-logned-ed with her own cologne, and his cigar-case magnaimously put by her own hands in his dead little side-pocket, and how it should be the study of her life to find out when he wanted to sneeze, and arreast a sunbeam for the purpose.</p>
+                    <p>How hot his toast should always be; how strong his tea and coffee; how sweet his puddings; how mealy his potatoes; how punctually his clean shirt should be taken out of his drawer for him to put on; how sweetly his handkerchief should be cologn-ed with her own cologne, and his cigar-case magnanimously put by her own hands in his dear little side-pocket, and how it should be the study of her life to find out when he wanted to sneeze, and arrest a sunbeam for the purpose.</p>
+                
              <p>Do you know what I wish?</p>
-                <p>That all the die-away old maids who go sighing through creation with a rose-lead to their noses, lecturing married women, and sniveling for their little privileges, had but one neck, and that some muscular coat-sleeve, equal to the occastion, would give them one satisfying hug, and stop their non-sense.</p>
+                
+                <p>That all the die-away old maids who go sighing through creation with a rose-leaf to their noses, lecturing married women, and sniveling for their little privileges, had but one neck, and that some muscular coat-sleeve, equal to the occasion, would give them one satisfying hug, and stop their nonsense.</p>
+                
                     <byline>FANNY FERN.</byline>                
                
             </div>
