@@ -64,7 +64,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <facsimile corresp="#issue"><!-- change all image names here -->
+    <facsimile corresp="#issue"><!-- change all image names here. NOTE: If the column is one for which there are multiple columns on the same date (i.e. there is a ".01" or ".02" at the end of the XML file name), DO NOT include the .01, etc. in the image file name here. -->
         <surface xml:id="pp1">
             <graphic url="fern18560726.01.jpg"/>
         </surface>
