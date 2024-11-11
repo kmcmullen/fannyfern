@@ -48,7 +48,8 @@
                         <imprint>
                             <date sameAs="#issue_date"/>                  
                         </imprint>              
-                    </monogr>                   
+                    </monogr>
+                    <note type="editorial_images">Images of original issue courtesy of Vicki L. Martin.</note><!-- NOTE: This is only for issues from 1859. Once we get into 1860, we will need to adjust this. -->
                 </biblStruct>                        
             </sourceDesc>
         </fileDesc>
@@ -94,14 +95,7 @@
     <text>
         <body>
           
-            <div type="column">
-                <head type="column">FRESH FERN LEAVES.</head><!-- remove this heading, if it no longer appears in the column -->
-                
-                <epigraph>
-                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
-                </epigraph><!-- remove this copyright notice, if it no longer appears in the column -->
-                
-                
+            <div type="column"> 
                     <head type="main"><!-- Insert title of column here. --></head>
                 
                 <!-- If there is a sub-head, insert it here, with <head type="sub"> -->

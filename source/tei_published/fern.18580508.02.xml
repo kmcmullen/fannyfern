@@ -11,6 +11,8 @@
                 <respStmt>
                     <resp>transcription and encoding</resp>
                     <persName xml:id="lf">Lisa Fruehling</persName>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -32,7 +34,7 @@
                         <title xml:id="paper" level="j">The New-York Ledger</title>
                         <editor xml:id="rb">Robert Bonner</editor>
                         <imprint>
-                            <date xml:id="issue_date" when="1858-05-08">08 May 1858</date>                    
+                            <date xml:id="issue_date" when="1858-05-08">8 May 1858</date>                    
                         </imprint>
                         <biblScope type="pp">4</biblScope>
                         <biblScope type="column">3</biblScope>
@@ -48,7 +50,8 @@
                         <imprint>
                             <date sameAs="#issue_date"/>                  
                         </imprint>              
-                    </monogr>                   
+                    </monogr>   
+                    <note type="editorial_images" target="https://digital.library.villanova.edu/Item/vudl:468900">Images of original issue courtesy of Digital Library @ Villanova University</note>
                 </biblStruct>                        
             </sourceDesc>
         </fileDesc>
@@ -59,35 +62,35 @@
         
         
         <revisionDesc>
-            <change when="2024-06-27" who="#lf">transcribed, encoded</change>
             <change when="2024-10-27" who="#jh">proofed</change>
+            <change when="2024-06-27" who="#lf">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18580508.02.01.jpg"/>
+            <graphic url="fern18580508.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18580508.02.02.jpg"/>
+            <graphic url="fern18580508.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18580508.02.03.jpg"/>
+            <graphic url="fern18580508.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18580508.02.04.jpg"/> 
+            <graphic url="fern18580508.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18580508.02.05.jpg"/>
+            <graphic url="fern18580508.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18580508.02.06.jpg"/>
+            <graphic url="fern18580508.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18580508.02.07.jpg"/>
+            <graphic url="fern18580508.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18580508.02.08.jpg"/>
+            <graphic url="fern18580508.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -105,9 +108,8 @@
                 
                     <head type="main">A CRYSTAL PALACE MEMORANDUM.</head>
                 
-               
-                
                 <p>To a country lady "who desires to know the spring fashions" I would say, that if her neck be very thin and long, she must by all means wear a dress cut low in the shoulders. If she be very short and dumpy, she must affect a dignified strut, and wear a swelling hoop and tiers of flounces. If her complexion be sallow, I would decidedly recommend pea green, and if her shoulders be high, a tight-fitting sacque for street wear, and a bonnet hung very low on the back of her head. If, on the contrary, her complexion is on the peony order, bright crimson or orange would be the thing, and <hi rend="italic">light</hi>-colored gaiter boots if her feet be large, and her ankles thick; light gloves, also, if she has hands to match her feet, and the shortest man she can find for a lover, if she be on the barber pole pattern, and vice versa.</p>
+                
                 <p>And lest she should think I am joking, allow me to inform her, with one hand on the Concordance, that I am in serious earnest; that after the most critical research into feminine apparelings generally, and after a protracted promenade and stare at the late Crystal Palace "fete," I am satisfied, if she follows the above directions, that she will not fail, when she comes to Gotham, to look as the stunning Gothamites look.</p>
                                    
                     <byline>FANNY FERN.</byline>                
