@@ -68,28 +68,28 @@
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern.18580424.01.jpg"/>
+            <graphic url="fern18580424.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern.18580424.02.jpg"/>
+            <graphic url="fern18580424.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern.18580424.03.jpg"/>
+            <graphic url="fern18580424.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern.18580424.04.jpg"/> 
+            <graphic url="fern18580424.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern.18580424.05.jpg"/>
+            <graphic url="fern18580424.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern.18580424.06.jpg"/>
+            <graphic url="fern18580424.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern.18580424.07.jpg"/>
+            <graphic url="fern18580424.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern.18580424.08.jpg"/>
+            <graphic url="fern18580424.08.jpg"/>
         </surface>
     </facsimile>
     
