@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18590326">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Sketch for Paul Pry</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author xml:id="ff">Fanny Fern</author>
+                        <title level="a">A Sketch for Paul Pry</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor xml:id="rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1859-03-26">5 March 1859</date>                    
+                        </imprint>
+                        <biblScope type="pp">5</biblScope>
+                        <biblScope type="column">5</biblScope> 
+                    </monogr>
+                   
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-11-02" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18590326.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18590326.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18590326.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4">
+            <graphic url="fern18590326.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5" type="containsColumn">
+            <graphic url="fern18590326.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18590326.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18590326.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18590326.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                
+                
+                
+                
+                
+                    <head type="main">A SKETCH FOR PAUL PRY.</head>
+                
+                
+                <p>A lady from a distance writes to know "how I look, as she has read very contradictory reports in the papers, as to black eyes and blue, blonde hair and raven, short stature and tall, thinness and thickness of figure, till she is quite unable to form an opinion" on this <hi rend="italic">very</hi> important subject.</p>
+                <p>As misery loves company, it may be some satisfaction to you, my dear Madam, to know that many people, with much better opportunities of judging, have fallen into most ludicrous mistakes while pursuing this branch of knowledge; taking a minute invententory of some woman, quite innocent of ink-tipped fingers, with a zeal worthy of a New York correspondent for some country paper; hence the discrepancies in the accounts you complain of. Having a strong sympathy for such misguided sons of Adam, I proceed, both in mercy to them and in answer to your letter, to sketch myself and my personal habits so accurately, that hereafter there need be no mistake on a point of such <hi rend="italic">vital interest</hi>. Listen:</p>
+                <p>Imagine a thin, angular, stooping figure, blear-eyed, gray-haired, unable to walk without the aid of a stick, unless, indeed, some friendly arm is near. A testy, sour, ferocious old creature, who never laughs herself, and is therefore unwilling anybody else should laugh; who fancies only wiry dogs and vicious horses, and keeps a nest of snakes in her boudoir, that she may amuse herself by terrifying her visitors; who wears long dresses to conceal the loss of her foot, which occurred in an attempt to kick a child who sneezed, just as she was trying to catch an idea; who has twelve children and five grand-children&#8212;any mention of the latter being sufficient to set her into the most insane fury&#8212;and who are consequently boarded in the country, and never alluded to by those who wish to stand high in her esteem. Imagine her dress to be generally of bright yellow, with pink trimmings, or sea-green looped with sky-blue ribbons. Imagine her so fond of seeing herself reproduced in Daguerrean galleries, that she actually persecutes every owner of one, and every artist she knows, to sketch her.</p>
+                <p>She rises about twelve o'clock every forenoon, and breakfasts on her favorite dish of fried onions. She then writes for three hours, paying an organ-grinder to execute "Pop Goes the Weazel" under her window the while. Then she admits a hair-dresser to braid her gray locks, after which she rolls herself in huge shawls, to conceal the extreme thinness of her figure, and strikes an attitued on the parlor sofa to receive visitors, which she prefers to be of the <hi rend="italic">female</hi> persuasion. At six she dines, drinking large quantities of "brown stout." After that she is lifted into a carriage, and proceeds to the opera or the theater, or wherever she can display herself to the best advantage. Her age is undoubtedly seventy, though she confesses only sixty-nine. As to <hi rend="italic">Mr</hi>. Fern, he is a corpulent gentleman of sixty&#8212;red-faced, bald-headed, just now employed, body and soul, in getting out a patent machine for packing herrings, which has been received with great favor at Washington, and in which he has been greatly assisted by his wife's mechanical turn of mind.</p>
+                <p>Both Mr. and Mrs. Fern are very hospitable. They are famous for their "literary soirees," at which the principal recommendation is great latitude in length of hair and <hi rend="italic">ears</hi>. A list of "hotel arrivals" is left daily at their door, and a runner constantly employed to secure the most favorble specimens of this class. If the title of "Lord" be prefixed to the new arrival, the runner receives an extra fee at their hands for prompt intelligence, and the first chance at him. You will be pleased to observe, my dear Madam, that notwithstanding the many claims society has upon their valuable time, this fascinating couple still contrive to push as fast as possible, that valuable patent for packing herrings, to which I have alluded, though I cannot <hi rend="italic">yet</hi> name the exact day on which it will be at the service of the public. Any further information which may be desired by you or any body else on that, or any other personal topic connected with them, will be most delightedly given by your obliged friend,</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>
