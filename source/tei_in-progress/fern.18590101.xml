@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18590101">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Answers to Correspondents</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author xml:id="ff">Fanny Fern</author>
+                        <title level="a">Answers to Correspondents</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor xml:id="rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1859-01-01">01 January 1859</date>                    
+                        </imprint>
+                        <biblScope type="pp">4</biblScope>
+                        <biblScope type="column">3</biblScope>
+                    </monogr>
+                    
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>
+                    <note type="editorial_images">Images of original issue courtesy of Vicki L. Martin.</note><!-- NOTE: This is only for issues from 1859. Once we get into 1860, we will need to adjust this. -->
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-11-11" who="#jh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18590101.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18590101.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18590101.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18590101.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18590101.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18590101.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18590101.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18590101.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column"> 
+                    <head type="main">ANSWERS TO CORRESPONDENTS.</head>
+                
+               
+                
+                    <p>As if <hi rend="italic">I</hi> couldn't have "Answers to correspondents" as well as Mr. Bonner. As if <hi rend="italic">I</hi> hadn't stacks of letters to which I haven't time to reply by the sheet severally. So then&#8212;</p>
+                <p>To the gentleman who wishes to know "if I consider it proper or right for a young lady to receive her lover alone, every evening, from seven till twelve?" I would reply, that a good way to answer such questions is to make a <hi rend="italic">personal</hi> thing of it. Should I be willing my daughter should do thus? I answer frankly, no; nor does this imply any want of confidence in her. As a matter of policy, I would say to any young girl thus situated, do not be too <hi rend="italic">exclusively</hi> in your lover's society before marriage. You understand one another, and all the sweet rewards which love claims and yields will keep, and, like old wine, be better for keeping. and lest rosy lips pout at this, I hasten to say that I entirely scout <hi rend="italic">long engagements.</hi> I could give a thousand good reasons for it, were I talking to you in the chimney corner, instead of the NEW YORK LEDGER. I think this rule may be considered safe for young men. Don't ask a girl to marry you till you have worn out your first long-tailed coat, and let the damsel remember that a long married life is before her, when the claims of society upon her time and attention will be second to her husband's, and when his enjoyment of it will be all the sweeter and more enduring, that it is fresh and unhackneyed. Cupid forbid that your good-night kiss should not be appetizingly given and taken, but&#8212;&#8212;</p>
+                <p>I hasten to answer my next correspondent, who writes me a misspelt, ungrammatical letter, desiring to know "for what paper in New York he had better conclude to write." After a careful perusal of his epistle, I am of the opinion that it makes not the slightest difference what paper he selects, as he will probably meet with equal success from all.</p>
+                <p>To the gentleman who writes to ask my opnion as to hiring a seat, or seats, in Henry Ward Beecher's church, I would say, that having owned three seats there for some time, I am prepared to say that it is a very bad way to secure one, as a stranger stands a much better chance than a pew-holder.</p>
+                <p>An omnibus-driver "wishes me to write an article upon women knowing their own minds before they pull the strap." I would reply to this representative of that much-be-rated, generally obliging, and honorable body, who verily have their reward in the sight and touch of pretty little, white, jeweled paws extended to them through that ear-splitting orifice, thorugh which the "dust" is handed up, and the dust thumped down (as my eyes can testify)&#8212; that having, three several times lately, upon climbing into an omnibus, been precipitated backwards through the door by a premature whipping up of the horses, and only saved from instant destruction by the gallantry of a strange pair of coat-sleeves, (to which I here wish to return my mosot hearty thanks, hoping that next time the rescued female may weigh less). Where was I? Oh, in the grasp of those coat-sleeves. Well, as I was saying, I would remark to that suppliant omnibus driver, that on account of these little personal mishaps, and precipitations into streets and arms, I cannot feel the sympathy for his sorrows, which in a disarranged state of head, and hoop, I otherwise might&#8212;could&#8212;should&#8212;or would.</p>
+                <p>To that "stranger from a distance," dressed in female habiliments, who lately called at my residence while I was out, and ordered my most estimable waitress to draw aside the parlor curtains, that she might inspect statues, books, pictures, etc., for a fancied or real resemblance to the absent mistress of the house, and who insisted upon franticly hugging an "Apollo" in my parlor, believing him to be a disguised Fern; who went up stairs, and down stairs, and in my lady's chamber, without a "permit," feloniously abstracting a slipper and hair pin, and left with the gratifying intelligence that when next she came to town, she would call again,&#8212;I wish to say, that I have decided upon a password known only to the intitiated, which she can neither get over nor under; and that I am only at home between the hours of twelve at night, and seven in the morning, at which time a private policeman whistles melodiously every five minutes, to let me know that the area-gate and himself are on duty.</p>
+                <p>To the gentleman who exhausted the Dictionary praising the NEW YORK LEDGER, and who styles me "Mr. Bonner's right-hand man, and the partner of his bosom," I will reply: that I have no <hi rend="italic">wifely</hi> claim, as many correspondents have supposed, upon the splendid pair of horses and other little Editorial luxuries monopolized by this distinguished Editor, who has a little way of monopolizing the best of everything, if ever it occurred to you!</p>
+                <p>To that correspondent who "wishes to know about John G. Saxe, a poetical contributor of the LEDGER," I would say that, like Saul, the son of Kith, he is in stature above the rest of the people; is curly-headed, roguish-lipped, melodiously voiced, symmetrically shaped, witty, and&#8212;married; lives in a pleasant, <hi rend="italic">paid-for</hi> cottage in Burlington, Vermont; and wanders forth in winter to delight large audiences with his deliciously recited poems.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>
