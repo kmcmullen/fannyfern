@@ -11,6 +11,8 @@
                 <respStmt>
                     <resp>transcription and encoding</resp>
                     <persName xml:id="lf">Lisa Fruehling</persName>
+                    <persName xml:id="jh">Jordan Harper</persName>
+                    <persName sameAs="#km">Kevin McMullen</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -48,7 +50,8 @@
                         <imprint>
                             <date sameAs="#issue_date"/>                  
                         </imprint>              
-                    </monogr>                   
+                    </monogr>  
+                    <note type="editorial_images" target="https://digital.library.villanova.edu/Item/vudl:468910">Images of original issue courtesy of Digital Library @ Villanova University</note>
                 </biblStruct>                        
             </sourceDesc>
         </fileDesc>
@@ -59,35 +62,36 @@
         
         
         <revisionDesc>
-            <change when="2024-07-10" who="#lf">transcribed, encoded</change>
+            <change when="2024-11-11" who="#km">proofed</change>
             <change when="2024-10-27" who="#jh">proofed</change>
+            <change when="2024-07-10" who="#lf">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
     
     <facsimile corresp="#issue">
         <surface xml:id="pp1">
-            <graphic url="fern18580515.02.01.jpg"/>
+            <graphic url="fern18580515.01.jpg"/>
         </surface>
         <surface xml:id="pp2">
-            <graphic url="fern18580515.02.02.jpg"/>
+            <graphic url="fern18580515.02.jpg"/>
         </surface>
         <surface xml:id="pp3">
-            <graphic url="fern18580515.02.03.jpg"/>
+            <graphic url="fern18580515.03.jpg"/>
         </surface>
         <surface xml:id="pp4" type="containsColumn">
-            <graphic url="fern18580515.02.04.jpg"/> 
+            <graphic url="fern18580515.04.jpg"/> 
         </surface>
         <surface xml:id="pp5">
-            <graphic url="fern18580515.02.05.jpg"/>
+            <graphic url="fern18580515.05.jpg"/>
         </surface>
         <surface xml:id="pp6">
-            <graphic url="fern18580515.02.06.jpg"/>
+            <graphic url="fern18580515.06.jpg"/>
         </surface>
         <surface xml:id="pp7">
-            <graphic url="fern18580515.02.07.jpg"/>
+            <graphic url="fern18580515.07.jpg"/>
         </surface>
         <surface xml:id="pp8">
-            <graphic url="fern18580515.02.08.jpg"/>
+            <graphic url="fern18580515.08.jpg"/>
         </surface>
     </facsimile>
     
@@ -102,15 +106,20 @@
                     <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
                 </epigraph>
                 
-                
                     <head type="main">OUR NATIONAL SONG.</head>
                 
-                
-                
                 <p>What a shame, I always exclaim, on being lifted off my toes by the "Marseilles Hymn," and "God save the King," that English and France should have so much the advantage of us in their national songs. That flippant, tripping "Yankee Doodle" to be the exponent of our "'76" blood! It don't commence to tell the temperature of mine, nor "Hail Columbia" either; but I will tell you what does&#8212;Old Hundred&#8212;and I never hear its grand, swelling, spirit-stirring strains, that I do not pine to inaugurate it as our national song&#8212;that I do not wish I were a poet, that I might write words for it that would thrill the hearts and linger on the lips of uncounted generations yet to come, and be more terrible to crowned tyrants than grape-shot or cannon ball.</p>
-                <p>Oh, I know what you are going to say&#8212;that it smacks too much of the church steeple, and that is one of the best arguments you can offer for its adoption for the purpose I have named. There's not a toothless old woman nor a lisping child in the land to whom it is not holy, and there's many a man whose private life would ill bear the daylight, whose better feelings have crept to the portal of his lips at the sound of it, and startled even himself with the involuntary and audible&#8212;</p>
-                    <p>"Be thou, O God, exalted high."</p>
-                    <p>And they are blessed words&#8212;I would not have them forgotten. Still I ask, who will pen us a <hi rend="italic">patriotic</hi> song for Old Hundred? A song that will tell of the brave hearts of the men and women of the Revolution; for the women had their work to do, and the recording angel knows how nobly and noiselessly they did it. A song that will bring their effeminate descendants to their feet like a battle-shout, and make them wage war against something besides petty sectional and personal jealousies. A song odorous of "the Mayflower," and her stern but loving hearts of oak; a song from out which shall swell the exultant shout of the Christian patriot, a song which shall whisper woman's last feeble "thank God," that she died where her conscience could cast off its shackles.</p>
+                
+                <p>Oh, I know what you are going to say&#8212;that it smacks too much of the church steeple, and that is one of the best arguments you can offer for its adoption for the purpose I have named. There's not a toothless old woman nor a lisping child in the land to whom it is not holy, and there's many a man whose private life would ill bear the daylight, whose better feelings have crept to the portal of his lips at the sound of it, and startled even himself with the involuntary and audible&#8212;
+                    
+                    <q>
+                        <lg>
+                            <l>"Be thou, O God, exalted high."</l>
+                        </lg>
+                    </q>
+                
+                    And they are blessed words&#8212;I would not have them forgotten. Still I ask, who will pen us a <hi rend="italic">patriotic</hi> song for Old Hundred? A song that will tell of the brave hearts of the men and women of the Revolution; for the women had their work to do, and the recording angel knows how nobly and noiselessly they did it. A song that will bring their effeminate descendants to their feet like a battle-shout, and make them wage war against something besides petty sectional and personal jealousies. A song odorous of "the Mayflower," and her stern but loving hearts of oak; a song from out which shall swell the exultant shout of the Christian patriot, a song which shall whisper woman's last feeble "thank God," that she died where her conscience could cast off its shackles.</p>
+                
                     <p>I sha'n't rest contented till this is done. It haunts me like the ghost of Freedom, and sometimes I think, by the way, that is all there is left us of it? Where's General Morris? And what an abuse of God's good things to take a poet to make a Consul.</p>
                                    
                     <byline>FANNY FERN.</byline>                
