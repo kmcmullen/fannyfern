@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18590402.02">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Consistency; Or, Through What Spectacles Some Folks Look at Some Folks' Neighbors</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+                <respStmt>
+                    <resp>transcription and encoding</resp>
+                    <persName xml:id="np">Noelle Pinneo</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2023</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (https://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author xml:id="ff">Fanny Fern</author>
+                        <title level="a">Consistency; Or, Through What Spectacles Some Folks Look at Some Folks' Neighbors</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor xml:id="rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1859-04-02">2 April 1859</date>                    
+                        </imprint>
+                        <biblScope type="pp">5</biblScope>
+                        <biblScope type="column">4</biblScope> 
+                    </monogr>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>
+                    <note type="editorial_images">Images of original issue courtesy of Vicki L. Martin.</note>
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2024-12-10" who="#np">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18590402.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18590402.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18590402.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4"> 
+            <graphic url="fern18590402.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5" type="containsColumn">
+            <graphic url="fern18590402.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18590402.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18590402.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18590402.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column"> 
+                    <head type="main">CONSISTENCY;</head>
+                
+                    <head type="sub">OR, THROUGH WHAT SPECTACLES SOME FOLKS LOOK AT SOME FOLKS' NEIGHBORS.</head>
+                
+                <p>The New York Scimetar is disgusted that the New York Penknife has published in its columns an account of the diamonds worn by Miss. <hi rend="italic">O</hi>. at a party, the while its editor <hi rend="italic">professes</hi> to disbelieve in personalities of this kind, which the New York Scimetar also abominates; and states as a proof of it, and also as a proof of how much more the New York Scimetar knows, (even about odious personalities,) than the New York Penknife, that Miss <hi rend="italic">O</hi>., whom both editors gallantly protest <hi rend="italic">ought</hi> to be left to wear her diamonds undistrubed by the editorial pen, is no more nor less than Miss Ogre, daughter of John Thomas Ogre, of Ogre Square, New York, <hi rend="italic">as everybody knows</hi>. (And here's where the ignorant New York Penknife's agony is supposed, by the better-informed, <hi rend="italic">personality-despising</hi> New York Scimetar, to come in!)</p>
+                <p>Again. The New York Morning Street Corner pitches into the New York Dragon, because it admits things into its columns which should never be found in a <hi rend="italic">family</hi> paper; and grows moral to the length of half a column on this subject. In the same issue of the virtuous N.Y. Morning Street Corner we find in the advertising column as bad a thing of this kind as can be ferreted out of any paper, ingeniously worded, diplomatically covered up, and no doubt pecuniarily profitable as an advertisement to the virtuous editor.</p>
+                <p>Again. The New York Bludgeon gives detailed, sickening accounts of some domestic tragedy, dressed up spicily and without regard to veracity, for the prurient taste of his subscribers, and then pats down his conscience, and endeavors to palliate his bad taste and bad morals, by remarking in an editorial, that these dreadful things, if <hi rend="italic">made known</hi>, may be a means of warning those improperly inclined to avoid the fate which he has so touchingly depicted, (all for a moral purpose, no doubt, and not at all with a business eye to the increased momentum such a precious bit of scandal will give to his subscription list. Philanthropic man!)</p>
+                <p>Again. The Rev. Mr. Poppy, whose parishioners know as much about his wordy discourses when they come out, as they did when they went in, inveighs in the face of his own empty news against the Rev. Mr. Chain-Lightening, who walks quietly into men's consciences with a Christ-like simplicity, love, and directness, the stirring effects of which the Rev. Mr. Poppy, and those like him, who prefer to be flattered into Heaven, would in vain attempt to stifle under the opprobrious epithet, "sensation preaching."</p>
+                <p>Verily, take editors and ministers out of the world, and it would collapse like a week old muffin.</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>
