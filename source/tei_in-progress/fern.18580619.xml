@@ -11,6 +11,7 @@
                 <respStmt>
                     <resp>transcription and encoding</resp>
                     <persName xml:id="np">Noelle Pinneo</persName>
+                    <persName xml:id="jh">Jordan Harper</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -59,6 +60,7 @@
         
         
         <revisionDesc>
+            <change when="2025-03-01" who="#jh">proofed</change>
             <change when="2024-06-19" who="#np">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
